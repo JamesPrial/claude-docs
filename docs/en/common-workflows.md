@@ -6,7 +6,7 @@
 
 > Step-by-step guides for exploring codebases, fixing bugs, refactoring, testing, and other everyday tasks with Claude Code.
 
-This page covers practical workflows for everyday development: exploring unfamiliar code, debugging, refactoring, writing tests, creating PRs, and managing sessions. Each section includes example prompts you can adapt to your own projects. For higher-level patterns and tips, see [Best practices](/en/best-practices).
+This page covers practical workflows for everyday development: exploring unfamiliar code, debugging, refactoring, writing tests, creating PRs, and managing sessions. Each section includes example prompts you can adapt to your own projects. For higher-level patterns and tips, see [Best practices](best-practices.md).
 
 ## Understand new codebases
 
@@ -85,7 +85,7 @@ Suppose you need to locate code related to a specific feature or functionality.
 
   * Be specific about what you're looking for
   * Use domain language from the project
-  * Install a [code intelligence plugin](/en/discover-plugins#code-intelligence) for your language to give Claude precise "go to definition" and "find references" navigation
+  * Install a [code intelligence plugin](discover-plugins.md#code-intelligence) for your language to give Claude precise "go to definition" and "find references" navigation
 </Tip>
 
 ***
@@ -219,14 +219,14 @@ Suppose you want to use specialized AI subagents to handle specific tasks more e
   * Create project-specific subagents in `.claude/agents/` for team sharing
   * Use descriptive `description` fields to enable automatic delegation
   * Limit tool access to what each subagent actually needs
-  * Check the [subagents documentation](/en/sub-agents) for detailed examples
+  * Check the [subagents documentation](sub-agents.md) for detailed examples
 </Tip>
 
 ***
 
 ## Use Plan Mode for safe code analysis
 
-Plan Mode instructs Claude to create a plan by analyzing the codebase with read-only operations, perfect for exploring codebases, planning complex changes, or reviewing code safely. In Plan Mode, Claude uses [`AskUserQuestion`](/en/settings#tools-available-to-claude) to gather requirements and clarify your goals before proposing a plan.
+Plan Mode instructs Claude to create a plan by analyzing the codebase with read-only operations, perfect for exploring codebases, planning complex changes, or reviewing code safely. In Plan Mode, Claude uses [`AskUserQuestion`](settings.md#tools-available-to-claude) to gather requirements and clarify your goals before proposing a plan.
 
 ### When to use Plan Mode
 
@@ -252,7 +252,7 @@ claude --permission-mode plan
 
 **Run "headless" queries in Plan Mode**
 
-You can also run a query in Plan Mode directly with `-p` (that is, in ["headless mode"](/en/headless)):
+You can also run a query in Plan Mode directly with `-p` (that is, in ["headless mode"](headless.md)):
 
 ```bash  theme={null}
 claude --permission-mode plan -p "Analyze the authentication system and suggest improvements"
@@ -288,7 +288,7 @@ Claude analyzes the current implementation and create a comprehensive plan. Refi
 }
 ```
 
-See [settings documentation](/en/settings#available-settings) for more configuration options.
+See [settings documentation](settings.md#available-settings) for more configuration options.
 
 ***
 
@@ -338,7 +338,7 @@ You can create pull requests by asking Claude directly ("create a pr for my chan
 
 If you have a Slack MCP server configured and specify channels in your CLAUDE.md (for example, "post PR URLs to #team-prs"), the skill automatically posts the PR URL to those channels.
 
-For more control over the process, guide Claude through it step-by-step or [create your own skill](/en/skills):
+For more control over the process, guide Claude through it step-by-step or [create your own skill](skills.md):
 
 <Steps>
   <Step title="Summarize your changes">
@@ -492,7 +492,7 @@ Use @ to quickly include files or directories without waiting for Claude to read
     > Show me the data from @github:repos/owner/repo/issues
     ```
 
-    This fetches data from connected MCP servers using the format @server:resource. See [MCP resources](/en/mcp#use-mcp-resources) for details.
+    This fetches data from connected MCP servers using the format @server:resource. See [MCP resources](mcp.md#use-mcp-resources) for details.
   </Step>
 </Steps>
 
@@ -523,9 +523,9 @@ Thinking is enabled by default, but you can adjust or disable it.
 
 | Scope                  | How to configure                                                                     | Details                                                                                                                                  |
 | ---------------------- | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| **Toggle shortcut**    | Press `Option+T` (macOS) or `Alt+T` (Windows/Linux)                                  | Toggle thinking on/off for the current session. May require [terminal configuration](/en/terminal-config) to enable Option key shortcuts |
+| **Toggle shortcut**    | Press `Option+T` (macOS) or `Alt+T` (Windows/Linux)                                  | Toggle thinking on/off for the current session. May require [terminal configuration](terminal-config.md) to enable Option key shortcuts |
 | **Global default**     | Use `/config` to toggle thinking mode                                                | Sets your default across all projects.<br />Saved as `alwaysThinkingEnabled` in `~/.claude/settings.json`                                |
-| **Limit token budget** | Set [`MAX_THINKING_TOKENS`](/en/settings#environment-variables) environment variable | Limit the thinking budget to a specific number of tokens. Example: `export MAX_THINKING_TOKENS=10000`                                    |
+| **Limit token budget** | Set [`MAX_THINKING_TOKENS`](settings.md#environment-variables) environment variable | Limit the thinking budget to a specific number of tokens. Example: `export MAX_THINKING_TOKENS=10000`                                    |
 
 To view Claude's thinking process, press `Ctrl+O` to toggle verbose mode and see the internal reasoning displayed as gray italic text.
 
@@ -546,7 +546,7 @@ Token budgets for thinking mode:
 
 **Limit the thinking budget:**
 
-* Use the [`MAX_THINKING_TOKENS` environment variable](/en/settings#environment-variables) to cap the thinking budget
+* Use the [`MAX_THINKING_TOKENS` environment variable](settings.md#environment-variables) to cap the thinking budget
 * When set, this value limits the maximum tokens Claude can use for thinking
 * See the [extended thinking documentation](https://docs.claude.com/en/docs/build-with-claude/extended-thinking) for valid token ranges
 
@@ -849,15 +849,15 @@ Claude has built-in access to its documentation and can answer questions about i
 ## Next steps
 
 <CardGroup cols={2}>
-  <Card title="Best practices" icon="lightbulb" href="/en/best-practices">
+  <Card title="Best practices" icon="lightbulb" href="best-practices.md">
     Patterns for getting the most out of Claude Code
   </Card>
 
-  <Card title="How Claude Code works" icon="gear" href="/en/how-claude-code-works">
+  <Card title="How Claude Code works" icon="gear" href="how-claude-code-works.md">
     Understand the agentic loop and context management
   </Card>
 
-  <Card title="Extend Claude Code" icon="puzzle-piece" href="/en/features-overview">
+  <Card title="Extend Claude Code" icon="puzzle-piece" href="features-overview.md">
     Add skills, hooks, MCP, subagents, and plugins
   </Card>
 

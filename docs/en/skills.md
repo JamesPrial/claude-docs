@@ -9,7 +9,7 @@
 Skills extend what Claude can do. Create a `SKILL.md` file with instructions, and Claude adds it to its toolkit. Claude uses skills when relevant, or you can invoke one directly with `/skill-name`.
 
 <Note>
-  For built-in commands like `/help` and `/compact`, see [interactive mode](/en/interactive-mode#built-in-commands).
+  For built-in commands like `/help` and `/compact`, see [interactive mode](interactive-mode.md#built-in-commands).
 
   **Custom slash commands have been merged into skills.** A file at `.claude/commands/review.md` and a skill at `.claude/skills/review/SKILL.md` both create `/review` and work the same way. Your existing `.claude/commands/` files keep working. Skills add optional features: a directory for supporting files, frontmatter to [control whether you or Claude invokes them](#control-who-invokes-a-skill), and the ability for Claude to load them automatically when relevant.
 </Note>
@@ -78,7 +78,7 @@ Where you store a skill determines who can use it:
 
 | Location   | Path                                                     | Applies to                     |
 | :--------- | :------------------------------------------------------- | :----------------------------- |
-| Enterprise | See [managed settings](/en/permissions#managed-settings) | All users in your organization |
+| Enterprise | See [managed settings](permissions.md#managed-settings) | All users in your organization |
 | Personal   | `~/.claude/skills/<skill-name>/SKILL.md`                 | All your projects              |
 | Project    | `.claude/skills/<skill-name>/SKILL.md`                   | This project only              |
 | Plugin     | `<plugin>/skills/<skill-name>/SKILL.md`                  | Where plugin is enabled        |
@@ -175,7 +175,7 @@ All fields are optional. Only `description` is recommended so Claude knows when 
 | `model`                    | No          | Model to use when this skill is active.                                                                                                               |
 | `context`                  | No          | Set to `fork` to run in a forked subagent context.                                                                                                    |
 | `agent`                    | No          | Which subagent type to use when `context: fork` is set.                                                                                               |
-| `hooks`                    | No          | Hooks scoped to this skill's lifecycle. See [Hooks in skills and agents](/en/hooks#hooks-in-skills-and-agents) for configuration format.              |
+| `hooks`                    | No          | Hooks scoped to this skill's lifecycle. See [Hooks in skills and agents](hooks.md#hooks-in-skills-and-agents) for configuration format.              |
 
 #### Available string substitutions
 
@@ -259,7 +259,7 @@ Here's how the two fields affect invocation and context loading:
 | `user-invocable: false`          | No             | Yes               | Description always in context, full skill loads when invoked |
 
 <Note>
-  In a regular session, skill descriptions are loaded into context so Claude knows what's available, but full skill content only loads when invoked. [Subagents with preloaded skills](/en/sub-agents#preload-skills-into-subagents) work differently: the full skill content is injected at startup.
+  In a regular session, skill descriptions are loaded into context so Claude knows what's available, but full skill content only loads when invoked. [Subagents with preloaded skills](sub-agents.md#preload-skills-into-subagents) work differently: the full skill content is injected at startup.
 </Note>
 
 ### Restrict tool access
@@ -359,7 +359,7 @@ When this skill runs:
 This is preprocessing, not something Claude executes. Claude only sees the final result.
 
 <Tip>
-  To enable [extended thinking](/en/common-workflows#use-extended-thinking-thinking-mode) in a skill, include the word "ultrathink" anywhere in your skill content.
+  To enable [extended thinking](common-workflows.md#use-extended-thinking-thinking-mode) in a skill, include the word "ultrathink" anywhere in your skill content.
 </Tip>
 
 ### Run skills in a subagent
@@ -370,14 +370,14 @@ Add `context: fork` to your frontmatter when you want a skill to run in isolatio
   `context: fork` only makes sense for skills with explicit instructions. If your skill contains guidelines like "use these API conventions" without a task, the subagent receives the guidelines but no actionable prompt, and returns without meaningful output.
 </Warning>
 
-Skills and [subagents](/en/sub-agents) work together in two directions:
+Skills and [subagents](sub-agents.md) work together in two directions:
 
 | Approach                     | System prompt                             | Task                        | Also loads                   |
 | :--------------------------- | :---------------------------------------- | :-------------------------- | :--------------------------- |
 | Skill with `context: fork`   | From agent type (`Explore`, `Plan`, etc.) | SKILL.md content            | CLAUDE.md                    |
 | Subagent with `skills` field | Subagent's markdown body                  | Claude's delegation message | Preloaded skills + CLAUDE.md |
 
-With `context: fork`, you write the task in your skill and pick an agent type to execute it. For the inverse (defining a custom subagent that uses skills as reference material), see [Subagents](/en/sub-agents#preload-skills-into-subagents).
+With `context: fork`, you write the task in your skill and pick an agent type to execute it. For the inverse (defining a custom subagent that uses skills as reference material), see [Subagents](sub-agents.md#preload-skills-into-subagents).
 
 #### Example: Research skill using Explore agent
 
@@ -409,7 +409,7 @@ The `agent` field specifies which subagent configuration to use. Options include
 
 ### Restrict Claude's skill access
 
-By default, Claude can invoke any skill that doesn't have `disable-model-invocation: true` set. Skills that define `allowed-tools` grant Claude access to those tools without per-use approval when the skill is active. Your [permission settings](/en/permissions) still govern baseline approval behavior for all other tools. Built-in commands like `/compact` and `/init` are not available through the Skill tool.
+By default, Claude can invoke any skill that doesn't have `disable-model-invocation: true` set. Skills that define `allowed-tools` grant Claude access to those tools without per-use approval when the skill is active. Your [permission settings](permissions.md) still govern baseline approval behavior for all other tools. Built-in commands like `/compact` and `/init` are not available through the Skill tool.
 
 Three ways to control which skills Claude can invoke:
 
@@ -420,7 +420,7 @@ Three ways to control which skills Claude can invoke:
 Skill
 ```
 
-**Allow or deny specific skills** using [permission rules](/en/permissions):
+**Allow or deny specific skills** using [permission rules](permissions.md):
 
 ```
 # Allow only specific skills
@@ -444,8 +444,8 @@ Permission syntax: `Skill(name)` for exact match, `Skill(name *)` for prefix mat
 Skills can be distributed at different scopes depending on your audience:
 
 * **Project skills**: Commit `.claude/skills/` to version control
-* **Plugins**: Create a `skills/` directory in your [plugin](/en/plugins)
-* **Managed**: Deploy organization-wide through [managed settings](/en/permissions#managed-settings)
+* **Plugins**: Create a `skills/` directory in your [plugin](plugins.md)
+* **Managed**: Deploy organization-wide through [managed settings](permissions.md#managed-settings)
 
 ### Generate visual output
 
@@ -662,9 +662,9 @@ To increase the limit, set the `SLASH_COMMAND_TOOL_CHAR_BUDGET` environment vari
 
 ## Related resources
 
-* **[Subagents](/en/sub-agents)**: delegate tasks to specialized agents
-* **[Plugins](/en/plugins)**: package and distribute skills with other extensions
-* **[Hooks](/en/hooks)**: automate workflows around tool events
-* **[Memory](/en/memory)**: manage CLAUDE.md files for persistent context
-* **[Interactive mode](/en/interactive-mode#built-in-commands)**: built-in commands and shortcuts
-* **[Permissions](/en/permissions)**: control tool and skill access
+* **[Subagents](sub-agents.md)**: delegate tasks to specialized agents
+* **[Plugins](plugins.md)**: package and distribute skills with other extensions
+* **[Hooks](hooks.md)**: automate workflows around tool events
+* **[Memory](memory.md)**: manage CLAUDE.md files for persistent context
+* **[Interactive mode](interactive-mode.md#built-in-commands)**: built-in commands and shortcuts
+* **[Permissions](permissions.md)**: control tool and skill access

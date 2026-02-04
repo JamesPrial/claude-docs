@@ -12,7 +12,7 @@
 
 Claude Code is an AI coding assistant that works directly with your codebase. Unlike Claude.ai chat, it can read your project files, edit code, run terminal commands, and understand how different parts of your code connect. You watch changes happen in real time.
 
-You can use Claude Code through the terminal ([CLI](/en/quickstart)) or through the desktop app described here. Both provide the same core capabilities. The desktop app adds a graphical interface and visual session management.
+You can use Claude Code through the terminal ([CLI](quickstart.md)) or through the desktop app described here. Both provide the same core capabilities. The desktop app adds a graphical interface and visual session management.
 
 <CardGroup cols={2}>
   <Card title="New to Claude Code?" icon="rocket" href="#installation-and-setup">
@@ -70,7 +70,7 @@ If you already use the CLI, you can skip to [How Desktop relates to CLI](#how-de
   <Step title="Choose a folder and environment">
     Select **Local** to run Claude on your machine using your files directly. This is the best choice for getting started. Click **Select folder** and choose your project directory.
 
-    You can also run [remote sessions](/en/claude-code-on-the-web) that continue in the cloud even if you close the app.
+    You can also run [remote sessions](claude-code-on-the-web.md) that continue in the cloud even if you close the app.
   </Step>
 
   <Step title="Start a session">
@@ -116,7 +116,7 @@ Control how Claude works using the mode selector next to the send button:
 
 To stop Claude mid-task, click the stop button.
 
-Remote sessions only support **Code** and **Plan** modes because they continue running in the background without requiring your active participation. See [permission modes](/en/permissions#permission-modes) for details on how these work internally.
+Remote sessions only support **Code** and **Plan** modes because they continue running in the background without requiring your active participation. See [permission modes](permissions.md#permission-modes) for details on how these work internally.
 
 ### Work in parallel with sessions
 
@@ -134,7 +134,7 @@ To manage a session, click its dropdown in the sidebar to rename it, archive it,
 
 For large refactors, test suites, migrations, or other long-running tasks, select **Remote** instead of **Local** when starting a session. Remote sessions run on Anthropic's cloud infrastructure and continue even if you close the app or shut down your computer. Check back anytime to see progress or steer Claude in a different direction.
 
-Remote sessions support **Code** and **Plan** modes. See [Claude Code on the web](/en/claude-code-on-the-web) for details on configuring remote environments.
+Remote sessions support **Code** and **Plan** modes. See [Claude Code on the web](claude-code-on-the-web.md) for details on configuring remote environments.
 
 ### Review changes with diff view
 
@@ -152,25 +152,25 @@ You can extend Claude Code with custom commands, automated workflows, and extern
 
 For local sessions, click the **...** button before starting and select **Connectors** to add integrations like Google Calendar, Slack, GitHub, Linear, Notion, and more. Connectors must be configured before the session starts and are only available for local sessions. Once connected, Claude can read your calendar, send messages, create issues, and interact with your tools directly. You can ask Claude what connectors are configured in your session.
 
-Connectors are [MCP (Model Context Protocol) servers](/en/mcp) with built-in setup. You can also [create custom connectors](https://support.claude.com/en/articles/11175166-getting-started-with-custom-connectors-using-remote-mcp) or add MCP servers manually via [configuration files](/en/mcp#configure-mcp-servers).
+Connectors are [MCP (Model Context Protocol) servers](mcp.md) with built-in setup. You can also [create custom connectors](https://support.claude.com/en/articles/11175166-getting-started-with-custom-connectors-using-remote-mcp) or add MCP servers manually via [configuration files](mcp.md#configure-mcp-servers).
 
 ### Create custom skills
 
-[Skills](/en/skills) are reusable prompts that extend Claude's capabilities. For example, you could create a `review` skill that runs your standard code review checklist, or a `deploy` skill that walks through your deployment steps. Skills are defined as markdown files in `.claude/skills/` and can include instructions, context, and even call other tools. Ask Claude what skills are available or to run a specific skill. Claude can also help you create a skill if you describe what you want, or see [skills](/en/skills) to learn how to write them yourself.
+[Skills](skills.md) are reusable prompts that extend Claude's capabilities. For example, you could create a `review` skill that runs your standard code review checklist, or a `deploy` skill that walks through your deployment steps. Skills are defined as markdown files in `.claude/skills/` and can include instructions, context, and even call other tools. Ask Claude what skills are available or to run a specific skill. Claude can also help you create a skill if you describe what you want, or see [skills](skills.md) to learn how to write them yourself.
 
 ### Automate workflows with hooks
 
-[Hooks](/en/hooks) run shell commands automatically in response to Claude Code events. For example, you could run a linter after every file edit, auto-format code, or send notifications when tasks complete. Hooks are configured in your [settings files](/en/settings). See [hooks](/en/hooks) for available events and configuration examples.
+[Hooks](hooks.md) run shell commands automatically in response to Claude Code events. For example, you could run a linter after every file edit, auto-format code, or send notifications when tasks complete. Hooks are configured in your [settings files](settings.md). See [hooks](hooks.md) for available events and configuration examples.
 
 ## Environment configuration
 
 When starting a session, you choose between **Local** (runs on your machine) or **Remote** (runs on Anthropic's cloud).
 
-**Local sessions** inherit environment variables from your shell. If you need additional variables, set them in your shell profile (`~/.zshrc`, `~/.bashrc`) and restart the desktop app. See [environment variables](/en/settings#environment-variables) for the full list of supported variables.
+**Local sessions** inherit environment variables from your shell. If you need additional variables, set them in your shell profile (`~/.zshrc`, `~/.bashrc`) and restart the desktop app. See [environment variables](settings.md#environment-variables) for the full list of supported variables.
 
-[Extended thinking](/en/common-workflows#use-extended-thinking-thinking-mode) is enabled by default, which improves performance on complex reasoning tasks but uses additional tokens. The thinking process runs in the background but isn't displayed in the Desktop interface. To disable it or adjust the budget, set `MAX_THINKING_TOKENS` in your shell profile (use `0` to disable).
+[Extended thinking](common-workflows.md#use-extended-thinking-thinking-mode) is enabled by default, which improves performance on complex reasoning tasks but uses additional tokens. The thinking process runs in the background but isn't displayed in the Desktop interface. To disable it or adjust the budget, set `MAX_THINKING_TOKENS` in your shell profile (use `0` to disable).
 
-**Remote sessions** run on Anthropic's cloud infrastructure and continue even if you close the app. Usage counts toward your subscription plan limits with no separate compute charges. See [Claude Code on the web](/en/claude-code-on-the-web) for details on configuring remote environments.
+**Remote sessions** run on Anthropic's cloud infrastructure and continue even if you close the app. Usage counts toward your subscription plan limits with no separate compute charges. See [Claude Code on the web](claude-code-on-the-web.md) for details on configuring remote environments.
 
 ## How Desktop relates to CLI
 
@@ -192,14 +192,14 @@ If you're used to CLI flags, the table below shows the Desktop equivalent for ea
 
 Desktop and CLI read the same configuration files, so your setup carries over:
 
-* **[CLAUDE.md](/en/memory)** and **CLAUDE.local.md** files in your project are used by both
-* **[MCP servers](/en/mcp)** configured in `~/.claude.json` or `.mcp.json` work in both
-* **[Hooks](/en/hooks)** and **[skills](/en/skills)** defined in settings apply to both
-* **[Settings](/en/settings)** in `~/.claude.json` and `~/.claude/settings.json` are shared
+* **[CLAUDE.md](memory.md)** and **CLAUDE.local.md** files in your project are used by both
+* **[MCP servers](mcp.md)** configured in `~/.claude.json` or `.mcp.json` work in both
+* **[Hooks](hooks.md)** and **[skills](skills.md)** defined in settings apply to both
+* **[Settings](settings.md)** in `~/.claude.json` and `~/.claude/settings.json` are shared
 * **Models** (Sonnet, Opus, Haiku) are available in both (Desktop requires selecting before starting a session)
 
 <Note>
-  MCP servers configured for the **Claude Desktop chat app** (in `claude_desktop_config.json`) are separate from Claude Code. To use MCP servers in Claude Code, configure them in `~/.claude.json` or your project's `.mcp.json` file. See [MCP configuration](/en/mcp#configure-mcp-servers) for details.
+  MCP servers configured for the **Claude Desktop chat app** (in `claude_desktop_config.json`) are separate from Claude Code. To use MCP servers in Claude Code, configure them in `~/.claude.json` or your project's `.mcp.json` file. See [MCP configuration](mcp.md#configure-mcp-servers) for details.
 </Note>
 
 ### What's different
@@ -212,13 +212,13 @@ Desktop and CLI read the same configuration files, so your setup carries over:
 
 **CLI adds:**
 
-* [Third-party API providers](/en/third-party-integrations) (Bedrock, Vertex, Foundry). If you use these, continue using CLI for those projects.
-* [CLI flags](/en/cli-reference) for scripting (`--print`, `--resume`, `--continue`)
-* [Programmatic usage](/en/headless) via the Agent SDK
+* [Third-party API providers](third-party-integrations.md) (Bedrock, Vertex, Foundry). If you use these, continue using CLI for those projects.
+* [CLI flags](cli-reference.md) for scripting (`--print`, `--resume`, `--continue`)
+* [Programmatic usage](headless.md) via the Agent SDK
 
 ## Troubleshooting
 
-Solutions to common issues with the Claude desktop app. For CLI issues, see [CLI troubleshooting](/en/troubleshooting).
+Solutions to common issues with the Claude desktop app. For CLI issues, see [CLI troubleshooting](troubleshooting.md).
 
 ### Check your version
 
@@ -293,9 +293,9 @@ Organizations can disable local Claude Code use in the desktop application with 
 
 ## Related resources
 
-* [Claude Code on the web](/en/claude-code-on-the-web): Run remote sessions that continue in the cloud
-* [CLI reference](/en/cli-reference): Use Claude Code in your terminal with flags and scripting
-* [Common workflows](/en/common-workflows): Tutorials for debugging, refactoring, testing, and more
-* [Settings reference](/en/settings): Configure Claude Code behavior with settings files
+* [Claude Code on the web](claude-code-on-the-web.md): Run remote sessions that continue in the cloud
+* [CLI reference](cli-reference.md): Use Claude Code in your terminal with flags and scripting
+* [Common workflows](common-workflows.md): Tutorials for debugging, refactoring, testing, and more
+* [Settings reference](settings.md): Configure Claude Code behavior with settings files
 * [Claude Desktop support](https://support.claude.com/en/collections/16163169-claude-desktop): Help articles for the Chat tab and general desktop app usage
 * [Enterprise configuration](https://support.claude.com/en/articles/12622667-enterprise-configuration): Admin policies for organizational deployments

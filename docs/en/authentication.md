@@ -12,9 +12,9 @@ Setting up Claude Code requires access to Anthropic models. For teams, you can s
 
 * [Claude for Teams or Enterprise](#claude-for-teams-or-enterprise) (recommended)
 * [Claude Console](#claude-console-authentication)
-* [Amazon Bedrock](/en/amazon-bedrock)
-* [Google Vertex AI](/en/google-vertex-ai)
-* [Microsoft Foundry](/en/microsoft-foundry)
+* [Amazon Bedrock](amazon-bedrock.md)
+* [Google Vertex AI](google-vertex-ai.md)
+* [Microsoft Foundry](microsoft-foundry.md)
 
 ### Claude for Teams or Enterprise
 
@@ -64,8 +64,8 @@ For organizations that prefer API-based billing, you can set up access through t
     Each invited user needs to:
 
     * Accept the Console invite
-    * [Check system requirements](/en/setup#system-requirements)
-    * [Install Claude Code](/en/setup#installation)
+    * [Check system requirements](setup.md#system-requirements)
+    * [Install Claude Code](setup.md#installation)
     * Log in with Console account credentials
   </Step>
 </Steps>
@@ -76,15 +76,15 @@ For teams using Amazon Bedrock, Google Vertex AI, or Microsoft Azure:
 
 <Steps>
   <Step title="Follow provider setup">
-    Follow the [Bedrock docs](/en/amazon-bedrock), [Vertex docs](/en/google-vertex-ai), or [Microsoft Foundry docs](/en/microsoft-foundry).
+    Follow the [Bedrock docs](amazon-bedrock.md), [Vertex docs](google-vertex-ai.md), or [Microsoft Foundry docs](microsoft-foundry.md).
   </Step>
 
   <Step title="Distribute configuration">
-    Distribute the environment variables and instructions for generating cloud credentials to your users. Read more about how to [manage configuration here](/en/settings).
+    Distribute the environment variables and instructions for generating cloud credentials to your users. Read more about how to [manage configuration here](settings.md).
   </Step>
 
   <Step title="Install Claude Code">
-    Users can [install Claude Code](/en/setup#installation).
+    Users can [install Claude Code](setup.md#installation).
   </Step>
 </Steps>
 
@@ -94,11 +94,11 @@ Claude Code securely manages your authentication credentials:
 
 * **Storage location**: on macOS, API keys, OAuth tokens, and other credentials are stored in the encrypted macOS Keychain.
 * **Supported authentication types**: Claude.ai credentials, Claude API credentials, Azure Auth, Bedrock Auth, and Vertex Auth.
-* **Custom credential scripts**: the [`apiKeyHelper`](/en/settings#available-settings) setting can be configured to run a shell script that returns an API key.
+* **Custom credential scripts**: the [`apiKeyHelper`](settings.md#available-settings) setting can be configured to run a shell script that returns an API key.
 * **Refresh intervals**: by default, `apiKeyHelper` is called after 5 minutes or on HTTP 401 response. Set `CLAUDE_CODE_API_KEY_HELPER_TTL_MS` environment variable for custom refresh intervals.
 
 ## See also
 
-* [Permissions](/en/permissions): configure what Claude Code can access and do
-* [Settings](/en/settings): complete configuration reference
-* [Security](/en/security): security safeguards and best practices
+* [Permissions](permissions.md): configure what Claude Code can access and do
+* [Settings](settings.md): complete configuration reference
+* [Security](security.md): security safeguards and best practices

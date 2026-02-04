@@ -215,6 +215,6 @@ The team insights table shows per-user metrics:
 
 ## Related resources
 
-* [Monitoring with OpenTelemetry](/en/monitoring-usage): export real-time metrics and events to your observability stack
-* [Manage costs effectively](/en/costs): set spend limits and optimize token usage
-* [Permissions](/en/permissions): configure roles and permissions
+* [Monitoring with OpenTelemetry](monitoring-usage.md): export real-time metrics and events to your observability stack
+* [Manage costs effectively](costs.md): set spend limits and optimize token usage
+* [Permissions](permissions.md): configure roles and permissions

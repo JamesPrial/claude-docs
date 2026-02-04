@@ -7,10 +7,10 @@
 > Reference for Claude Code hook events, configuration schema, JSON input/output formats, exit codes, async hooks, prompt hooks, and MCP tool hooks.
 
 <Tip>
-  For a quickstart guide with examples, see [Automate workflows with hooks](/en/hooks-guide).
+  For a quickstart guide with examples, see [Automate workflows with hooks](hooks-guide.md).
 </Tip>
 
-Hooks are user-defined shell commands or LLM prompts that execute automatically at specific points in Claude Code's lifecycle. Use this reference to look up event schemas, configuration options, JSON input/output formats, and advanced features like async hooks and MCP tool hooks. If you're setting up hooks for the first time, start with the [guide](/en/hooks-guide) instead.
+Hooks are user-defined shell commands or LLM prompts that execute automatically at specific points in Claude Code's lifecycle. Use this reference to look up event schemas, configuration options, JSON input/output formats, and advanced features like async hooks and MCP tool hooks. If you're setting up hooks for the first time, start with the [guide](hooks-guide.md) instead.
 
 ## Hook lifecycle
 
@@ -147,10 +147,10 @@ Where you define a hook determines its scope:
 | `.claude/settings.json`                                    | Single project                | Yes, can be committed to the repo  |
 | `.claude/settings.local.json`                              | Single project                | No, gitignored                     |
 | Managed policy settings                                    | Organization-wide             | Yes, admin-controlled              |
-| [Plugin](/en/plugins) `hooks/hooks.json`                   | When plugin is enabled        | Yes, bundled with the plugin       |
-| [Skill](/en/skills) or [agent](/en/sub-agents) frontmatter | While the component is active | Yes, defined in the component file |
+| [Plugin](plugins.md) `hooks/hooks.json`                   | When plugin is enabled        | Yes, bundled with the plugin       |
+| [Skill](skills.md) or [agent](sub-agents.md) frontmatter | While the component is active | Yes, defined in the component file |
 
-For details on settings file resolution, see [settings](/en/settings). Enterprise administrators can use `allowManagedHooksOnly` to block user, project, and plugin hooks. See [Hook configuration](/en/settings#hook-configuration).
+For details on settings file resolution, see [settings](settings.md). Enterprise administrators can use `allowManagedHooksOnly` to block user, project, and plugin hooks. See [Hook configuration](settings.md#hook-configuration).
 
 ### Matcher patterns
 
@@ -193,7 +193,7 @@ This example runs a linting script only when Claude writes or edits a file:
 
 #### Match MCP tools
 
-[MCP](/en/mcp) server tools appear as regular tools in tool events (`PreToolUse`, `PostToolUse`, `PostToolUseFailure`, `PermissionRequest`), so you can match them the same way you match any other tool name.
+[MCP](mcp.md) server tools appear as regular tools in tool events (`PreToolUse`, `PostToolUse`, `PostToolUseFailure`, `PermissionRequest`), so you can match them the same way you match any other tool name.
 
 MCP tools follow the naming pattern `mcp__<server>__<tool>`, for example:
 
@@ -279,7 +279,7 @@ All matching hooks run in parallel, and identical handlers are deduplicated auto
 Use environment variables to reference hook scripts relative to the project or plugin root, regardless of the working directory when the hook runs:
 
 * `$CLAUDE_PROJECT_DIR`: the project root. Wrap in quotes to handle paths with spaces.
-* `${CLAUDE_PLUGIN_ROOT}`: the plugin's root directory, for scripts bundled with a [plugin](/en/plugins).
+* `${CLAUDE_PLUGIN_ROOT}`: the plugin's root directory, for scripts bundled with a [plugin](plugins.md).
 
 <Tabs>
   <Tab title="Project scripts">
@@ -329,13 +329,13 @@ Use environment variables to reference hook scripts relative to the project or p
     }
     ```
 
-    See the [plugin components reference](/en/plugins-reference#hooks) for details on creating plugin hooks.
+    See the [plugin components reference](plugins-reference.md#hooks) for details on creating plugin hooks.
   </Tab>
 </Tabs>
 
 ### Hooks in skills and agents
 
-In addition to settings files and plugins, hooks can be defined directly in [skills](/en/skills) and [subagents](/en/sub-agents) using frontmatter. These hooks are scoped to the component's lifecycle and only run when that component is active.
+In addition to settings files and plugins, hooks can be defined directly in [skills](skills.md) and [subagents](sub-agents.md) using frontmatter. These hooks are scoped to the component's lifecycle and only run when that component is active.
 
 All hook events are supported. For subagents, `Stop` hooks are automatically converted to `SubagentStop` since that is the event that fires when a subagent completes.
 
@@ -360,7 +360,7 @@ Agents use the same format in their YAML frontmatter.
 
 ### The `/hooks` menu
 
-Type `/hooks` in Claude Code to open the interactive hooks manager, where you can view, add, and delete hooks without editing settings files directly. For a step-by-step walkthrough, see [Set up your first hook](/en/hooks-guide#set-up-your-first-hook) in the guide.
+Type `/hooks` in Claude Code to open the interactive hooks manager, where you can view, add, and delete hooks without editing settings files directly. For a step-by-step walkthrough, see [Set up your first hook](hooks-guide.md#set-up-your-first-hook) in the guide.
 
 Each hook in the menu is labeled with a bracket prefix indicating its source:
 
@@ -390,7 +390,7 @@ All hook events receive these fields via stdin as JSON, in addition to event-spe
 | `session_id`      | Current session identifier                                                                                                                 |
 | `transcript_path` | Path to conversation JSON                                                                                                                  |
 | `cwd`             | Current working directory when the hook is invoked                                                                                         |
-| `permission_mode` | Current [permission mode](/en/permissions#permission-modes): `"default"`, `"plan"`, `"acceptEdits"`, `"dontAsk"`, or `"bypassPermissions"` |
+| `permission_mode` | Current [permission mode](permissions.md#permission-modes): `"default"`, `"plan"`, `"acceptEdits"`, `"dontAsk"`, or `"bypassPermissions"` |
 | `hook_event_name` | Name of the event that fired                                                                                                               |
 
 For example, a `PreToolUse` hook for a Bash command receives this on stdin:
@@ -463,7 +463,7 @@ Exit codes let you allow or block, but JSON output gives you finer-grained contr
   You must choose one approach per hook, not both: either use exit codes alone for signaling, or exit 0 and print JSON for structured control. Claude Code only processes JSON on exit 0. If you exit 2, any JSON is ignored.
 </Note>
 
-Your hook's stdout must contain only the JSON object. If your shell profile prints text on startup, it can interfere with JSON parsing. See [JSON validation failed](/en/hooks-guide#json-validation-failed) in the troubleshooting guide.
+Your hook's stdout must contain only the JSON object. If your shell profile prints text on startup, it can interfere with JSON parsing. See [JSON validation failed](hooks-guide.md#json-validation-failed) in the troubleshooting guide.
 
 The JSON object supports three kinds of fields:
 
@@ -541,7 +541,7 @@ Here are examples of each pattern in action:
   </Tab>
 </Tabs>
 
-For extended examples including Bash command validation, prompt filtering, and auto-approval scripts, see [What you can automate](/en/hooks-guide#what-you-can-automate) in the guide and the [Bash command validator reference implementation](https://github.com/anthropics/claude-code/blob/main/examples/hooks/bash_command_validator_example.py).
+For extended examples including Bash command validation, prompt filtering, and auto-approval scripts, see [What you can automate](hooks-guide.md#what-you-can-automate) in the guide and the [Bash command validator reference implementation](https://github.com/anthropics/claude-code/blob/main/examples/hooks/bash_command_validator_example.py).
 
 ## Hook events
 
@@ -549,7 +549,7 @@ Each event corresponds to a point in Claude Code's lifecycle where hooks can run
 
 ### SessionStart
 
-Runs when Claude Code starts a new session or resumes an existing session. Useful for loading development context like existing issues or recent changes to your codebase, or setting up environment variables. For static context that does not require a script, use [CLAUDE.md](/en/memory) instead.
+Runs when Claude Code starts a new session or resumes an existing session. Useful for loading development context like existing issues or recent changes to your codebase, or setting up environment variables. For static context that does not require a script, use [CLAUDE.md](memory.md) instead.
 
 SessionStart runs on every session, so keep these hooks fast.
 
@@ -788,7 +788,7 @@ Searches the web.
 
 ##### Task
 
-Spawns a [subagent](/en/sub-agents).
+Spawns a [subagent](sub-agents.md).
 
 | Field           | Type   | Example                    | Description                                  |
 | :-------------- | :----- | :------------------------- | :------------------------------------------- |
@@ -1253,7 +1253,7 @@ The LLM must respond with JSON containing:
 
 ### Example: Multi-criteria Stop hook
 
-This `Stop` hook uses a detailed prompt to check three conditions before allowing Claude to stop. If `"ok"` is `false`, Claude continues working with the provided reason as its next instruction. `SubagentStop` hooks use the same format to evaluate whether a [subagent](/en/sub-agents) should stop:
+This `Stop` hook uses a detailed prompt to check three conditions before allowing Claude to stop. If `"ok"` is `false`, Claude continues working with the provided reason as its next instruction. `SubagentStop` hooks use the same format to evaluate whether a [subagent](sub-agents.md) should stop:
 
 ```json  theme={null}
 {
@@ -1452,4 +1452,4 @@ Run `claude --debug` to see hook execution details, including which hooks matche
 [DEBUG] Hook command completed with status 0: <Your stdout>
 ```
 
-For troubleshooting common issues like hooks not firing, infinite Stop hook loops, or configuration errors, see [Limitations and troubleshooting](/en/hooks-guide#limitations-and-troubleshooting) in the guide.
+For troubleshooting common issues like hooks not firing, infinite Stop hook loops, or configuration errors, see [Limitations and troubleshooting](hooks-guide.md#limitations-and-troubleshooting) in the guide.

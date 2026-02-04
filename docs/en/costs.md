@@ -37,7 +37,7 @@ When using Claude API, you can [set workspace spend limits](https://platform.cla
   When you first authenticate Claude Code with your Claude Console account, a workspace called "Claude Code" is automatically created for you. This workspace provides centralized cost tracking and management for all Claude Code usage in your organization. You cannot create API keys for this workspace; it is exclusively for Claude Code authentication and usage.
 </Note>
 
-On Bedrock, Vertex, and Foundry, Claude Code does not send metrics from your cloud. To get cost metrics, several large enterprises reported using [LiteLLM](/en/llm-gateway#litellm-configuration), which is an open-source tool that helps companies [track spend by key](https://docs.litellm.ai/docs/proxy/virtual_keys#tracking-spend). This project is unaffiliated with Anthropic and we have not audited its security.
+On Bedrock, Vertex, and Foundry, Claude Code does not send metrics from your cloud. To get cost metrics, several large enterprises reported using [LiteLLM](llm-gateway.md#litellm-configuration), which is an open-source tool that helps companies [track spend by key](https://docs.litellm.ai/docs/proxy/virtual_keys#tracking-spend). This project is unaffiliated with Anthropic and we have not audited its security.
 
 ### Rate limit recommendations
 
@@ -68,7 +68,7 @@ The following strategies help you keep context small and reduce per-message cost
 
 ### Manage context proactively
 
-Use `/cost` to check your current token usage, or [configure your status line](/en/statusline#context-window-usage) to display it continuously.
+Use `/cost` to check your current token usage, or [configure your status line](statusline.md#context-window-usage) to display it continuously.
 
 * **Clear between tasks**: Use `/clear` to start fresh when switching to unrelated work. Stale context wastes tokens on every subsequent message. Use `/rename` before clearing so you can easily find the session later, then `/resume` to return to it.
 * **Add custom compaction instructions**: `/compact Focus on code samples and API usage` tells Claude what to preserve during summarization.
@@ -83,7 +83,7 @@ When you are using compact, please focus on test output and code changes
 
 ### Choose the right model
 
-Sonnet handles most coding tasks well and costs less than Opus. Reserve Opus for complex architectural decisions or multi-step reasoning. Use `/model` to switch models mid-session, or set a default in `/config`. For simple subagent tasks, specify `model: haiku` in your [subagent configuration](/en/sub-agents#choose-a-model).
+Sonnet handles most coding tasks well and costs less than Opus. Reserve Opus for complex architectural decisions or multi-step reasoning. Use `/model` to switch models mid-session, or set a default in `/config`. For simple subagent tasks, specify `model: haiku` in your [subagent configuration](sub-agents.md#choose-a-model).
 
 ### Reduce MCP server overhead
 
@@ -91,23 +91,23 @@ Each MCP server adds tool definitions to your context, even when idle. Run `/con
 
 * **Prefer CLI tools when available**: Tools like `gh`, `aws`, `gcloud`, and `sentry-cli` are more context-efficient than MCP servers because they don't add persistent tool definitions. Claude can run CLI commands directly without the overhead.
 * **Disable unused servers**: Run `/mcp` to see configured servers and disable any you're not actively using.
-* **Tool search is automatic**: When MCP tool descriptions exceed 10% of your context window, Claude Code automatically defers them and loads tools on-demand via [tool search](/en/mcp#scale-with-mcp-tool-search). Since deferred tools only enter context when actually used, a lower threshold means fewer idle tool definitions consuming space. Set a lower threshold with `ENABLE_TOOL_SEARCH=auto:<N>` (for example, `auto:5` triggers when tools exceed 5% of your context window).
+* **Tool search is automatic**: When MCP tool descriptions exceed 10% of your context window, Claude Code automatically defers them and loads tools on-demand via [tool search](mcp.md#scale-with-mcp-tool-search). Since deferred tools only enter context when actually used, a lower threshold means fewer idle tool definitions consuming space. Set a lower threshold with `ENABLE_TOOL_SEARCH=auto:<N>` (for example, `auto:5` triggers when tools exceed 5% of your context window).
 
 ### Install code intelligence plugins for typed languages
 
-[Code intelligence plugins](/en/discover-plugins#code-intelligence) give Claude precise symbol navigation instead of text-based search, reducing unnecessary file reads when exploring unfamiliar code. A single "go to definition" call replaces what might otherwise be a grep followed by reading multiple candidate files. Installed language servers also report type errors automatically after edits, so Claude catches mistakes without running a compiler.
+[Code intelligence plugins](discover-plugins.md#code-intelligence) give Claude precise symbol navigation instead of text-based search, reducing unnecessary file reads when exploring unfamiliar code. A single "go to definition" call replaces what might otherwise be a grep followed by reading multiple candidate files. Installed language servers also report type errors automatically after edits, so Claude catches mistakes without running a compiler.
 
 ### Offload processing to hooks and skills
 
-Custom [hooks](/en/hooks) can preprocess data before Claude sees it. Instead of Claude reading a 10,000-line log file to find errors, a hook can grep for `ERROR` and return only matching lines, reducing context from tens of thousands of tokens to hundreds.
+Custom [hooks](hooks.md) can preprocess data before Claude sees it. Instead of Claude reading a 10,000-line log file to find errors, a hook can grep for `ERROR` and return only matching lines, reducing context from tens of thousands of tokens to hundreds.
 
-A [skill](/en/skills) can give Claude domain knowledge so it doesn't have to explore. For example, a "codebase-overview" skill could describe your project's architecture, key directories, and naming conventions. When Claude invokes the skill, it gets this context immediately instead of spending tokens reading multiple files to understand the structure.
+A [skill](skills.md) can give Claude domain knowledge so it doesn't have to explore. For example, a "codebase-overview" skill could describe your project's architecture, key directories, and naming conventions. When Claude invokes the skill, it gets this context immediately instead of spending tokens reading multiple files to understand the structure.
 
 For example, this PreToolUse hook filters test output to show only failures:
 
 <Tabs>
   <Tab title="settings.json">
-    Add this to your [settings.json](/en/settings#settings-files) to run the hook before every Bash command:
+    Add this to your [settings.json](settings.md#settings-files) to run the hook before every Bash command:
 
     ```json  theme={null}
     {
@@ -149,7 +149,7 @@ For example, this PreToolUse hook filters test output to show only failures:
 
 ### Move instructions from CLAUDE.md to skills
 
-Your [CLAUDE.md](/en/memory) file is loaded into context at session start. If it contains detailed instructions for specific workflows (like PR reviews or database migrations), those tokens are present even when you're doing unrelated work. [Skills](/en/skills) load on-demand only when invoked, so moving specialized instructions into skills keeps your base context smaller. Aim to keep CLAUDE.md under \~500 lines by including only essentials.
+Your [CLAUDE.md](memory.md) file is loaded into context at session start. If it contains detailed instructions for specific workflows (like PR reviews or database migrations), those tokens are present even when you're doing unrelated work. [Skills](skills.md) load on-demand only when invoked, so moving specialized instructions into skills keeps your base context smaller. Aim to keep CLAUDE.md under \~500 lines by including only essentials.
 
 ### Adjust extended thinking
 
@@ -157,7 +157,7 @@ Extended thinking is enabled by default with a budget of 31,999 tokens because i
 
 ### Delegate verbose operations to subagents
 
-Running tests, fetching documentation, or processing log files can consume significant context. Delegate these to [subagents](/en/sub-agents#isolate-high-volume-operations) so the verbose output stays in the subagent's context while only a summary returns to your main conversation.
+Running tests, fetching documentation, or processing log files can consume significant context. Delegate these to [subagents](sub-agents.md#isolate-high-volume-operations) so the verbose output stays in the subagent's context while only a summary returns to your main conversation.
 
 ### Write specific prompts
 
@@ -167,7 +167,7 @@ Vague requests like "improve this codebase" trigger broad scanning. Specific req
 
 For longer or more complex work, these habits help avoid wasted tokens from going down the wrong path:
 
-* **Use plan mode for complex tasks**: Press Shift+Tab to enter [plan mode](/en/common-workflows#use-plan-mode-for-safe-code-analysis) before implementation. Claude explores the codebase and proposes an approach for your approval, preventing expensive re-work when the initial direction is wrong.
+* **Use plan mode for complex tasks**: Press Shift+Tab to enter [plan mode](common-workflows.md#use-plan-mode-for-safe-code-analysis) before implementation. Claude explores the codebase and proposes an approach for your approval, preventing expensive re-work when the initial direction is wrong.
 * **Course-correct early**: If Claude starts heading the wrong direction, press Escape to stop immediately. Use `/rewind` or double-tap Escape to restore conversation and code to a previous checkpoint.
 * **Give verification targets**: Include test cases, paste screenshots, or define expected output in your prompt. When Claude can verify its own work, it catches issues before you need to request fixes.
 * **Test incrementally**: Write one file, test it, then continue. This catches issues early when they're cheap to fix.

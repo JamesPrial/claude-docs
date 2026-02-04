@@ -17,7 +17,7 @@
   * **Terminal.app**: Settings → Profiles → Keyboard → Check "Use Option as Meta Key"
   * **VS Code**: Settings → Profiles → Keys → Set Left/Right Option key to "Esc+"
 
-  See [Terminal configuration](/en/terminal-config) for details.
+  See [Terminal configuration](terminal-config.md) for details.
 </Note>
 
 ### General controls
@@ -78,7 +78,7 @@
 
 | Shortcut     | Description       | Notes                                                                |
 | :----------- | :---------------- | :------------------------------------------------------------------- |
-| `/` at start | Command or skill  | See [built-in commands](#built-in-commands) and [skills](/en/skills) |
+| `/` at start | Command or skill  | See [built-in commands](#built-in-commands) and [skills](skills.md) |
 | `!` at start | Bash mode         | Run commands directly and add execution output to the session        |
 | `@`          | File path mention | Trigger file path autocomplete                                       |
 
@@ -86,7 +86,7 @@
 
 Built-in commands are shortcuts for common actions. The table below covers commonly used commands but not all available options. Type `/` in Claude Code to see the full list, or type `/` followed by any letters to filter.
 
-To create your own commands you can invoke with `/`, see [skills](/en/skills).
+To create your own commands you can invoke with `/`, see [skills](skills.md).
 
 | Command                   | Purpose                                                                                                                     |
 | :------------------------ | :-------------------------------------------------------------------------------------------------------------------------- |
@@ -94,7 +94,7 @@ To create your own commands you can invoke with `/`, see [skills](/en/skills).
 | `/compact [instructions]` | Compact conversation with optional focus instructions                                                                       |
 | `/config`                 | Open the Settings interface (Config tab)                                                                                    |
 | `/context`                | Visualize current context usage as a colored grid                                                                           |
-| `/cost`                   | Show token usage statistics. See [cost tracking guide](/en/costs#using-the-cost-command) for subscription-specific details. |
+| `/cost`                   | Show token usage statistics. See [cost tracking guide](costs.md#using-the-cost-command) for subscription-specific details. |
 | `/debug [description]`    | Troubleshoot the current session by reading the session debug log. Optionally describe the issue                            |
 | `/doctor`                 | Checks the health of your Claude Code installation                                                                          |
 | `/exit`                   | Exit the REPL                                                                                                               |
@@ -104,7 +104,7 @@ To create your own commands you can invoke with `/`, see [skills](/en/skills).
 | `/mcp`                    | Manage MCP server connections and OAuth authentication                                                                      |
 | `/memory`                 | Edit `CLAUDE.md` memory files                                                                                               |
 | `/model`                  | Select or change the AI model. The change takes effect immediately without waiting for the current response to finish       |
-| `/permissions`            | View or update [permissions](/en/permissions#manage-permissions)                                                            |
+| `/permissions`            | View or update [permissions](permissions.md#manage-permissions)                                                            |
 | `/plan`                   | Enter plan mode directly from the prompt                                                                                    |
 | `/rename <name>`          | Rename the current session for easier identification                                                                        |
 | `/resume [session]`       | Resume a conversation by ID or name, or open the session picker                                                             |
@@ -121,7 +121,7 @@ To create your own commands you can invoke with `/`, see [skills](/en/skills).
 
 ### MCP prompts
 
-MCP servers can expose prompts that appear as commands. These use the format `/mcp__<server>__<prompt>` and are dynamically discovered from connected servers. See [MCP prompts](/en/mcp#use-mcp-prompts-as-commands) for details.
+MCP servers can expose prompts that appear as commands. These use the format `/mcp__<server>__<prompt>` and are dynamically discovered from connected servers. See [MCP prompts](mcp.md#use-mcp-prompts-as-commands) for details.
 
 ## Vim editor mode
 
@@ -241,7 +241,7 @@ To run commands in the background, you can either:
 * Background tasks have unique IDs for tracking and output retrieval
 * Background tasks are automatically cleaned up when Claude Code exits
 
-To disable all background task functionality, set the `CLAUDE_CODE_DISABLE_BACKGROUND_TASKS` environment variable to `1`. See [Environment variables](/en/settings#environment-variables) for details.
+To disable all background task functionality, set the `CLAUDE_CODE_DISABLE_BACKGROUND_TASKS` environment variable to `1`. See [Environment variables](settings.md#environment-variables) for details.
 
 **Common backgrounded commands:**
 
@@ -318,8 +318,8 @@ When working on a branch with an open pull request, Claude Code displays a click
 
 ## See also
 
-* [Skills](/en/skills) - Custom prompts and workflows
-* [Checkpointing](/en/checkpointing) - Rewind Claude's edits and restore previous states
-* [CLI reference](/en/cli-reference) - Command-line flags and options
-* [Settings](/en/settings) - Configuration options
-* [Memory management](/en/memory) - Managing CLAUDE.md files
+* [Skills](skills.md) - Custom prompts and workflows
+* [Checkpointing](checkpointing.md) - Rewind Claude's edits and restore previous states
+* [CLI reference](cli-reference.md) - Command-line flags and options
+* [Settings](settings.md) - Configuration options
+* [Memory management](memory.md) - Managing CLAUDE.md files

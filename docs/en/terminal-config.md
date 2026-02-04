@@ -10,7 +10,7 @@
 
 Claude cannot control the theme of your terminal. That's handled by your terminal application. You can match Claude Code's theme to your terminal any time via the `/config` command.
 
-For additional customization of the Claude Code interface itself, you can configure a [custom status line](/en/statusline) to display contextual information like the current model, working directory, or git branch at the bottom of your terminal.
+For additional customization of the Claude Code interface itself, you can configure a [custom status line](statusline.md) to display contextual information like the current model, working directory, or git branch at the bottom of your terminal.
 
 ### Line breaks
 
@@ -57,7 +57,7 @@ Note that these notifications are specific to iTerm 2 and not available in the d
 
 #### Custom notification hooks
 
-For advanced notification handling, you can create [notification hooks](/en/hooks#notification) to run your own logic.
+For advanced notification handling, you can create [notification hooks](hooks.md#notification) to run your own logic.
 
 ### Handling large inputs
 
@@ -81,4 +81,4 @@ The supported subset includes:
 * Indentation: `>>`/`<<`
 * Line operations: `J` (join lines)
 
-See [Interactive mode](/en/interactive-mode#vim-editor-mode) for the complete reference.
+See [Interactive mode](interactive-mode.md#vim-editor-mode) for the complete reference.

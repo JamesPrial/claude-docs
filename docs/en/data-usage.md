@@ -65,14 +65,14 @@ Claude Code is built on Anthropic's APIs. For details regarding our API's securi
 
 ### Cloud execution: Data flow and dependencies
 
-When using [Claude Code on the web](/en/claude-code-on-the-web), sessions run in Anthropic-managed virtual machines instead of locally. In cloud environments:
+When using [Claude Code on the web](claude-code-on-the-web.md), sessions run in Anthropic-managed virtual machines instead of locally. In cloud environments:
 
 * **Code and data storage:** Your repository is cloned to an isolated VM. Code and session data are subject to the retention and usage policies for your account type (see Data retention section above)
 * **Credentials:** GitHub authentication is handled through a secure proxy; your GitHub credentials never enter the sandbox
 * **Network traffic:** All outbound traffic goes through a security proxy for audit logging and abuse prevention
 * **Session data:** Prompts, code changes, and outputs follow the same data policies as local Claude Code usage
 
-For security details about cloud execution, see [Security](/en/security#cloud-execution-security).
+For security details about cloud execution, see [Security](security.md#cloud-execution-security).
 
 ## Telemetry services
 
@@ -93,4 +93,4 @@ By default, we disable all non-essential traffic (including error reporting, tel
 | **Claude API (`/bug` reports)** | Default on.<br />`DISABLE_BUG_COMMAND=1` to disable.                 | Default off.<br />`CLAUDE_CODE_USE_VERTEX` must be 1. | Default off.<br />`CLAUDE_CODE_USE_BEDROCK` must be 1. | Default off.<br />`CLAUDE_CODE_USE_FOUNDRY` must be 1. |
 | **Session quality surveys**     | Default on.<br />`CLAUDE_CODE_DISABLE_FEEDBACK_SURVEY=1` to disable. | Default off.<br />`CLAUDE_CODE_USE_VERTEX` must be 1. | Default off.<br />`CLAUDE_CODE_USE_BEDROCK` must be 1. | Default off.<br />`CLAUDE_CODE_USE_FOUNDRY` must be 1. |
 
-All environment variables can be checked into `settings.json` ([read more](/en/settings)).
+All environment variables can be checked into `settings.json` ([read more](settings.md)).

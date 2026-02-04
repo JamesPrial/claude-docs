@@ -7,7 +7,7 @@
 > Complete technical reference for Claude Code plugin system, including schemas, CLI commands, and component specifications.
 
 <Tip>
-  Looking to install plugins? See [Discover and install plugins](/en/discover-plugins). For creating plugins, see [Plugins](/en/plugins). For distributing plugins, see [Plugin marketplaces](/en/plugin-marketplaces).
+  Looking to install plugins? See [Discover and install plugins](discover-plugins.md). For creating plugins, see [Plugins](plugins.md). For distributing plugins, see [Plugin marketplaces](plugin-marketplaces.md).
 </Tip>
 
 This reference provides complete technical specifications for the Claude Code plugin system, including component schemas, CLI commands, and development tools.
@@ -42,7 +42,7 @@ skills/
 * Claude can invoke them automatically based on task context
 * Skills can include supporting files alongside SKILL.md
 
-For complete details, see [Skills](/en/skills).
+For complete details, see [Skills](skills.md).
 
 ### Agents
 
@@ -263,7 +263,7 @@ When you install a plugin, you choose a **scope** that determines where the plug
 | `local`   | `.claude/settings.local.json` | Project-specific plugins, gitignored                     |
 | `managed` | `managed-settings.json`       | Managed plugins (read-only, update only)                 |
 
-Plugins use the same scope system as other Claude Code configurations. For installation instructions and scope flags, see [Install plugins](/en/discover-plugins#install-plugins). For a complete explanation of scopes, see [Configuration scopes](/en/settings#configuration-scopes).
+Plugins use the same scope system as other Claude Code configurations. For installation instructions and scope flags, see [Install plugins](discover-plugins.md#install-plugins). For a complete explanation of scopes, see [Configuration scopes](settings.md#configuration-scopes).
 
 ***
 
@@ -724,10 +724,10 @@ Follow semantic versioning for plugin releases:
 
 ## See also
 
-* [Plugins](/en/plugins) - Tutorials and practical usage
-* [Plugin marketplaces](/en/plugin-marketplaces) - Creating and managing marketplaces
-* [Skills](/en/skills) - Skill development details
-* [Subagents](/en/sub-agents) - Agent configuration and capabilities
-* [Hooks](/en/hooks) - Event handling and automation
-* [MCP](/en/mcp) - External tool integration
-* [Settings](/en/settings) - Configuration options for plugins
+* [Plugins](plugins.md) - Tutorials and practical usage
+* [Plugin marketplaces](plugin-marketplaces.md) - Creating and managing marketplaces
+* [Skills](skills.md) - Skill development details
+* [Subagents](sub-agents.md) - Agent configuration and capabilities
+* [Hooks](hooks.md) - Event handling and automation
+* [MCP](mcp.md) - External tool integration
+* [Settings](settings.md) - Configuration options for plugins

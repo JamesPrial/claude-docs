@@ -15,13 +15,13 @@
   * Debian 10+
   * Alpine Linux 3.19+ ([additional dependencies required](#platform-specific-setup))
 * **Hardware**: 4 GB+ RAM
-* **Network**: Internet connection required (see [network configuration](/en/network-config#network-access-requirements))
+* **Network**: Internet connection required (see [network configuration](network-config.md#network-access-requirements))
 * **Shell**: Works best in Bash or Zsh
 * **Location**: [Anthropic supported countries](https://www.anthropic.com/supported-countries)
 
 ### Additional dependencies
 
-* **ripgrep**: Usually included with Claude Code. If search fails, see [search troubleshooting](/en/troubleshooting#search-and-discovery-issues).
+* **ripgrep**: Usually included with Claude Code. If search fails, see [search troubleshooting](troubleshooting.md#search-and-discovery-issues).
 * **[Node.js 18+](https://nodejs.org/en/download)**: Only required for [deprecated npm installation](#npm-installation-deprecated)
 
 ## Installation
@@ -81,7 +81,7 @@ cd your-awesome-project
 claude
 ```
 
-If you encounter any issues during installation, consult the [troubleshooting guide](/en/troubleshooting).
+If you encounter any issues during installation, consult the [troubleshooting guide](troubleshooting.md).
 
 <Tip>
   Run `claude doctor` after installation to check your installation type and version.
@@ -112,7 +112,7 @@ apk add libgcc libstdc++ ripgrep
 
 1. **Claude for Teams or Enterprise** (recommended): Subscribe to [Claude for Teams](https://claude.com/pricing#team-&-enterprise) or [Claude for Enterprise](https://anthropic.com/contact-sales) for centralized billing, team management, and access to both Claude Code and Claude on the web. Team members log in with their Claude.ai accounts.
 2. **Claude Console with team billing**: Set up a shared [Claude Console](https://console.anthropic.com) organization with team billing. Invite team members and assign roles for usage tracking.
-3. **Cloud providers**: Configure Claude Code to use [Amazon Bedrock, Google Vertex AI, or Microsoft Foundry](/en/third-party-integrations) for deployments with your existing cloud infrastructure.
+3. **Cloud providers**: Configure Claude Code to use [Amazon Bedrock, Google Vertex AI, or Microsoft Foundry](third-party-integrations.md) for deployments with your existing cloud infrastructure.
 
 ### Install a specific version
 
@@ -203,7 +203,7 @@ npm install -g @anthropic-ai/claude-code
 
 <Warning>
   Do NOT use `sudo npm install -g` as this can lead to permission issues and security risks.
-  If you encounter permission errors, see [troubleshooting permission errors](/en/troubleshooting#command-not-found-claude-or-permission-errors) for recommended solutions.
+  If you encounter permission errors, see [troubleshooting permission errors](troubleshooting.md#command-not-found-claude-or-permission-errors) for recommended solutions.
 </Warning>
 
 ## Windows setup
@@ -211,7 +211,7 @@ npm install -g @anthropic-ai/claude-code
 **Option 1: Claude Code within WSL**
 
 * Both WSL 1 and WSL 2 are supported
-* WSL 2 supports [sandboxing](/en/sandboxing) for enhanced security. WSL 1 does not support sandboxing.
+* WSL 2 supports [sandboxing](sandboxing.md) for enhanced security. WSL 1 does not support sandboxing.
 
 **Option 2: Claude Code on native Windows with Git Bash**
 
@@ -245,7 +245,7 @@ Configure which release channel Claude Code follows for both auto-updates and `c
 * `"latest"` (default): Receive new features as soon as they're released
 * `"stable"`: Use a version that is typically about one week old, skipping releases with major regressions
 
-Configure this via `/config` → **Auto-update channel**, or add it to your [settings.json file](/en/settings):
+Configure this via `/config` → **Auto-update channel**, or add it to your [settings.json file](settings.md):
 
 ```json  theme={null}
 {
@@ -253,11 +253,11 @@ Configure this via `/config` → **Auto-update channel**, or add it to your [set
 }
 ```
 
-For enterprise deployments, you can enforce a consistent release channel across your organization using [managed settings](/en/permissions#managed-settings).
+For enterprise deployments, you can enforce a consistent release channel across your organization using [managed settings](permissions.md#managed-settings).
 
 ### Disable auto-updates
 
-Set the `DISABLE_AUTOUPDATER` environment variable in your shell or [settings.json file](/en/settings):
+Set the `DISABLE_AUTOUPDATER` environment variable in your shell or [settings.json file](settings.md):
 
 ```bash  theme={null}
 export DISABLE_AUTOUPDATER=1

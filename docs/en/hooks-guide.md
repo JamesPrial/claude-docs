@@ -10,10 +10,10 @@ Hooks are user-defined shell commands that execute at specific points in Claude 
 
 For decisions that require judgment rather than deterministic rules, you can also use [prompt-based hooks](#prompt-based-hooks) or [agent-based hooks](#agent-based-hooks) that use a Claude model to evaluate conditions.
 
-For other ways to extend Claude Code, see [skills](/en/skills) for giving Claude additional instructions and executable commands, [subagents](/en/sub-agents) for running tasks in isolated contexts, and [plugins](/en/plugins) for packaging extensions to share across projects.
+For other ways to extend Claude Code, see [skills](skills.md) for giving Claude additional instructions and executable commands, [subagents](sub-agents.md) for running tasks in isolated contexts, and [plugins](plugins.md) for packaging extensions to share across projects.
 
 <Tip>
-  This guide covers common use cases and how to get started. For full event schemas, JSON input/output formats, and advanced features like async hooks and MCP tool hooks, see the [Hooks reference](/en/hooks).
+  This guide covers common use cases and how to get started. For full event schemas, JSON input/output formats, and advanced features like async hooks and MCP tool hooks, see the [Hooks reference](hooks.md).
 </Tip>
 
 ## Set up your first hook
@@ -70,7 +70,7 @@ The fastest way to create a hook is through the `/hooks` interactive menu in Cla
 
 ## What you can automate
 
-Hooks let you run code at key points in Claude Code's lifecycle: format files after edits, block commands before they execute, send notifications when Claude needs input, inject context at session start, and more. For the full list of hook events, see the [Hooks reference](/en/hooks#hook-lifecycle).
+Hooks let you run code at key points in Claude Code's lifecycle: format files after edits, block commands before they execute, send notifications when Claude needs input, inject context at session start, and more. For the full list of hook events, see the [Hooks reference](hooks.md#hook-lifecycle).
 
 Each example includes a ready-to-use configuration block that you add to a [settings file](#configure-hook-location). The most common patterns:
 
@@ -260,7 +260,7 @@ Any text your command writes to stdout is added to Claude's context. This exampl
 }
 ```
 
-You can replace the `echo` with any command that produces dynamic output, like `git log --oneline -5` to show recent commits. For injecting context on every session start, consider using [CLAUDE.md](/en/memory) instead. For environment variables, see [`CLAUDE_ENV_FILE`](/en/hooks#persist-environment-variables) in the reference.
+You can replace the `echo` with any command that produces dynamic output, like `git log --oneline -5` to show recent commits. For injecting context on every session start, consider using [CLAUDE.md](memory.md) instead. For environment variables, see [`CLAUDE_ENV_FILE`](hooks.md#persist-environment-variables) in the reference.
 
 ## How hooks work
 
@@ -303,7 +303,7 @@ Every event includes common fields like `session_id` and `cwd`, but each event t
 }
 ```
 
-Your script can parse that JSON and act on any of those fields. `UserPromptSubmit` hooks get the `prompt` text instead, `SessionStart` hooks get the `source` (startup, resume, compact), and so on. See [Common input fields](/en/hooks#common-input-fields) in the reference for shared fields, and each event's section for event-specific schemas.
+Your script can parse that JSON and act on any of those fields. `UserPromptSubmit` hooks get the `prompt` text instead, `SessionStart` hooks get the `source` (startup, resume, compact), and so on. See [Common input fields](hooks.md#common-input-fields) in the reference for shared fields, and each event's section for event-specific schemas.
 
 #### Hook output
 
@@ -354,7 +354,7 @@ Claude Code reads `permissionDecision` and cancels the tool call, then feeds `pe
 * `"deny"`: cancel the tool call and send the reason to Claude
 * `"ask"`: show the permission prompt to the user as normal
 
-Other events use different decision patterns. For example, `PostToolUse` and `Stop` hooks use a top-level `decision: "block"` field, while `PermissionRequest` uses `hookSpecificOutput.decision.behavior`. See the [summary table](/en/hooks#decision-control) in the reference for a full breakdown by event.
+Other events use different decision patterns. For example, `PostToolUse` and `Stop` hooks use a top-level `decision: "block"` field, while `PermissionRequest` uses `hookSpecificOutput.decision.behavior`. See the [summary table](hooks.md#decision-control) in the reference for a full breakdown by event.
 
 For `UserPromptSubmit` hooks, use `additionalContext` instead to inject text into Claude's context. Prompt-based hooks (`type: "prompt"`) handle output differently: see [Prompt-based hooks](#prompt-based-hooks).
 
@@ -418,7 +418,7 @@ A few more examples showing matchers on different event types:
   </Tab>
 
   <Tab title="Match MCP tools">
-    MCP tools use a different naming convention than built-in tools: `mcp__<server>__<tool>`, where `<server>` is the MCP server name and `<tool>` is the tool it provides. For example, `mcp__github__search_repositories` or `mcp__filesystem__read_file`. Use a regex matcher to target all tools from a specific server, or match across servers with a pattern like `mcp__.*__write.*`. See [Match MCP tools](/en/hooks#match-mcp-tools) in the reference for the full list of examples.
+    MCP tools use a different naming convention than built-in tools: `mcp__<server>__<tool>`, where `<server>` is the MCP server name and `<tool>` is the tool it provides. For example, `mcp__github__search_repositories` or `mcp__filesystem__read_file`. Use a regex matcher to target all tools from a specific server, or match across servers with a pattern like `mcp__.*__write.*`. See [Match MCP tools](hooks.md#match-mcp-tools) in the reference for the full list of examples.
 
     The command below extracts the tool name from the hook's JSON input with `jq` and writes it to stderr, where it shows up in verbose mode (`Ctrl+O`):
 
@@ -464,7 +464,7 @@ A few more examples showing matchers on different event types:
   </Tab>
 </Tabs>
 
-For full matcher syntax, see the [Hooks reference](/en/hooks#configuration).
+For full matcher syntax, see the [Hooks reference](hooks.md#configuration).
 
 ### Configure hook location
 
@@ -476,10 +476,10 @@ Where you add a hook determines its scope:
 | `.claude/settings.json`                                    | Single project                     | Yes, can be committed to the repo  |
 | `.claude/settings.local.json`                              | Single project                     | No, gitignored                     |
 | Managed policy settings                                    | Organization-wide                  | Yes, admin-controlled              |
-| [Plugin](/en/plugins) `hooks/hooks.json`                   | When plugin is enabled             | Yes, bundled with the plugin       |
-| [Skill](/en/skills) or [agent](/en/sub-agents) frontmatter | While the skill or agent is active | Yes, defined in the component file |
+| [Plugin](plugins.md) `hooks/hooks.json`                   | When plugin is enabled             | Yes, bundled with the plugin       |
+| [Skill](skills.md) or [agent](sub-agents.md) frontmatter | While the skill or agent is active | Yes, defined in the component file |
 
-You can also use the [`/hooks` menu](/en/hooks#the-hooks-menu) in Claude Code to add, delete, and view hooks interactively. To disable all hooks at once, use the toggle at the bottom of the `/hooks` menu or set `"disableAllHooks": true` in your settings file.
+You can also use the [`/hooks` menu](hooks.md#the-hooks-menu) in Claude Code to add, delete, and view hooks interactively. To disable all hooks at once, use the toggle at the bottom of the `/hooks` menu or set `"disableAllHooks": true` in your settings file.
 
 Hooks added through the `/hooks` menu take effect immediately. If you edit settings files directly while Claude Code is running, the changes won't take effect until you review them in the `/hooks` menu or restart your session.
 
@@ -511,7 +511,7 @@ This example uses a `Stop` hook to ask the model whether all requested tasks are
 }
 ```
 
-For full configuration options, see [Prompt-based hooks](/en/hooks#prompt-based-hooks) in the reference.
+For full configuration options, see [Prompt-based hooks](hooks.md#prompt-based-hooks) in the reference.
 
 ## Agent-based hooks
 
@@ -541,7 +541,7 @@ This example verifies that tests pass before allowing Claude to stop:
 
 Use prompt hooks when the hook input data alone is enough to make a decision. Use agent hooks when you need to verify something against the actual state of the codebase.
 
-For full configuration options, see [Agent-based hooks](/en/hooks#agent-based-hooks) in the reference.
+For full configuration options, see [Agent-based hooks](hooks.md#agent-based-hooks) in the reference.
 
 ## Limitations and troubleshooting
 
@@ -550,7 +550,7 @@ For full configuration options, see [Agent-based hooks](/en/hooks#agent-based-ho
 * Hooks communicate through stdout, stderr, and exit codes only. They cannot trigger slash commands or tool calls directly.
 * Hook timeout is 10 minutes by default, configurable per hook with the `timeout` field (in seconds).
 * `PostToolUse` hooks cannot undo actions since the tool has already executed.
-* `PermissionRequest` hooks do not fire in [non-interactive mode](/en/headless) (`-p`). Use `PreToolUse` hooks for automated permission decisions.
+* `PermissionRequest` hooks do not fire in [non-interactive mode](headless.md) (`-p`). Use `PreToolUse` hooks for automated permission decisions.
 * `Stop` hooks fire whenever Claude finishes responding, not only at task completion. They do not fire on user interrupts.
 
 ### Hook not firing
@@ -626,6 +626,6 @@ Toggle verbose mode with `Ctrl+O` to see hook output in the transcript, or run `
 
 ## Learn more
 
-* [Hooks reference](/en/hooks): full event schemas, JSON output format, async hooks, and MCP tool hooks
-* [Security considerations](/en/hooks#security-considerations): review before deploying hooks in shared or production environments
+* [Hooks reference](hooks.md): full event schemas, JSON output format, async hooks, and MCP tool hooks
+* [Security considerations](hooks.md#security-considerations): review before deploying hooks in shared or production environments
 * [Bash command validator example](https://github.com/anthropics/claude-code/blob/main/examples/hooks/bash_command_validator_example.py): complete reference implementation

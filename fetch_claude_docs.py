@@ -48,11 +48,33 @@ def download_doc(path):
         return None
 
 
+def transform_links(content):
+    """Transform internal doc links to work locally.
+
+    Converts /en/slug or /en/slug#anchor to slug.md or slug.md#anchor
+    for both markdown links and HTML href attributes.
+    """
+    # Markdown links: [text](/en/slug) or [text](/en/slug#anchor)
+    content = re.sub(
+        r'\]\(/en/([^)#]+)(#[^)]*)?\)',
+        lambda m: f']({m.group(1)}.md{m.group(2) or ""})',
+        content
+    )
+    # HTML href: href="/en/slug" or href="/en/slug#anchor"
+    content = re.sub(
+        r'href="/en/([^"#]+)(#[^"]*)?"',
+        lambda m: f'href="{m.group(1)}.md{m.group(2) or ""}"',
+        content
+    )
+    return content
+
+
 def save_doc(path, content):
     """Save content to local file, mirroring URL structure."""
     # path is like /docs/en/overview.md, save to ./docs/en/overview.md
     local_path = f".{path}"
     os.makedirs(os.path.dirname(local_path), exist_ok=True)
+    content = transform_links(content)
     with open(local_path, "w", encoding="utf-8") as f:
         f.write(content)
 

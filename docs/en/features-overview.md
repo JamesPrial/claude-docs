@@ -6,26 +6,26 @@
 
 > Understand when to use CLAUDE.md, Skills, subagents, hooks, MCP, and plugins.
 
-Claude Code combines a model that reasons about your code with [built-in tools](/en/how-claude-code-works#tools) for file operations, search, execution, and web access. The built-in tools cover most coding tasks. This guide covers the extension layer: features you add to customize what Claude knows, connect it to external services, and automate workflows.
+Claude Code combines a model that reasons about your code with [built-in tools](how-claude-code-works.md#tools) for file operations, search, execution, and web access. The built-in tools cover most coding tasks. This guide covers the extension layer: features you add to customize what Claude knows, connect it to external services, and automate workflows.
 
 <Note>
-  For how the core agentic loop works, see [How Claude Code works](/en/how-claude-code-works).
+  For how the core agentic loop works, see [How Claude Code works](how-claude-code-works.md).
 </Note>
 
-**New to Claude Code?** Start with [CLAUDE.md](/en/memory) for project conventions. Add other extensions as you need them.
+**New to Claude Code?** Start with [CLAUDE.md](memory.md) for project conventions. Add other extensions as you need them.
 
 ## Overview
 
 Extensions plug into different parts of the agentic loop:
 
-* **[CLAUDE.md](/en/memory)** adds persistent context Claude sees every session
-* **[Skills](/en/skills)** add reusable knowledge and invocable workflows
-* **[MCP](/en/mcp)** connects Claude to external services and tools
-* **[Subagents](/en/sub-agents)** run their own loops in isolated context, returning summaries
-* **[Hooks](/en/hooks)** run outside the loop entirely as deterministic scripts
-* **[Plugins](/en/plugins)** and **[marketplaces](/en/plugin-marketplaces)** package and distribute these features
+* **[CLAUDE.md](memory.md)** adds persistent context Claude sees every session
+* **[Skills](skills.md)** add reusable knowledge and invocable workflows
+* **[MCP](mcp.md)** connects Claude to external services and tools
+* **[Subagents](sub-agents.md)** run their own loops in isolated context, returning summaries
+* **[Hooks](hooks.md)** run outside the loop entirely as deterministic scripts
+* **[Plugins](plugins.md)** and **[marketplaces](plugin-marketplaces.md)** package and distribute these features
 
-[Skills](/en/skills) are the most flexible extension. A skill is a markdown file containing knowledge, workflows, or instructions. You can invoke skills with a slash command like `/deploy`, or Claude can load them automatically when relevant. Skills can run in your current conversation or in an isolated context via subagents.
+[Skills](skills.md) are the most flexible extension. A skill is a markdown file containing knowledge, workflows, or instructions. You can invoke skills with a slash command like `/deploy`, or Claude can load them automatically when relevant. Skills can run in your current conversation or in an isolated context via subagents.
 
 ## Match features to your goal
 
@@ -39,7 +39,7 @@ Features range from always-on context that Claude sees every session, to on-dema
 | **MCP**       | Connect to external services                               | External data or actions                               | Query your database, post to Slack, control a browser                            |
 | **Hook**      | Deterministic script that runs on events                   | Predictable automation, no LLM involved                | Run ESLint after every file edit                                                 |
 
-**[Plugins](/en/plugins)** are the packaging layer. A plugin bundles skills, hooks, subagents, and MCP servers into a single installable unit. Plugin skills are namespaced (like `/my-plugin:review`) so multiple plugins can coexist. Use plugins when you want to reuse the same setup across multiple repositories or distribute to others via a **[marketplace](/en/plugin-marketplaces)**.
+**[Plugins](plugins.md)** are the packaging layer. A plugin bundles skills, hooks, subagents, and MCP servers into a single installable unit. Plugin skills are namespaced (like `/my-plugin:review`) so multiple plugins can coexist. Use plugins when you want to reuse the same setup across multiple repositories or distribute to others via a **[marketplace](plugin-marketplaces.md)**.
 
 ### Compare similar features
 
@@ -62,7 +62,7 @@ Some features can seem similar. Here's how to tell them apart.
 
     **Use a subagent** when you need context isolation or when your context window is getting full. The subagent might read dozens of files or run extensive searches, but your main conversation only receives a summary. Since subagent work doesn't consume your main context, this is also useful when you don't need the intermediate work to remain visible. Custom subagents can have their own instructions and can preload skills.
 
-    **They can combine.** A subagent can preload specific skills (`skills:` field). A skill can run in isolated context using `context: fork`. See [Skills](/en/skills) for details.
+    **They can combine.** A subagent can preload specific skills (`skills:` field). A skill can run in isolated context using `context: fork`. See [Skills](skills.md) for details.
   </Tab>
 
   <Tab title="CLAUDE.md vs Skill">
@@ -105,10 +105,10 @@ Some features can seem similar. Here's how to tell them apart.
 
 Features can be defined at multiple levels: user-wide, per-project, via plugins, or through managed policies. You can also nest CLAUDE.md files in subdirectories or place skills in specific packages of a monorepo. When the same feature exists at multiple levels, here's how they layer:
 
-* **CLAUDE.md files** are additive: all levels contribute content to Claude's context simultaneously. Files from your working directory and above load at launch; subdirectories load as you work in them. When instructions conflict, Claude uses judgment to reconcile them, with more specific instructions typically taking precedence. See [how Claude looks up memories](/en/memory#how-claude-looks-up-memories).
-* **Skills and subagents** override by name: when the same name exists at multiple levels, one definition wins based on priority (managed > user > project for skills; managed > CLI flag > project > user > plugin for subagents). Plugin skills are [namespaced](/en/plugins#add-skills-to-your-plugin) to avoid conflicts. See [skill discovery](/en/skills#where-skills-live) and [subagent scope](/en/sub-agents#choose-the-subagent-scope).
-* **MCP servers** override by name: local > project > user. See [MCP scope](/en/mcp#scope-hierarchy-and-precedence).
-* **Hooks** merge: all registered hooks fire for their matching events regardless of source. See [hooks](/en/hooks).
+* **CLAUDE.md files** are additive: all levels contribute content to Claude's context simultaneously. Files from your working directory and above load at launch; subdirectories load as you work in them. When instructions conflict, Claude uses judgment to reconcile them, with more specific instructions typically taking precedence. See [how Claude looks up memories](memory.md#how-claude-looks-up-memories).
+* **Skills and subagents** override by name: when the same name exists at multiple levels, one definition wins based on priority (managed > user > project for skills; managed > CLI flag > project > user > plugin for subagents). Plugin skills are [namespaced](plugins.md#add-skills-to-your-plugin) to avoid conflicts. See [skill discovery](skills.md#where-skills-live) and [subagent scope](sub-agents.md#choose-the-subagent-scope).
+* **MCP servers** override by name: local > project > user. See [MCP scope](mcp.md#scope-hierarchy-and-precedence).
+* **Hooks** merge: all registered hooks fire for their matching events regardless of source. See [hooks](hooks.md).
 
 ### Combine features
 
@@ -153,7 +153,7 @@ Each feature loads at different points in your session. The tabs below explain w
 
     **What loads:** Full content of all CLAUDE.md files (managed, user, and project levels).
 
-    **Inheritance:** Claude reads CLAUDE.md files from your working directory up to the root, and discovers nested ones in subdirectories as it accesses those files. See [How Claude looks up memories](/en/memory#how-claude-looks-up-memories) for details.
+    **Inheritance:** Claude reads CLAUDE.md files from your working directory up to the root, and discovers nested ones in subdirectories as it accesses those files. See [How Claude looks up memories](memory.md#how-claude-looks-up-memories) for details.
 
     <Tip>Keep CLAUDE.md under \~500 lines. Move reference material to skills, which load on-demand.</Tip>
   </Tab>
@@ -179,7 +179,7 @@ Each feature loads at different points in your session. The tabs below explain w
 
     **What loads:** All tool definitions and JSON schemas from connected servers.
 
-    **Context cost:** [Tool search](/en/mcp#scale-with-mcp-tool-search) (enabled by default) loads MCP tools up to 10% of context and defers the rest until needed.
+    **Context cost:** [Tool search](mcp.md#scale-with-mcp-tool-search) (enabled by default) loads MCP tools up to 10% of context and defers the rest until needed.
 
     **Reliability note:** MCP connections can fail silently mid-session. If a server disconnects, its tools disappear without warning. Claude may try to use a tool that no longer exists. If you notice Claude failing to use an MCP tool it previously could access, check the connection with `/mcp`.
 
@@ -202,7 +202,7 @@ Each feature loads at different points in your session. The tabs below explain w
   </Tab>
 
   <Tab title="Hooks">
-    **When:** On trigger. Hooks fire at specific lifecycle events like tool execution, session boundaries, prompt submission, permission requests, and compaction. See [Hooks](/en/hooks) for the full list.
+    **When:** On trigger. Hooks fire at specific lifecycle events like tool execution, session boundaries, prompt submission, permission requests, and compaction. See [Hooks](hooks.md) for the full list.
 
     **What loads:** Nothing by default. Hooks run as external scripts.
 
@@ -217,31 +217,31 @@ Each feature loads at different points in your session. The tabs below explain w
 Each feature has its own guide with setup instructions, examples, and configuration options.
 
 <CardGroup cols={2}>
-  <Card title="CLAUDE.md" icon="file-lines" href="/en/memory">
+  <Card title="CLAUDE.md" icon="file-lines" href="memory.md">
     Store project context, conventions, and instructions
   </Card>
 
-  <Card title="Skills" icon="brain" href="/en/skills">
+  <Card title="Skills" icon="brain" href="skills.md">
     Give Claude domain expertise and reusable workflows
   </Card>
 
-  <Card title="Subagents" icon="users" href="/en/sub-agents">
+  <Card title="Subagents" icon="users" href="sub-agents.md">
     Offload work to isolated context
   </Card>
 
-  <Card title="MCP" icon="plug" href="/en/mcp">
+  <Card title="MCP" icon="plug" href="mcp.md">
     Connect Claude to external services
   </Card>
 
-  <Card title="Hooks" icon="bolt" href="/en/hooks-guide">
+  <Card title="Hooks" icon="bolt" href="hooks-guide.md">
     Automate workflows with hooks
   </Card>
 
-  <Card title="Plugins" icon="puzzle-piece" href="/en/plugins">
+  <Card title="Plugins" icon="puzzle-piece" href="plugins.md">
     Bundle and share feature sets
   </Card>
 
-  <Card title="Marketplaces" icon="store" href="/en/plugin-marketplaces">
+  <Card title="Marketplaces" icon="store" href="plugin-marketplaces.md">
     Host and distribute plugin collections
   </Card>
 </CardGroup>

@@ -111,7 +111,7 @@ In both modes, the sandbox enforces the same filesystem and network restrictions
 
 ### Configure sandboxing
 
-Customize sandbox behavior through your `settings.json` file. See [Settings](/en/settings#sandbox-settings) for complete configuration reference.
+Customize sandbox behavior through your `settings.json` file. See [Settings](settings.md#sandbox-settings) for complete configuration reference.
 
 <Tip>
   Not all commands are compatible with sandboxing out of the box. Some notes that may help you make the most out of the sandbox:
@@ -124,7 +124,7 @@ Customize sandbox behavior through your `settings.json` file. See [Settings](/en
 <Note>
   Claude Code includes an intentional escape hatch mechanism that allows commands to run outside the sandbox when necessary. When a command fails due to sandbox restrictions (such as network connectivity issues or incompatible tools), Claude is prompted to analyze the failure and may retry the command with the `dangerouslyDisableSandbox` parameter. Commands that use this parameter go through the normal Claude Code permissions flow requiring user permission to execute. This allows Claude Code to handle edge cases where certain tools or network operations cannot function within sandbox constraints.
 
-  You can disable this escape hatch by setting `"allowUnsandboxedCommands": false` in your [sandbox settings](/en/settings#sandbox-settings). When disabled, the `dangerouslyDisableSandbox` parameter is completely ignored and all commands must run sandboxed or be explicitly listed in `excludedCommands`.
+  You can disable this escape hatch by setting `"allowUnsandboxedCommands": false` in your [sandbox settings](settings.md#sandbox-settings). When disabled, the `dangerouslyDisableSandbox` parameter is completely ignored and all commands must run sandboxed or be explicitly listed in `excludedCommands`.
 </Note>
 
 ## Security benefits
@@ -137,7 +137,7 @@ Even if an attacker successfully manipulates Claude Code's behavior through prom
 
 * Cannot modify critical config files such as `~/.bashrc`
 * Cannot modify system-level files in `/bin/`
-* Cannot read files that are denied in your [Claude permission settings](/en/permissions#manage-permissions)
+* Cannot read files that are denied in your [Claude permission settings](permissions.md#manage-permissions)
 
 **Network protection:**
 
@@ -186,7 +186,7 @@ When Claude Code attempts to access network resources outside the sandbox:
 
 ## How sandboxing relates to permissions
 
-Sandboxing and [permissions](/en/permissions) are complementary security layers that work together:
+Sandboxing and [permissions](permissions.md) are complementary security layers that work together:
 
 * **Permissions** control which tools Claude Code can use and are evaluated before any tool runs. They apply to all tools: Bash, Read, Edit, WebFetch, MCP, and others.
 * **Sandboxing** provides OS-level enforcement that restricts what Bash commands can access at the filesystem and network level. It applies only to Bash commands and their child processes.
@@ -225,9 +225,9 @@ For organizations requiring advanced network security, you can implement a custo
 
 The sandboxed bash tool works alongside:
 
-* **Permission rules**: Combine with [permission settings](/en/permissions) for defense-in-depth
-* **Development containers**: Use with [devcontainers](/en/devcontainer) for additional isolation
-* **Enterprise policies**: Enforce sandbox configurations through [managed settings](/en/settings#settings-precedence)
+* **Permission rules**: Combine with [permission settings](permissions.md) for defense-in-depth
+* **Development containers**: Use with [devcontainers](devcontainer.md) for additional isolation
+* **Enterprise policies**: Enforce sandbox configurations through [managed settings](settings.md#settings-precedence)
 
 ## Best practices
 
@@ -255,7 +255,7 @@ For implementation details and source code, visit the [GitHub repository](https:
 
 ## See also
 
-* [Security](/en/security) - Comprehensive security features and best practices
-* [Permissions](/en/permissions) - Permission configuration and access control
-* [Settings](/en/settings) - Complete configuration reference
-* [CLI reference](/en/cli-reference) - Command-line options
+* [Security](security.md) - Comprehensive security features and best practices
+* [Permissions](permissions.md) - Permission configuration and access control
+* [Settings](settings.md) - Complete configuration reference
+* [CLI reference](cli-reference.md) - Command-line options

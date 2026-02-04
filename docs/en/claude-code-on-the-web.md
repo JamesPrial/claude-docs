@@ -152,7 +152,7 @@ For Enterprise and Teams accounts, the two visibility options are **Private**
 and **Team**. Team visibility makes the session visible to other members of your
 Claude.ai organization. Repository access verification is enabled by default,
 based on the GitHub account connected to the recipient's account. Your account's
-display name is visible to all recipients with access. [Claude in Slack](/en/slack)
+display name is visible to all recipients with access. [Claude in Slack](slack.md)
 sessions are automatically shared with Team visibility.
 
 #### Sharing from a Max or Pro account
@@ -245,7 +245,7 @@ When you start a session in Claude Code on the web, here's what happens under th
 
 ### Dependency management
 
-Configure automatic dependency installation using [SessionStart hooks](/en/hooks#sessionstart). This can be configured in your repository's `.claude/settings.json` file:
+Configure automatic dependency installation using [SessionStart hooks](hooks.md#sessionstart). This can be configured in your repository's `.claude/settings.json` file:
 
 ```json  theme={null}
 {
@@ -294,7 +294,7 @@ pip install -r requirements.txt
 
 #### Persisting environment variables
 
-SessionStart hooks can persist environment variables for subsequent bash commands by writing to the file specified in the `CLAUDE_ENV_FILE` environment variable. For details, see [SessionStart hooks](/en/hooks#sessionstart) in the hooks reference.
+SessionStart hooks can persist environment variables for subsequent bash commands by writing to the file specified in the `CLAUDE_ENV_FILE` environment variable. For details, see [SessionStart hooks](hooks.md#sessionstart) in the hooks reference.
 
 ## Network access and security
 
@@ -601,12 +601,12 @@ Claude Code on the web shares rate limits with all other Claude and Claude Code 
 
 ## Best practices
 
-1. **Use Claude Code hooks**: Configure [SessionStart hooks](/en/hooks#sessionstart) to automate environment setup and dependency installation.
+1. **Use Claude Code hooks**: Configure [SessionStart hooks](hooks.md#sessionstart) to automate environment setup and dependency installation.
 2. **Document requirements**: Clearly specify dependencies and commands in your `CLAUDE.md` file. If you have an `AGENTS.md` file, you can source it in your `CLAUDE.md` using `@AGENTS.md` to maintain a single source of truth.
 
 ## Related resources
 
-* [Hooks configuration](/en/hooks)
-* [Settings reference](/en/settings)
-* [Security](/en/security)
-* [Data usage](/en/data-usage)
+* [Hooks configuration](hooks.md)
+* [Settings reference](settings.md)
+* [Security](security.md)
+* [Data usage](data-usage.md)

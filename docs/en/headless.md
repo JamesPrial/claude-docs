@@ -12,7 +12,7 @@ The [Agent SDK](https://platform.claude.com/docs/en/agent-sdk/overview) gives yo
   The CLI was previously called "headless mode." The `-p` flag and all CLI options work the same way.
 </Note>
 
-To run Claude Code programmatically from the CLI, pass `-p` with your prompt and any [CLI options](/en/cli-reference):
+To run Claude Code programmatically from the CLI, pass `-p` with your prompt and any [CLI options](cli-reference.md):
 
 ```bash  theme={null}
 claude -p "Find and fix the bug in auth.py" --allowedTools "Read,Edit,Bash"
@@ -22,7 +22,7 @@ This page covers using the Agent SDK via the CLI (`claude -p`). For the Python a
 
 ## Basic usage
 
-Add the `-p` (or `--print`) flag to any `claude` command to run it non-interactively. All [CLI options](/en/cli-reference) work with `-p`, including:
+Add the `-p` (or `--print`) flag to any `claude` command to run it non-interactively. All [CLI options](cli-reference.md) work with `-p`, including:
 
 * `--continue` for [continuing conversations](#continue-conversations)
 * `--allowedTools` for [auto-approving tools](#auto-approve-tools)
@@ -112,10 +112,10 @@ claude -p "Look at my staged changes and create an appropriate commit" \
   --allowedTools "Bash(git diff *),Bash(git log *),Bash(git status *),Bash(git commit *)"
 ```
 
-The `--allowedTools` flag uses [permission rule syntax](/en/settings#permission-rule-syntax). The trailing ` *` enables prefix matching, so `Bash(git diff *)` allows any command starting with `git diff`. The space before `*` is important: without it, `Bash(git diff*)` would also match `git diff-index`.
+The `--allowedTools` flag uses [permission rule syntax](settings.md#permission-rule-syntax). The trailing ` *` enables prefix matching, so `Bash(git diff *)` allows any command starting with `git diff`. The space before `*` is important: without it, `Bash(git diff*)` would also match `git diff-index`.
 
 <Note>
-  User-invoked [skills](/en/skills) like `/commit` and [built-in commands](/en/interactive-mode#built-in-commands) are only available in interactive mode. In `-p` mode, describe the task you want to accomplish instead.
+  User-invoked [skills](skills.md) like `/commit` and [built-in commands](interactive-mode.md#built-in-commands) are only available in interactive mode. In `-p` mode, describe the task you want to accomplish instead.
 </Note>
 
 ### Customize the system prompt
@@ -128,7 +128,7 @@ gh pr diff "$1" | claude -p \
   --output-format json
 ```
 
-See [system prompt flags](/en/cli-reference#system-prompt-flags) for more options including `--system-prompt` to fully replace the default prompt.
+See [system prompt flags](cli-reference.md#system-prompt-flags) for more options including `--system-prompt` to fully replace the default prompt.
 
 ### Continue conversations
 
@@ -157,15 +157,15 @@ claude -p "Continue that review" --resume "$session_id"
     Build your first agent with Python or TypeScript
   </Card>
 
-  <Card title="CLI reference" icon="terminal" href="/en/cli-reference">
+  <Card title="CLI reference" icon="terminal" href="cli-reference.md">
     Explore all CLI flags and options
   </Card>
 
-  <Card title="GitHub Actions" icon="github" href="/en/github-actions">
+  <Card title="GitHub Actions" icon="github" href="github-actions.md">
     Use the Agent SDK in GitHub workflows
   </Card>
 
-  <Card title="GitLab CI/CD" icon="gitlab" href="/en/gitlab-ci-cd">
+  <Card title="GitLab CI/CD" icon="gitlab" href="gitlab-ci-cd.md">
     Use the Agent SDK in GitLab pipelines
   </Card>
 </CardGroup>

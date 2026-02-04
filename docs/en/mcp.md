@@ -354,7 +354,7 @@ Claude Code supports MCP `list_changed` notifications, allowing MCP servers to d
 
 ### Plugin-provided MCP servers
 
-[Plugins](/en/plugins) can bundle MCP servers, automatically providing tools and integrations when the plugin is enabled. Plugin MCP servers work identically to user-configured servers.
+[Plugins](plugins.md) can bundle MCP servers, automatically providing tools and integrations when the plugin is enabled. Plugin MCP servers work identically to user-configured servers.
 
 **How plugin MCP servers work**:
 
@@ -415,7 +415,7 @@ Plugin servers appear in the list with indicators showing they come from plugins
 * **Automatic setup**: No manual MCP configuration needed
 * **Team consistency**: Everyone gets the same tools when plugin is installed
 
-See the [plugin components reference](/en/plugins-reference#mcp-servers) for details on bundling MCP servers with plugins.
+See the [plugin components reference](plugins-reference.md#mcp-servers) for details on bundling MCP servers with plugins.
 
 ## MCP installation scopes
 
@@ -426,7 +426,7 @@ MCP servers can be configured at three different scope levels, each serving dist
 Local-scoped servers represent the default configuration level and are stored in `~/.claude.json` under your project's path. These servers remain private to you and are only accessible when working within the current project directory. This scope is ideal for personal development servers, experimental configurations, or servers containing sensitive credentials that shouldn't be shared.
 
 <Note>
-  The term "local scope" for MCP servers differs from general local settings. MCP local-scoped servers are stored in `~/.claude.json` (your home directory), while general local settings use `.claude/settings.local.json` (in the project directory). See [Settings](/en/settings#settings-files) for details on settings file locations.
+  The term "local scope" for MCP servers differs from general local settings. MCP local-scoped servers are stored in `~/.claude.json` (your home directory), while general local settings use `.claude/settings.local.json` (in the project directory). See [Settings](settings.md#settings-files) for details on settings file locations.
 </Note>
 
 ```bash  theme={null}
@@ -825,7 +825,7 @@ Claude Code automatically enables Tool Search when your MCP tool descriptions wo
 
 ### For MCP server authors
 
-If you're building an MCP server, the server instructions field becomes more useful with Tool Search enabled. Server instructions help Claude understand when to search for your tools, similar to how [skills](/en/skills) work.
+If you're building an MCP server, the server instructions field becomes more useful with Tool Search enabled. Server instructions help Claude understand when to search for your tools, similar to how [skills](skills.md) work.
 
 Add clear, descriptive server instructions that explain:
 
@@ -854,7 +854,7 @@ ENABLE_TOOL_SEARCH=auto:5 claude
 ENABLE_TOOL_SEARCH=false claude
 ```
 
-Or set the value in your [settings.json `env` field](/en/settings#available-settings).
+Or set the value in your [settings.json `env` field](settings.md#available-settings).
 
 You can also disable the MCPSearch tool specifically using the `disallowedTools` setting:
 
@@ -959,7 +959,7 @@ The `managed-mcp.json` file uses the same format as a standard `.mcp.json` file:
 
 ### Option 2: Policy-based control with allowlists and denylists
 
-Instead of taking exclusive control, administrators can allow users to configure their own MCP servers while enforcing restrictions on which servers are permitted. This approach uses `allowedMcpServers` and `deniedMcpServers` in the [managed settings file](/en/settings#settings-files).
+Instead of taking exclusive control, administrators can allow users to configure their own MCP servers while enforcing restrictions on which servers are permitted. This approach uses `allowedMcpServers` and `deniedMcpServers` in the [managed settings file](settings.md#settings-files).
 
 <Note>
   **Choosing between options**: Use Option 1 (`managed-mcp.json`) when you want to deploy a fixed set of servers with no user customization. Use Option 2 (allowlists/denylists) when you want to allow users to add their own servers within policy constraints.

@@ -59,7 +59,7 @@ export PATH="$HOME/.nvm/versions/node/$(node -v)/bin:$PATH"
 
 ### WSL2 sandbox setup
 
-[Sandboxing](/en/sandboxing) is supported on WSL2 but requires installing additional packages. If you see an error like "Sandbox requires socat and bubblewrap" when running `/sandbox`, install the dependencies:
+[Sandboxing](sandboxing.md) is supported on WSL2 but requires installing additional packages. If you see an error like "Sandbox requires socat and bubblewrap" when running `/sandbox`, install the dependencies:
 
 <Tabs>
   <Tab title="Ubuntu/Debian">
@@ -167,7 +167,7 @@ claude doctor # Check installation health
 ### Repeated permission prompts
 
 If you find yourself repeatedly approving the same commands, you can allow specific tools
-to run without approval using the `/permissions` command. See [Permissions docs](/en/permissions#manage-permissions).
+to run without approval using the `/permissions` command. See [Permissions docs](permissions.md#manage-permissions).
 
 ### Authentication issues
 
@@ -199,8 +199,8 @@ Claude Code stores configuration in several locations:
 | `.claude/settings.local.json` | Local project settings (not committed)                   |
 | `~/.claude.json`              | Global state (theme, OAuth, MCP servers)                 |
 | `.mcp.json`                   | Project MCP servers (checked into source control)        |
-| `managed-settings.json`       | [Managed settings](/en/settings#settings-files)          |
-| `managed-mcp.json`            | [Managed MCP servers](/en/mcp#managed-mcp-configuration) |
+| `managed-settings.json`       | [Managed settings](settings.md#settings-files)          |
+| `managed-mcp.json`            | [Managed MCP servers](mcp.md#managed-mcp-configuration) |
 
 On Windows, `~` refers to your user home directory, such as `C:\Users\YourName`.
 
@@ -210,7 +210,7 @@ On Windows, `~` refers to your user home directory, such as `C:\Users\YourName`.
 * Linux/WSL: `/etc/claude-code/`
 * Windows: `C:\Program Files\ClaudeCode\`
 
-For details on configuring these files, see [Settings](/en/settings) and [MCP](/en/mcp).
+For details on configuring these files, see [Settings](settings.md) and [MCP](mcp.md).
 
 ### Resetting configuration
 
@@ -268,7 +268,7 @@ apk add ripgrep
 pacman -S ripgrep
 ```
 
-Then set `USE_BUILTIN_RIPGREP=0` in your [environment](/en/settings#environment-variables).
+Then set `USE_BUILTIN_RIPGREP=0` in your [environment](settings.md#environment-variables).
 
 ### Slow or incomplete search results on WSL
 
@@ -327,7 +327,7 @@ Then restart WSL with `wsl --shutdown` from PowerShell.
   These networking issues only affect WSL2. WSL1 uses the host's network directly and doesn't require these configurations.
 </Note>
 
-For additional JetBrains configuration tips, see our [JetBrains IDE guide](/en/jetbrains#plugin-settings).
+For additional JetBrains configuration tips, see our [JetBrains IDE guide](jetbrains.md#plugin-settings).
 
 ### Reporting Windows IDE integration issues (both native and WSL)
 
@@ -383,7 +383,7 @@ function example() {
 
 1. **Ask Claude to add language tags**: Request "Add appropriate language tags to all code blocks in this markdown file."
 
-2. **Use post-processing hooks**: Set up automatic formatting hooks to detect and add missing language tags. See [Auto-format code after edits](/en/hooks-guide#auto-format-code-after-edits) for an example of a PostToolUse formatting hook.
+2. **Use post-processing hooks**: Set up automatic formatting hooks to detect and add missing language tags. See [Auto-format code after edits](hooks-guide.md#auto-format-code-after-edits) for an example of a PostToolUse formatting hook.
 
 3. **Manual verification**: After generating markdown files, review them for proper code block formatting and request corrections if needed.
 
@@ -397,14 +397,14 @@ If generated markdown has excessive blank lines or inconsistent spacing:
 
 2. **Use formatting tools**: Set up hooks to run markdown formatters like `prettier` or custom formatting scripts on generated markdown files.
 
-3. **Specify formatting preferences**: Include formatting requirements in your prompts or project [memory](/en/memory) files.
+3. **Specify formatting preferences**: Include formatting requirements in your prompts or project [memory](memory.md) files.
 
 ### Best practices for markdown generation
 
 To minimize formatting issues:
 
 * **Be explicit in requests**: Ask for "properly formatted markdown with language-tagged code blocks"
-* **Use project conventions**: Document your preferred markdown style in [`CLAUDE.md`](/en/memory)
+* **Use project conventions**: Document your preferred markdown style in [`CLAUDE.md`](memory.md)
 * **Set up validation hooks**: Use post-processing hooks to automatically verify and fix common formatting issues
 
 ## Getting more help

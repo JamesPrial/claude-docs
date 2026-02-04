@@ -45,7 +45,7 @@ For full configuration options, see the [OpenTelemetry specification](https://gi
 
 ## Administrator configuration
 
-Administrators can configure OpenTelemetry settings for all users through the [managed settings file](/en/settings#settings-files). This allows for centralized control of telemetry settings across an organization. See the [settings precedence](/en/settings#settings-precedence) for more information about how settings are applied.
+Administrators can configure OpenTelemetry settings for all users through the [managed settings file](settings.md#settings-files). This allows for centralized control of telemetry settings across an organization. See the [settings precedence](settings.md#settings-precedence) for more information about how settings are applied.
 
 Example managed settings configuration:
 

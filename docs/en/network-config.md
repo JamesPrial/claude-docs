@@ -9,7 +9,7 @@
 Claude Code supports various enterprise network and security configurations through environment variables. This includes routing traffic through corporate proxy servers, trusting custom Certificate Authorities (CA), and authenticating with mutual Transport Layer Security (mTLS) certificates for enhanced security.
 
 <Note>
-  All environment variables shown on this page can also be configured in [`settings.json`](/en/settings).
+  All environment variables shown on this page can also be configured in [`settings.json`](settings.md).
 </Note>
 
 ## Proxy configuration
@@ -89,6 +89,6 @@ Ensure these URLs are allowlisted in your proxy configuration and firewall rules
 
 ## Additional resources
 
-* [Claude Code settings](/en/settings)
-* [Environment variables reference](/en/settings#environment-variables)
-* [Troubleshooting guide](/en/troubleshooting)
+* [Claude Code settings](settings.md)
+* [Environment variables reference](settings.md#environment-variables)
+* [Troubleshooting guide](troubleshooting.md)

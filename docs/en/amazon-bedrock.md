@@ -70,7 +70,7 @@ Bedrock API keys provide a simpler authentication method without needing full AW
 
 #### Advanced credential configuration
 
-Claude Code supports automatic credential refresh for AWS SSO and corporate identity providers. Add these settings to your Claude Code settings file (see [Settings](/en/settings) for file locations).
+Claude Code supports automatic credential refresh for AWS SSO and corporate identity providers. Add these settings to your Claude Code settings file (see [Settings](settings.md) for file locations).
 
 When Claude Code detects that your AWS credentials are expired (either locally based on their timestamp or when Bedrock returns a credential error), it will automatically run your configured `awsAuthRefresh` and/or `awsCredentialExport` commands to obtain new credentials before retrying the request.
 
@@ -118,7 +118,7 @@ When enabling Bedrock for Claude Code, keep the following in mind:
 
 * `AWS_REGION` is a required environment variable. Claude Code does not read from the `.aws` config file for this setting.
 * When using Bedrock, the `/login` and `/logout` commands are disabled since authentication is handled through AWS credentials.
-* You can use settings files for environment variables like `AWS_PROFILE` that you don't want to leak to other processes. See [Settings](/en/settings) for more information.
+* You can use settings files for environment variables like `AWS_PROFILE` that you don't want to leak to other processes. See [Settings](settings.md) for more information.
 
 ### 4. Model configuration
 
@@ -215,7 +215,7 @@ For details, see [Bedrock IAM documentation](https://docs.aws.amazon.com/bedrock
 
 ## AWS Guardrails
 
-[Amazon Bedrock Guardrails](https://docs.aws.amazon.com/bedrock/latest/userguide/guardrails.html) let you implement content filtering for Claude Code. Create a Guardrail in the [Amazon Bedrock console](https://console.aws.amazon.com/bedrock/), publish a version, then add the Guardrail headers to your [settings file](/en/settings). Enable Cross-Region inference on your Guardrail if you're using cross-region inference profiles.
+[Amazon Bedrock Guardrails](https://docs.aws.amazon.com/bedrock/latest/userguide/guardrails.html) let you implement content filtering for Claude Code. Create a Guardrail in the [Amazon Bedrock console](https://console.aws.amazon.com/bedrock/), publish a version, then add the Guardrail headers to your [settings file](settings.md). Enable Cross-Region inference on your Guardrail if you're using cross-region inference profiles.
 
 Example configuration:
 

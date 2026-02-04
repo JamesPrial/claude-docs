@@ -43,7 +43,7 @@ Failure to forward headers or preserve body fields may result in reduced functio
 
 By default, Claude Code will use standard model names for the selected API format.
 
-If you have configured custom model names in your gateway, use the environment variables documented in [Model configuration](/en/model-config) to match your custom names.
+If you have configured custom model names in your gateway, use the environment variables documented in [Model configuration](model-config.md) to match your custom names.
 
 ## LiteLLM configuration
 
@@ -169,6 +169,6 @@ For more detailed information, refer to the [LiteLLM documentation](https://docs
 ## Additional resources
 
 * [LiteLLM documentation](https://docs.litellm.ai/)
-* [Claude Code settings](/en/settings)
-* [Enterprise network configuration](/en/network-config)
-* [Third-party integrations overview](/en/third-party-integrations)
+* [Claude Code settings](settings.md)
+* [Enterprise network configuration](network-config.md)
+* [Third-party integrations overview](third-party-integrations.md)
