@@ -11,6 +11,9 @@ A tool for downloading Claude Code documentation from https://code.claude.com fo
 ```bash
 # Download/refresh all Claude Code docs
 python3 fetch_claude_docs.py
+
+# Generate changelog entry (requires staged changes in docs/)
+git add docs/ && python3 generate_changelog.py
 ```
 
 No dependencies required - uses Python standard library only.
@@ -18,3 +21,7 @@ No dependencies required - uses Python standard library only.
 ## How It Works
 
 The script fetches the documentation index from `https://code.claude.com/docs/llms.txt`, parses out all doc paths, then downloads each `.md` file. A User-Agent header is required or the server returns 403. Files are saved mirroring the URL structure (`/docs/en/overview.md` → `./docs/en/overview.md`).
+
+## Automation
+
+GitHub Actions workflow (`.github/workflows/update-docs.yml`) runs daily at midnight UTC. Pull before pushing—the workflow may have committed changes.
