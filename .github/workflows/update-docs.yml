@@ -1,0 +1,40 @@
+name: Update Claude Docs
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Daily at midnight UTC
+  workflow_dispatch: {}   # Manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  update-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Fetch latest documentation
+        run: python3 fetch_claude_docs.py
+
+      - name: Stage documentation changes
+        run: git add docs/
+
+      - name: Generate changelog and commit
+        run: |
+          if ! git diff --cached --quiet; then
+            python3 generate_changelog.py
+            git add CHANGELOG.md
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git commit -m "docs: update Claude Code documentation"
+            git push
+          else
+            echo "No changes detected"
+          fi
