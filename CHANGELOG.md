@@ -2,6 +2,62 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-02-06
+
+### Added
+- `agent-teams.md` - Orchestrate teams of Claude Code sessions
+
+### Modified
+- `analytics.md`
+  - Content updated
+- `best-practices.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `common-workflows.md`
+  - Content updated
+- `costs.md`
+  - Content updated
+- `features-overview.md`
+  - Content updated
+- `github-actions.md`
+  - Content updated
+- `google-vertex-ai.md`
+  - Content updated
+- `how-claude-code-works.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `microsoft-foundry.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `plugin-marketplaces.md`
+  - Content updated
+- `plugins-reference.md`
+  - Removed section: "Capabilities"
+  - Removed section: "Context and examples"
+- `plugins.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `statusline.md`
+  - New section: "Set up a status line"
+  - New section: "Build a status line step by step"
+  - New section: "How status lines work"
+  - New section: "Available data"
+  - New section: "Examples"
+  - Removed section: "Create a custom status line"
+  - Removed section: "How it Works"
+  - Removed section: "JSON Input Structure"
+  - Removed section: "Example Scripts"
+- `sub-agents.md`
+  - Content updated
+
 ## 2026-02-05
 
 ### Modified
