@@ -8,7 +8,9 @@ A tool for downloading Claude Code documentation from https://code.claude.com fo
 
 ## Answering Questions About Claude Code
 
-For any question about Claude Code features, configuration, plugins, hooks, MCP, sub-agents, skills, IDE integration, CI/CD, permissions, settings, troubleshooting, or any other Claude Code topic: **use the `claude-docs-navigator` skill**. It routes to the correct file(s) among the 55 docs in `docs/en/` using a topic table and reference files in `.claude/skills/claude-docs-navigator/references/`. Do not manually search the docs when this skill is available.
+**Simple, single-topic lookups** — use the `claude-docs-navigator` skill. It routes to the correct file(s) among the 55 docs in `docs/en/` using a topic table and reference files in `.claude/skills/claude-docs-navigator/references/`. Fast and inline. Do not manually search the docs when this skill is available.
+
+**Complex, multi-doc questions** — delegate to the `claude-expert` agent (`.claude/agents/claude-expert.md`). Use it when the answer spans multiple docs, requires synthesis across topic areas, involves Claude API/model/pricing questions beyond local docs, or concerns this repo's infrastructure. It preloads the navigator skill for routing and can also web-search for broader Claude ecosystem topics.
 
 ## Commands
 
