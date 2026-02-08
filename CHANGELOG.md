@@ -2,6 +2,45 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-02-08
+
+### Added
+- `fast-mode.md` - Speed up responses with fast mode
+
+### Modified
+- `agent-teams.md`
+  - Content updated
+- `amazon-bedrock.md`
+  - Content updated
+- `best-practices.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `checkpointing.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `how-claude-code-works.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `keybindings.md`
+  - Content updated
+- `memory.md`
+  - New section: "Auto memory"
+- `plugins-reference.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+
 ## 2026-02-06
 
 ### Added
