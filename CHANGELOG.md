@@ -2,6 +2,14 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-02-09
+
+### Modified
+- `changelog.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+
 ## 2026-02-08
 
 ### Added
