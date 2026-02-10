@@ -2,6 +2,25 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-02-10
+
+### Modified
+- `changelog.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `overview.md`
+  - New section: "Get started"
+  - New section: "What you can do"
+  - Removed section: "Get started in 30 seconds"
+  - Removed section: "What Claude Code does for you"
+  - Removed section: "Why developers love Claude Code"
+  - Removed section: "Additional resources"
+  - Updated section: "Use Claude Code everywhere"
+  - Updated section: "Next steps"
+
 ## 2026-02-09
 
 ### Modified
