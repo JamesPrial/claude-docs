@@ -2,6 +2,21 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-02-11
+
+### Added
+- `server-managed-settings.md` - Configure server-managed settings (public beta)
+
+### Modified
+- `changelog.md`
+  - Content updated
+- `fast-mode.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+
 ## 2026-02-10
 
 ### Modified
