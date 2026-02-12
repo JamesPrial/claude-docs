@@ -2,6 +2,16 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-02-12
+
+### Modified
+- `changelog.md`
+  - Content updated
+- `chrome.md`
+  - Content updated
+- `server-managed-settings.md`
+  - Content updated
+
 ## 2026-02-11
 
 ### Added
