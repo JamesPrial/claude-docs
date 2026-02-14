@@ -2,6 +2,46 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-02-14
+
+### Added
+- `desktop-quickstart.md` - Get started with the desktop app
+
+### Modified
+- `agent-teams.md`
+  - Content updated
+- `best-practices.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `chrome.md`
+  - Content updated
+- `desktop.md`
+  - New section: "Start a session"
+  - New section: "Work with code"
+  - New section: "Manage sessions"
+  - New section: "Coming from the CLI?"
+  - Removed section: "Installation and setup"
+  - Removed section: "Getting started"
+  - Removed section: "What you can do"
+  - Removed section: "How Desktop relates to CLI"
+  - Removed section: "Related resources"
+  - Updated section: "Extend Claude Code"
+  - Updated section: "Environment configuration"
+  - Updated section: "Enterprise configuration"
+- `interactive-mode.md`
+  - Content updated
+- `model-config.md`
+  - New section: "Restrict model selection"
+- `network-config.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `slack.md`
+  - Content updated
+
 ## 2026-02-13
 
 ### Modified
