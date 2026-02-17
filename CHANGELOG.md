@@ -2,6 +2,18 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-02-17
+
+### Modified
+- `changelog.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `plugin-marketplaces.md`
+  - Content updated
+- `plugins-reference.md`
+  - Updated section: "Plugin components reference"
+
 ## 2026-02-16
 
 ### Modified
