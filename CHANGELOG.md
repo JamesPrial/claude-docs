@@ -2,6 +2,36 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-02-18
+
+### Modified
+- `amazon-bedrock.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `costs.md`
+  - Content updated
+- `github-actions.md`
+  - Content updated
+- `gitlab-ci-cd.md`
+  - Content updated
+- `google-vertex-ai.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `mcp.md`
+  - New section: "Use MCP servers from Claude.ai"
+- `microsoft-foundry.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+
 ## 2026-02-17
 
 ### Modified
