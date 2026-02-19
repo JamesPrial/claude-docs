@@ -2,6 +2,49 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-02-19
+
+### Modified
+- `agent-teams.md`
+  - Content updated
+- `amazon-bedrock.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `common-workflows.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `google-vertex-ai.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `how-claude-code-works.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `legal-and-compliance.md`
+  - New section: "Usage policy"
+- `microsoft-foundry.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `monitoring-usage.md`
+  - New section: "Interpret metrics and events data"
+  - New section: "Security and privacy"
+  - New section: "Monitor Claude Code on Amazon Bedrock"
+  - Removed section: "Interpreting metrics and events data"
+  - Removed section: "Security/privacy considerations"
+  - Removed section: "Monitoring Claude Code on Amazon Bedrock"
+- `permissions.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `third-party-integrations.md`
+  - Content updated
+
 ## 2026-02-18
 
 ### Modified
