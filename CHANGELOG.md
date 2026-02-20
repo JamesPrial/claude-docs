@@ -2,6 +2,24 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-02-20
+
+### Modified
+- `changelog.md`
+  - Content updated
+- `common-workflows.md`
+  - New section: "Get notified when Claude needs your attention"
+- `data-usage.md`
+  - Content updated
+- `features-overview.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `how-claude-code-works.md`
+  - Content updated
+- `plugins.md`
+  - Content updated
+
 ## 2026-02-19
 
 ### Modified
