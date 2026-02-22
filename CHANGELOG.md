@@ -2,6 +2,30 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-02-22
+
+### Modified
+- `changelog.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `common-workflows.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+
 ## 2026-02-21
 
 ### Modified
