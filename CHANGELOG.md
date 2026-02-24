@@ -2,6 +2,16 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-02-24
+
+### Modified
+- `agent-teams.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `terminal-config.md`
+  - Content updated
+
 ## 2026-02-23
 
 ### Modified
