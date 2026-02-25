@@ -38,13 +38,15 @@ Choose your environment to get started. Most surfaces require a [Claude subscrip
         curl -fsSL https://claude.ai/install.cmd -o install.cmd && install.cmd && del install.cmd
         ```
 
+        **Windows requires [Git for Windows](https://git-scm.com/downloads/win).** Install it first if you don't have it.
+
         <Info>
           Native installations automatically update in the background to keep you on the latest version.
         </Info>
       </Tab>
 
       <Tab title="Homebrew">
-        ```sh  theme={null}
+        ```bash  theme={null}
         brew install --cask claude-code
         ```
 
@@ -187,6 +189,7 @@ Here are some of the ways you can use Claude Code:
   <Accordion title="Work from anywhere" icon="globe">
     Sessions aren't tied to a single surface. Move work between environments as your context changes:
 
+    * Step away from your desk and keep working from your phone or any browser with [Remote Control](remote-control.md)
     * Kick off a long-running task on the [web](claude-code-on-the-web.md) or [iOS app](https://apps.apple.com/app/claude-by-anthropic/id6473753684), then pull it into your terminal with `/teleport`
     * Hand off a terminal session to the [Desktop app](desktop.md) with `/desktop` for visual diff review
     * Route tasks from team chat: mention `@Claude` in [Slack](slack.md) with a bug report and get a pull request back
@@ -199,13 +202,14 @@ Each surface connects to the same underlying Claude Code engine, so your CLAUDE.
 
 Beyond the [Terminal](quickstart.md), [VS Code](vs-code.md), [JetBrains](jetbrains.md), [Desktop](desktop.md), and [Web](claude-code-on-the-web.md) environments above, Claude Code integrates with CI/CD, chat, and browser workflows:
 
-| I want to...                                  | Best option                                                                                                        |
-| --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| Start a task locally, continue on mobile      | [Web](claude-code-on-the-web.md) or [Claude iOS app](https://apps.apple.com/app/claude-by-anthropic/id6473753684) |
-| Automate PR reviews and issue triage          | [GitHub Actions](github-actions.md) or [GitLab CI/CD](gitlab-ci-cd.md)                                           |
-| Route bug reports from Slack to pull requests | [Slack](slack.md)                                                                                                 |
-| Debug live web applications                   | [Chrome](chrome.md)                                                                                               |
-| Build custom agents for your own workflows    | [Agent SDK](https://platform.claude.com/docs/en/agent-sdk/overview)                                                |
+| I want to...                                             | Best option                                                                                                        |
+| -------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| Continue a local session from my phone or another device | [Remote Control](remote-control.md)                                                                               |
+| Start a task locally, continue on mobile                 | [Web](claude-code-on-the-web.md) or [Claude iOS app](https://apps.apple.com/app/claude-by-anthropic/id6473753684) |
+| Automate PR reviews and issue triage                     | [GitHub Actions](github-actions.md) or [GitLab CI/CD](gitlab-ci-cd.md)                                           |
+| Route bug reports from Slack to pull requests            | [Slack](slack.md)                                                                                                 |
+| Debug live web applications                              | [Chrome](chrome.md)                                                                                               |
+| Build custom agents for your own workflows               | [Agent SDK](https://platform.claude.com/docs/en/agent-sdk/overview)                                                |
 
 ## Next steps
 

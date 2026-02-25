@@ -76,12 +76,12 @@ This example creates a skill that teaches Claude to explain code using visual di
 
 Where you store a skill determines who can use it:
 
-| Location   | Path                                                     | Applies to                     |
-| :--------- | :------------------------------------------------------- | :----------------------------- |
-| Enterprise | See [managed settings](permissions.md#managed-settings) | All users in your organization |
-| Personal   | `~/.claude/skills/<skill-name>/SKILL.md`                 | All your projects              |
-| Project    | `.claude/skills/<skill-name>/SKILL.md`                   | This project only              |
-| Plugin     | `<plugin>/skills/<skill-name>/SKILL.md`                  | Where plugin is enabled        |
+| Location   | Path                                                | Applies to                     |
+| :--------- | :-------------------------------------------------- | :----------------------------- |
+| Enterprise | See [managed settings](settings.md#settings-files) | All users in your organization |
+| Personal   | `~/.claude/skills/<skill-name>/SKILL.md`            | All your projects              |
+| Project    | `.claude/skills/<skill-name>/SKILL.md`              | This project only              |
+| Plugin     | `<plugin>/skills/<skill-name>/SKILL.md`             | Where plugin is enabled        |
 
 When skills share the same name across levels, higher-priority locations win: enterprise > personal > project. Plugin skills use a `plugin-name:skill-name` namespace, so they cannot conflict with other levels. If you have files in `.claude/commands/`, those work the same way, but if a skill and a command share the same name, the skill takes precedence.
 
@@ -453,7 +453,7 @@ Skills can be distributed at different scopes depending on your audience:
 
 * **Project skills**: Commit `.claude/skills/` to version control
 * **Plugins**: Create a `skills/` directory in your [plugin](plugins.md)
-* **Managed**: Deploy organization-wide through [managed settings](permissions.md#managed-settings)
+* **Managed**: Deploy organization-wide through [managed settings](settings.md#settings-files)
 
 ### Generate visual output
 

@@ -2,6 +2,63 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-02-25
+
+### Added
+- `remote-control.md` - Continue local sessions from any device with Remote Control
+
+### Modified
+- `authentication.md`
+  - New section: "Log in to Claude Code"
+  - New section: "Set up team authentication"
+  - Removed section: "Authentication methods"
+  - Removed section: "See also"
+- `changelog.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `data-usage.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `how-claude-code-works.md`
+  - New section: "Environments and interfaces"
+- `overview.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `plugins-reference.md`
+  - Content updated
+- `quickstart.md`
+  - Content updated
+- `security.md`
+  - Content updated
+- `server-managed-settings.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `setup.md`
+  - New section: "Install Claude Code"
+  - New section: "Verify your installation"
+  - New section: "Authenticate"
+  - New section: "Advanced installation options"
+  - Removed section: "Installation"
+  - Removed section: "NPM installation (deprecated)"
+  - Removed section: "Windows setup"
+  - Updated section: "Update Claude Code"
+- `skills.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `troubleshooting.md`
+  - New section: "Troubleshoot installation issues"
+  - New section: "Debug installation problems"
+  - New section: "Get more help"
+  - Removed section: "Getting more help"
+  - Updated section: "Permissions and authentication"
+
 ## 2026-02-24
 
 ### Modified
