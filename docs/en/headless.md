@@ -152,20 +152,7 @@ claude -p "Continue that review" --resume "$session_id"
 
 ## Next steps
 
-<CardGroup cols={2}>
-  <Card title="Agent SDK quickstart" icon="play" href="https://platform.claude.com/docs/en/agent-sdk/quickstart">
-    Build your first agent with Python or TypeScript
-  </Card>
-
-  <Card title="CLI reference" icon="terminal" href="cli-reference.md">
-    Explore all CLI flags and options
-  </Card>
-
-  <Card title="GitHub Actions" icon="github" href="github-actions.md">
-    Use the Agent SDK in GitHub workflows
-  </Card>
-
-  <Card title="GitLab CI/CD" icon="gitlab" href="gitlab-ci-cd.md">
-    Use the Agent SDK in GitLab pipelines
-  </Card>
-</CardGroup>
+* [Agent SDK quickstart](https://platform.claude.com/docs/en/agent-sdk/quickstart): build your first agent with Python or TypeScript
+* [CLI reference](cli-reference.md): all CLI flags and options
+* [GitHub Actions](github-actions.md): use the Agent SDK in GitHub workflows
+* [GitLab CI/CD](gitlab-ci-cd.md): use the Agent SDK in GitLab pipelines
