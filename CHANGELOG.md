@@ -2,6 +2,33 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-02-28
+
+### Added
+- `zero-data-retention.md` - Zero data retention
+
+### Modified
+- `analytics.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - New section: "Managing sessions"
+- `data-usage.md`
+  - Content updated
+- `fast-mode.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `legal-and-compliance.md`
+  - Content updated
+- `quickstart.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+
 ## 2026-02-27
 
 ### Modified
