@@ -2,6 +2,55 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-03-01
+
+### Modified
+- `changelog.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `features-overview.md`
+  - Content updated
+- `hooks-guide.md`
+  - New section: "HTTP hooks"
+- `hooks.md`
+  - Content updated
+- `how-claude-code-works.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `memory.md`
+  - New section: "CLAUDE.md vs auto memory"
+  - New section: "CLAUDE.md files"
+  - New section: "View and edit with `/memory`"
+  - New section: "Troubleshoot memory issues"
+  - New section: "Related resources"
+  - Removed section: "Determine memory type"
+  - Removed section: "CLAUDE.md imports"
+  - Removed section: "How Claude looks up memories"
+  - Removed section: "Directly edit memories with `/memory`"
+  - Removed section: "Set up project memory"
+  - Removed section: "Modular rules with `.claude/rules/`"
+  - Removed section: "Organization-level memory management"
+  - Removed section: "Memory best practices"
+  - Updated section: "Auto memory"
+- `overview.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `skills.md`
+  - New section: "Bundled skills"
+- `sub-agents.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+
 ## 2026-02-28
 
 ### Added

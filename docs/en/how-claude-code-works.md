@@ -61,12 +61,15 @@ Each tool use gives Claude new information that informs the next step. This is t
 
 ## What Claude can access
 
+This guide focuses on the terminal. Claude Code also runs in [VS Code](vs-code.md), [JetBrains IDEs](jetbrains.md), and other environments.
+
 When you run `claude` in a directory, Claude Code gains access to:
 
 * **Your project.** Files in your directory and subdirectories, plus files elsewhere with your permission.
 * **Your terminal.** Any command you could run: build tools, git, package managers, system utilities, scripts. If you can do it from the command line, Claude can too.
 * **Your git state.** Current branch, uncommitted changes, and recent commit history.
 * **Your [CLAUDE.md](memory.md).** A markdown file where you store project-specific instructions, conventions, and context that Claude should know every session.
+* **[Auto memory](memory.md#auto-memory).** Learnings Claude saves automatically as you work, like project patterns and your preferences. The first 200 lines of MEMORY.md are loaded at the start of each session.
 * **Extensions you configure.** [MCP servers](mcp.md) for external services, [skills](skills.md) for workflows, [subagents](sub-agents.md) for delegated work, and [Claude in Chrome](chrome.md) for browser interaction.
 
 Because Claude sees your whole project, it can work across it. When you ask Claude to "fix the authentication bug," it searches for relevant files, reads multiple files to understand context, makes coordinated edits across them, runs tests to verify the fix, and commits the changes if you ask. This is different from inline code assistants that only see the current file.
