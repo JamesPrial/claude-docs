@@ -2,6 +2,46 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-03-05
+
+### Modified
+- `changelog.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `common-workflows.md`
+  - Content updated
+- `discover-plugins.md`
+  - New section: "Security"
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `memory.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `plugin-marketplaces.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `server-managed-settings.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `statusline.md`
+  - Content updated
+
 ## 2026-03-04
 
 ### Modified
