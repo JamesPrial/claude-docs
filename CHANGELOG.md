@@ -2,6 +2,30 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-03-06
+
+### Modified
+- `changelog.md`
+  - Content updated
+- `common-workflows.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `how-claude-code-works.md`
+  - Content updated
+- `jetbrains.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `troubleshooting.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+
 ## 2026-03-05
 
 ### Modified
