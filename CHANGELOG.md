@@ -2,6 +2,29 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-03-07
+
+### Added
+- `scheduled-tasks.md` - Run prompts on a schedule
+
+### Modified
+- `changelog.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `desktop-quickstart.md`
+  - Content updated
+- `desktop.md`
+  - New section: "Schedule recurring tasks"
+- `how-claude-code-works.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+
 ## 2026-03-06
 
 ### Modified
