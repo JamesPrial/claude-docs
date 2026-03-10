@@ -207,6 +207,7 @@ Beyond the [Terminal](quickstart.md), [VS Code](vs-code.md), [JetBrains](jetbrai
 | Continue a local session from my phone or another device | [Remote Control](remote-control.md)                                                                               |
 | Start a task locally, continue on mobile                 | [Web](claude-code-on-the-web.md) or [Claude iOS app](https://apps.apple.com/app/claude-by-anthropic/id6473753684) |
 | Automate PR reviews and issue triage                     | [GitHub Actions](github-actions.md) or [GitLab CI/CD](gitlab-ci-cd.md)                                           |
+| Get automatic code review on every PR                    | [GitHub Code Review](code-review.md)                                                                              |
 | Route bug reports from Slack to pull requests            | [Slack](slack.md)                                                                                                 |
 | Debug live web applications                              | [Chrome](chrome.md)                                                                                               |
 | Build custom agents for your own workflows               | [Agent SDK](https://platform.claude.com/docs/en/agent-sdk/overview)                                                |

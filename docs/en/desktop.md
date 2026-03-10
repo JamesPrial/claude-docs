@@ -501,7 +501,7 @@ This table shows the desktop app equivalent for common CLI flags. Flags not list
 
 Desktop and CLI read the same configuration files, so your setup carries over:
 
-* **[CLAUDE.md](memory.md)** and **CLAUDE.local.md** files in your project are used by both
+* **[CLAUDE.md](memory.md)** files in your project are used by both
 * **[MCP servers](mcp.md)** configured in `~/.claude.json` or `.mcp.json` work in both
 * **[Hooks](hooks.md)** and **[skills](skills.md)** defined in settings apply to both
 * **[Settings](settings.md)** in `~/.claude.json` and `~/.claude/settings.json` are shared. Permission rules, allowed tools, and other settings in `settings.json` apply to Desktop sessions.
