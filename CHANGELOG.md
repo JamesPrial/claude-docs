@@ -2,6 +2,38 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-03-11
+
+### Modified
+- `agent-teams.md`
+  - Content updated
+- `best-practices.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `data-usage.md`
+  - Content updated
+- `desktop-quickstart.md`
+  - Content updated
+- `discover-plugins.md`
+  - Content updated
+- `features-overview.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `how-claude-code-works.md`
+  - Content updated
+- `interactive-mode.md`
+  - New section: "Side questions with /btw"
+- `plugins.md`
+  - Content updated
+- `statusline.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+
 ## 2026-03-10
 
 ### Added

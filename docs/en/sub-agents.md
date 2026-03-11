@@ -572,6 +572,8 @@ Use **subagents** when:
 
 Consider [Skills](skills.md) instead when you want reusable prompts or workflows that run in the main conversation context rather than isolated subagent context.
 
+For a quick question about something already in your conversation, use [`/btw`](interactive-mode.md#side-questions-with-btw) instead of a subagent. It sees your full context but has no tool access, and the answer is discarded rather than added to history.
+
 <Note>
   Subagents cannot spawn other subagents. If your workflow requires nested delegation, use [Skills](skills.md) or [chain subagents](#chain-subagents) from the main conversation.
 </Note>
