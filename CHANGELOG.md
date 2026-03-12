@@ -2,6 +2,22 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-03-12
+
+### Modified
+- `amazon-bedrock.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `output-styles.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+
 ## 2026-03-11
 
 ### Modified
