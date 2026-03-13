@@ -2,6 +2,52 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-03-13
+
+### Modified
+- `agent-teams.md`
+  - Content updated
+- `best-practices.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `code-review.md`
+  - Content updated
+- `data-usage.md`
+  - Content updated
+- `fast-mode.md`
+  - Content updated
+- `features-overview.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `how-claude-code-works.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `keybindings.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `memory.md`
+  - Content updated
+- `plugin-marketplaces.md`
+  - Content updated
+- `plugins.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `scheduled-tasks.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+
 ## 2026-03-12
 
 ### Modified
