@@ -310,10 +310,6 @@ This example sends `PreToolUse` events to a local validation service, authentica
 }
 ```
 
-<Note>
-  HTTP hooks must be configured by editing settings JSON directly. The `/hooks` interactive menu only supports adding command hooks.
-</Note>
-
 #### Prompt and agent hook fields
 
 In addition to the [common fields](#common-fields), prompt and agent hooks accept these fields:
@@ -411,20 +407,24 @@ Agents use the same format in their YAML frontmatter.
 
 ### The `/hooks` menu
 
-Type `/hooks` in Claude Code to open the interactive hooks manager, where you can view, add, and delete hooks without editing settings files directly. For a step-by-step walkthrough, see [Set up your first hook](hooks-guide.md#set-up-your-first-hook) in the guide.
+Type `/hooks` in Claude Code to open a read-only browser for your configured hooks. The menu shows every hook event with a count of configured hooks, lets you drill into matchers, and shows the full details of each hook handler. Use it to verify configuration, check which settings file a hook came from, or inspect a hook's command, prompt, or URL.
 
-Each hook in the menu is labeled with a bracket prefix indicating its source:
+The menu displays all four hook types: `command`, `prompt`, `agent`, and `http`. Each hook is labeled with a `[type]` prefix and a source indicating where it was defined:
 
-* `[User]`: from `~/.claude/settings.json`
-* `[Project]`: from `.claude/settings.json`
-* `[Local]`: from `.claude/settings.local.json`
-* `[Plugin]`: from a plugin's `hooks/hooks.json`, read-only
+* `User`: from `~/.claude/settings.json`
+* `Project`: from `.claude/settings.json`
+* `Local`: from `.claude/settings.local.json`
+* `Plugin`: from a plugin's `hooks/hooks.json`
+* `Session`: registered in memory for the current session
+* `Built-in`: registered internally by Claude Code
+
+Selecting a hook opens a detail view showing its event, matcher, type, source file, and the full command, prompt, or URL. The menu is read-only: to add, modify, or remove hooks, edit the settings JSON directly or ask Claude to make the change.
 
 ### Disable or remove hooks
 
-To remove a hook, delete its entry from the settings JSON file, or use the `/hooks` menu and select the hook to delete it.
+To remove a hook, delete its entry from the settings JSON file.
 
-To temporarily disable all hooks without removing them, set `"disableAllHooks": true` in your settings file or use the toggle in the `/hooks` menu. There is no way to disable an individual hook while keeping it in the configuration.
+To temporarily disable all hooks without removing them, set `"disableAllHooks": true` in your settings file. There is no way to disable an individual hook while keeping it in the configuration.
 
 The `disableAllHooks` setting respects the managed settings hierarchy. If an administrator has configured hooks through managed policy settings, `disableAllHooks` set in user, project, or local settings cannot disable those managed hooks. Only `disableAllHooks` set at the managed settings level can disable managed hooks.
 
@@ -924,6 +924,8 @@ Spawns a [subagent](sub-agents.md).
 | `permissionDecisionReason` | For `"allow"` and `"ask"`, shown to the user but not Claude. For `"deny"`, shown to Claude                                                       |
 | `updatedInput`             | Modifies the tool's input parameters before execution. Combine with `"allow"` to auto-approve, or `"ask"` to show the modified input to the user |
 | `additionalContext`        | String added to Claude's context before the tool executes                                                                                        |
+
+When a hook returns `"ask"`, the permission prompt displayed to the user includes a label identifying where the hook came from: for example, `[User]`, `[Project]`, `[Plugin]`, or `[Local]`. This helps users understand which configuration source is requesting confirmation.
 
 ```json  theme={null}
 {
@@ -1765,6 +1767,8 @@ The `timeout` field sets the maximum time in seconds for the background process.
 When an async hook fires, Claude Code starts the hook process and immediately continues without waiting for it to finish. The hook receives the same JSON input via stdin as a synchronous hook.
 
 After the background process exits, if the hook produced a JSON response with a `systemMessage` or `additionalContext` field, that content is delivered to Claude as context on the next conversation turn.
+
+Async hook completion notifications are suppressed by default. To see them, enable verbose mode with `Ctrl+O` or start Claude Code with `--verbose`.
 
 ### Example: run tests after file changes
 
