@@ -561,8 +561,14 @@ Sessions are stored per project directory. The `/resume` picker shows sessions f
 Give sessions descriptive names to find them later. This is a best practice when working on multiple tasks or features.
 
 <Steps>
-  <Step title="Name the current session">
-    Use `/rename` during a session to give it a memorable name:
+  <Step title="Name the session">
+    Name a session at startup with `-n`:
+
+    ```bash  theme={null}
+    claude -n auth-refactor
+    ```
+
+    Or use `/rename` during a session, which also shows the name on the prompt bar:
 
     ```text  theme={null}
     /rename auth-refactor

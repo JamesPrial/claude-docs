@@ -302,6 +302,9 @@ Hook events fire at specific lifecycle points in Claude Code. When an event fire
 | `WorktreeCreate`     | When a worktree is being created via `--worktree` or `isolation: "worktree"`. Replaces default git behavior                                    |
 | `WorktreeRemove`     | When a worktree is being removed, either at session exit or when a subagent finishes                                                           |
 | `PreCompact`         | Before context compaction                                                                                                                      |
+| `PostCompact`        | After context compaction completes                                                                                                             |
+| `Elicitation`        | When an MCP server requests user input during a tool call                                                                                      |
+| `ElicitationResult`  | After a user responds to an MCP elicitation, before the response is sent back to the server                                                    |
 | `SessionEnd`         | When a session terminates                                                                                                                      |
 
 Each hook has a `type` that determines how it runs. Most hooks use `"type": "command"`, which runs a shell command. Three other types are available:

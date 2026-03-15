@@ -2,6 +2,30 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-03-15
+
+### Modified
+- `changelog.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `common-workflows.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `mcp.md`
+  - New section: "Respond to MCP elicitation requests"
+- `overview.md`
+  - Content updated
+- `quickstart.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+
 ## 2026-03-14
 
 ### Added
