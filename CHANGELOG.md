@@ -2,6 +2,40 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-03-17
+
+### Modified
+- `changelog.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `data-usage.md`
+  - Content updated
+- `discover-plugins.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `fast-mode.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `plugin-marketplaces.md`
+  - Content updated
+- `plugins.md`
+  - Content updated
+- `server-managed-settings.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `statusline.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+
 ## 2026-03-15
 
 ### Modified
