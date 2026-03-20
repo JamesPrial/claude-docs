@@ -2,6 +2,70 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-03-20
+
+### Added
+- `channels-reference.md` - Channels reference
+- `channels.md` - Push events into a running session with channels
+
+### Modified
+- `authentication.md`
+  - Content updated
+- `best-practices.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `code-review.md`
+  - Content updated
+- `data-usage.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `discover-plugins.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `model-config.md`
+  - New section: "Add a custom model option"
+- `overview.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `plugin-marketplaces.md`
+  - Content updated
+- `plugins-reference.md`
+  - Content updated
+- `plugins.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `scheduled-tasks.md`
+  - Content updated
+- `security.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `statusline.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `terminal-config.md`
+  - Content updated
+- `troubleshooting.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+
 ## 2026-03-18
 
 ### Added

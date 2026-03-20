@@ -157,7 +157,7 @@ Each plugin entry needs at minimum a `name` and `source` (where to fetch it from
 | `plugins` | array  | List of available plugins                                                                                                                                              | See below      |
 
 <Note>
-  **Reserved names**: The following marketplace names are reserved for official Anthropic use and cannot be used by third-party marketplaces: `claude-code-marketplace`, `claude-code-plugins`, `claude-plugins-official`, `anthropic-marketplace`, `anthropic-plugins`, `agent-skills`, `life-sciences`. Names that impersonate official marketplaces (like `official-claude-plugins` or `anthropic-tools-v2`) are also blocked.
+  **Reserved names**: The following marketplace names are reserved for official Anthropic use and cannot be used by third-party marketplaces: `claude-code-marketplace`, `claude-code-plugins`, `claude-plugins-official`, `anthropic-marketplace`, `anthropic-plugins`, `agent-skills`, `knowledge-work-plugins`, `life-sciences`. Names that impersonate official marketplaces (like `official-claude-plugins` or `anthropic-tools-v2`) are also blocked.
 </Note>
 
 ### Owner fields
@@ -221,7 +221,7 @@ Once a plugin is cloned or copied into the local machine, it is copied into the 
 
 | Source        | Type                            | Fields                             | Notes                                                                               |
 | ------------- | ------------------------------- | ---------------------------------- | ----------------------------------------------------------------------------------- |
-| Relative path | `string` (e.g. `"./my-plugin"`) | —                                  | Local directory within the marketplace repo. Must start with `./`                   |
+| Relative path | `string` (e.g. `"./my-plugin"`) | none                               | Local directory within the marketplace repo. Must start with `./`                   |
 | `github`      | object                          | `repo`, `ref?`, `sha?`             |                                                                                     |
 | `url`         | object                          | `url`, `ref?`, `sha?`              | Git URL source                                                                      |
 | `git-subdir`  | object                          | `url`, `path`, `ref?`, `sha?`      | Subdirectory within a git repo. Clones sparsely to minimize bandwidth for monorepos |
@@ -561,6 +561,8 @@ For full configuration options, see [Plugin settings](settings.md#plugin-setting
 ### Pre-populate plugins for containers
 
 For container images and CI environments, you can pre-populate a plugins directory at build time so Claude Code starts with marketplaces and plugins already available, without cloning anything at runtime. Set the `CLAUDE_CODE_PLUGIN_SEED_DIR` environment variable to point at this directory.
+
+To layer multiple seed directories, separate paths with `:` on Unix or `;` on Windows. Claude Code searches each directory in order, and the first seed that contains a given marketplace or plugin cache wins.
 
 The seed directory mirrors the structure of `~/.claude/plugins`:
 
