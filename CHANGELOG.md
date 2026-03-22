@@ -2,6 +2,24 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-03-22
+
+### Modified
+- `channels.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `github-actions.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `plugins-reference.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `terminal-config.md`
+  - Content updated
+
 ## 2026-03-21
 
 ### Modified
