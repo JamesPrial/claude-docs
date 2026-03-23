@@ -2,6 +2,30 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-03-23
+
+### Modified
+- `channels-reference.md`
+  - New section: "Relay permission prompts"
+- `channels.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `headless.md`
+  - Content updated
+- `how-claude-code-works.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+
 ## 2026-03-22
 
 ### Modified
