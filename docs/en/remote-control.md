@@ -168,10 +168,23 @@ Common causes:
 * Network or proxy issue: a firewall or proxy may be blocking the outbound HTTPS request. Remote Control requires access to the Anthropic API on port 443.
 * Session creation failed: if you also see `Session creation failed — see debug log`, the failure happened earlier in setup. Check that your subscription is active.
 
+## Choose the right approach
+
+Claude Code offers several ways to work when you're not at your terminal. They differ in what triggers the work, where Claude runs, and how much you need to set up.
+
+|                                                | Trigger                                                                                        | Claude runs on                                                                                                   | Setup                                                                                                                                | Best for                                                      |
+| :--------------------------------------------- | :--------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------ |
+| [Dispatch](desktop.md#sessions-from-dispatch) | Message a task from the Claude mobile app                                                      | Your machine (Desktop)                                                                                           | [Pair the mobile app with Desktop](https://support.claude.com/en/articles/13947068)                                                  | Delegating work while you're away, minimal setup              |
+| [Remote Control](remote-control.md)           | Drive a running session from [claude.ai/code](https://claude.ai/code) or the Claude mobile app | Your machine (CLI or VS Code)                                                                                    | Run `claude remote-control`                                                                                                          | Steering in-progress work from another device                 |
+| [Channels](channels.md)                       | Push events from a chat app like Telegram or Discord, or your own server                       | Your machine (CLI)                                                                                               | [Install a channel plugin](channels.md#quickstart) or [build your own](channels-reference.md)                                      | Reacting to external events like CI failures or chat messages |
+| [Slack](slack.md)                             | Mention `@Claude` in a team channel                                                            | Anthropic cloud                                                                                                  | [Install the Slack app](slack.md#setting-up-claude-code-in-slack) with [Claude Code on the web](claude-code-on-the-web.md) enabled | PRs and reviews from team chat                                |
+| [Scheduled tasks](scheduled-tasks.md)         | Set a schedule                                                                                 | [CLI](scheduled-tasks.md), [Desktop](desktop.md#schedule-recurring-tasks), or [cloud](web-scheduled-tasks.md) | Pick a frequency                                                                                                                     | Recurring automation like daily reviews                       |
+
 ## Related resources
 
 * [Claude Code on the web](claude-code-on-the-web.md): run sessions in Anthropic-managed cloud environments instead of on your machine
 * [Channels](channels.md): forward Telegram or Discord into a session so Claude reacts to messages while you're away
+* [Dispatch](desktop.md#sessions-from-dispatch): message a task from your phone and it can spawn a Desktop session to handle it
 * [Authentication](authentication.md): set up `/login` and manage credentials for claude.ai
 * [CLI reference](cli-reference.md): full list of flags and commands including `claude remote-control`
 * [Security](security.md): how Remote Control sessions fit into the Claude Code security model

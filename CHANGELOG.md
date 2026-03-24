@@ -2,6 +2,32 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-03-24
+
+### Added
+- `platforms.md` - Platforms and integrations
+- `web-scheduled-tasks.md` - Schedule tasks on the web
+
+### Modified
+- `claude-code-on-the-web.md`
+  - New section: "Schedule recurring tasks"
+- `commands.md`
+  - Content updated
+- `common-workflows.md`
+  - New section: "Run Claude on a schedule"
+- `desktop.md`
+  - New section: "Let Claude use your computer"
+- `overview.md`
+  - Content updated
+- `plugin-marketplaces.md`
+  - Content updated
+- `remote-control.md`
+  - New section: "Choose the right approach"
+- `sandboxing.md`
+  - New section: "What sandboxing does not cover"
+- `scheduled-tasks.md`
+  - New section: "Compare scheduling options"
+
 ## 2026-03-23
 
 ### Modified

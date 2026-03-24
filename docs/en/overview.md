@@ -22,19 +22,19 @@ Choose your environment to get started. Most surfaces require a [Claude subscrip
       <Tab title="Native Install (Recommended)">
         **macOS, Linux, WSL:**
 
-        ```bash theme={null} theme={null} theme={null} theme={null} theme={null} theme={null} theme={null} theme={null}
+        ```bash  theme={null}
         curl -fsSL https://claude.ai/install.sh | bash
         ```
 
         **Windows PowerShell:**
 
-        ```powershell theme={null} theme={null} theme={null} theme={null} theme={null} theme={null} theme={null} theme={null}
+        ```powershell  theme={null}
         irm https://claude.ai/install.ps1 | iex
         ```
 
         **Windows CMD:**
 
-        ```batch theme={null} theme={null} theme={null} theme={null} theme={null} theme={null} theme={null} theme={null}
+        ```batch  theme={null}
         curl -fsSL https://claude.ai/install.cmd -o install.cmd && install.cmd && del install.cmd
         ```
 
@@ -46,7 +46,7 @@ Choose your environment to get started. Most surfaces require a [Claude subscrip
       </Tab>
 
       <Tab title="Homebrew">
-        ```bash theme={null} theme={null} theme={null} theme={null} theme={null} theme={null} theme={null} theme={null}
+        ```bash  theme={null}
         brew install --cask claude-code
         ```
 
@@ -56,7 +56,7 @@ Choose your environment to get started. Most surfaces require a [Claude subscrip
       </Tab>
 
       <Tab title="WinGet">
-        ```powershell theme={null} theme={null} theme={null} theme={null} theme={null} theme={null} theme={null} theme={null}
+        ```powershell  theme={null}
         winget install Anthropic.ClaudeCode
         ```
 
@@ -186,10 +186,19 @@ Here are some of the ways you can use Claude Code:
     See the [CLI reference](cli-reference.md) for the full set of commands and flags.
   </Accordion>
 
+  <Accordion title="Schedule recurring tasks" icon="clock">
+    Run Claude on a schedule to automate work that repeats: morning PR reviews, overnight CI failure analysis, weekly dependency audits, or syncing docs after PRs merge.
+
+    * [Cloud scheduled tasks](web-scheduled-tasks.md) run on Anthropic-managed infrastructure, so they keep running even when your computer is off. Create them from the web, the Desktop app, or by running `/schedule` in the CLI.
+    * [Desktop scheduled tasks](desktop.md#schedule-recurring-tasks) run on your machine, with direct access to your local files and tools
+    * [`/loop`](scheduled-tasks.md) repeats a prompt within a CLI session for quick polling
+  </Accordion>
+
   <Accordion title="Work from anywhere" icon="globe">
     Sessions aren't tied to a single surface. Move work between environments as your context changes:
 
     * Step away from your desk and keep working from your phone or any browser with [Remote Control](remote-control.md)
+    * Message [Dispatch](desktop.md#sessions-from-dispatch) a task from your phone and open the Desktop session it creates
     * Kick off a long-running task on the [web](claude-code-on-the-web.md) or [iOS app](https://apps.apple.com/app/claude-by-anthropic/id6473753684), then pull it into your terminal with `/teleport`
     * Hand off a terminal session to the [Desktop app](desktop.md) with `/desktop` for visual diff review
     * Route tasks from team chat: mention `@Claude` in [Slack](slack.md) with a bug report and get a pull request back
@@ -202,16 +211,17 @@ Each surface connects to the same underlying Claude Code engine, so your CLAUDE.
 
 Beyond the [Terminal](quickstart.md), [VS Code](vs-code.md), [JetBrains](jetbrains.md), [Desktop](desktop.md), and [Web](claude-code-on-the-web.md) environments above, Claude Code integrates with CI/CD, chat, and browser workflows:
 
-| I want to...                                                          | Best option                                                                                                        |
-| --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| Continue a local session from my phone or another device              | [Remote Control](remote-control.md)                                                                               |
-| Push events from Telegram, Discord, or my own webhooks into a session | [Channels](channels.md)                                                                                           |
-| Start a task locally, continue on mobile                              | [Web](claude-code-on-the-web.md) or [Claude iOS app](https://apps.apple.com/app/claude-by-anthropic/id6473753684) |
-| Automate PR reviews and issue triage                                  | [GitHub Actions](github-actions.md) or [GitLab CI/CD](gitlab-ci-cd.md)                                           |
-| Get automatic code review on every PR                                 | [GitHub Code Review](code-review.md)                                                                              |
-| Route bug reports from Slack to pull requests                         | [Slack](slack.md)                                                                                                 |
-| Debug live web applications                                           | [Chrome](chrome.md)                                                                                               |
-| Build custom agents for your own workflows                            | [Agent SDK](https://platform.claude.com/docs/en/agent-sdk/overview)                                                |
+| I want to...                                                          | Best option                                                                                                         |
+| --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| Continue a local session from my phone or another device              | [Remote Control](remote-control.md)                                                                                |
+| Push events from Telegram, Discord, or my own webhooks into a session | [Channels](channels.md)                                                                                            |
+| Start a task locally, continue on mobile                              | [Web](claude-code-on-the-web.md) or [Claude iOS app](https://apps.apple.com/app/claude-by-anthropic/id6473753684)  |
+| Run Claude on a recurring schedule                                    | [Cloud scheduled tasks](web-scheduled-tasks.md) or [Desktop scheduled tasks](desktop.md#schedule-recurring-tasks) |
+| Automate PR reviews and issue triage                                  | [GitHub Actions](github-actions.md) or [GitLab CI/CD](gitlab-ci-cd.md)                                            |
+| Get automatic code review on every PR                                 | [GitHub Code Review](code-review.md)                                                                               |
+| Route bug reports from Slack to pull requests                         | [Slack](slack.md)                                                                                                  |
+| Debug live web applications                                           | [Chrome](chrome.md)                                                                                                |
+| Build custom agents for your own workflows                            | [Agent SDK](https://platform.claude.com/docs/en/agent-sdk/overview)                                                 |
 
 ## Next steps
 
