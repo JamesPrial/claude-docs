@@ -2,6 +2,47 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-03-25
+
+### Added
+- `permission-modes.md` - Choose a permission mode
+
+### Modified
+- `best-practices.md`
+  - Content updated
+- `channels-reference.md`
+  - Content updated
+- `channels.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `how-claude-code-works.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `llm-gateway.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `permissions.md`
+  - New section: "Configure the auto mode classifier"
+- `remote-control.md`
+  - Content updated
+- `server-managed-settings.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+
 ## 2026-03-24
 
 ### Added
