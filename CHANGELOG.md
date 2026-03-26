@@ -2,6 +2,56 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-03-26
+
+### Modified
+- `changelog.md`
+  - Content updated
+- `channels-reference.md`
+  - Content updated
+- `channels.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `features-overview.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - New section: "Windows PowerShell tool"
+- `interactive-mode.md`
+  - Content updated
+- `keybindings.md`
+  - Content updated
+- `memory.md`
+  - New section: "Claude Code"
+- `model-config.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `plugins-reference.md`
+  - Content updated
+- `quickstart.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `setup.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `tools-reference.md`
+  - New section: "PowerShell tool"
+- `vs-code.md`
+  - Content updated
+
 ## 2026-03-25
 
 ### Added
