@@ -2,6 +2,62 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-03-27
+
+### Added
+- `claude-directory.md` - Explore the .claude directory
+- `context-window.md` - Explore the context window
+
+### Modified
+- `agent-teams.md`
+  - Content updated
+- `best-practices.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - New section: "Auto-fix pull requests"
+- `cli-reference.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `common-workflows.md`
+  - Content updated
+- `costs.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `features-overview.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `how-claude-code-works.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `keybindings.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `memory.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `plugins-reference.md`
+  - Content updated
+- `plugins.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `setup.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+
 ## 2026-03-26
 
 ### Modified
