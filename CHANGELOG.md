@@ -2,6 +2,36 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-03-28
+
+### Modified
+- `agent-teams.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `claude-directory.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `code-review.md`
+  - Content updated
+- `common-workflows.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+
 ## 2026-03-27
 
 ### Added
