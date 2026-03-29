@@ -2,6 +2,22 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-03-29
+
+### Modified
+- `data-usage.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `keybindings.md`
+  - Content updated
+- `llm-gateway.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+
 ## 2026-03-28
 
 ### Modified
