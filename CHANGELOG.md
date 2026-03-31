@@ -2,6 +2,55 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-03-31
+
+### Added
+- `computer-use.md` - Let Claude use your computer from the CLI
+- `fullscreen.md` - Fullscreen rendering
+- `github-enterprise-server.md` - Claude Code with GitHub Enterprise Server
+
+### Modified
+- `changelog.md`
+  - Content updated
+- `chrome.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `code-review.md`
+  - New section: "Troubleshooting"
+- `desktop.md`
+  - Content updated
+- `devcontainer.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `network-config.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `platforms.md`
+  - Content updated
+- `plugin-marketplaces.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `terminal-config.md`
+  - Content updated
+- `voice-dictation.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+- `web-scheduled-tasks.md`
+  - Content updated
+
 ## 2026-03-29
 
 ### Modified
