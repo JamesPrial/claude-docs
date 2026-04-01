@@ -2,6 +2,57 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-04-01
+
+### Modified
+- `agent-teams.md`
+  - Content updated
+- `amazon-bedrock.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `costs.md`
+  - Content updated
+- `discover-plugins.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `features-overview.md`
+  - Content updated
+- `google-vertex-ai.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `memory.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `server-managed-settings.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `terminal-config.md`
+  - Content updated
+- `tools-reference.md`
+  - New section: "LSP tool behavior"
+  - New section: "Check which tools are available"
+
 ## 2026-03-31
 
 ### Added
