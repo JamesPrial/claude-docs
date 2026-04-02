@@ -2,6 +2,48 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-04-02
+
+### Modified
+- `changelog.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `common-workflows.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `fullscreen.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `network-config.md`
+  - Content updated
+- `output-styles.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `permissions.md`
+  - New section: "Review auto mode denials"
+- `plugin-marketplaces.md`
+  - Content updated
+- `plugins-reference.md`
+  - Content updated
+- `quickstart.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `setup.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+
 ## 2026-04-01
 
 ### Modified
