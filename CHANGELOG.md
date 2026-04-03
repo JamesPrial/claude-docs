@@ -2,6 +2,105 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-04-03
+
+### Modified
+- `amazon-bedrock.md`
+  - New section: "1M token context window"
+- `analytics.md`
+  - New section: "Access analytics for Team and Enterprise"
+  - Removed section: "Access analytics for Teams and Enterprise"
+- `best-practices.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `chrome.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `claude-directory.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `code-review.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `common-workflows.md`
+  - Content updated
+- `computer-use.md`
+  - Content updated
+- `desktop-quickstart.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `discover-plugins.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `fast-mode.md`
+  - Content updated
+- `fullscreen.md`
+  - Content updated
+- `github-actions.md`
+  - Content updated
+- `github-enterprise-server.md`
+  - Content updated
+- `google-vertex-ai.md`
+  - Content updated
+- `how-claude-code-works.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `keybindings.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `memory.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `network-config.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `platforms.md`
+  - Content updated
+- `plugin-marketplaces.md`
+  - New section: "Manage marketplaces from the CLI"
+- `plugins-reference.md`
+  - Content updated
+- `plugins.md`
+  - Content updated
+- `quickstart.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `scheduled-tasks.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `setup.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `slack.md`
+  - Content updated
+- `statusline.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `troubleshooting.md`
+  - Content updated
+
 ## 2026-04-02
 
 ### Modified
