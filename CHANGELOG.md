@@ -2,6 +2,56 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-04-04
+
+### Added
+- `desktop-scheduled-tasks.md` - Schedule recurring tasks in Claude Code Desktop
+- `ultraplan.md` - Plan in the cloud with ultraplan
+
+### Modified
+- `agent-teams.md`
+  - Content updated
+- `amazon-bedrock.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `common-workflows.md`
+  - Content updated
+- `desktop-quickstart.md`
+  - Content updated
+- `desktop.md`
+  - Removed section: "Schedule recurring tasks"
+- `env-vars.md`
+  - Content updated
+- `headless.md`
+  - Content updated
+- `legal-and-compliance.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `permission-modes.md`
+  - New section: "Auto-approve file edits with acceptEdits mode"
+  - New section: "Protected paths"
+  - Removed section: "Compare permission approaches"
+  - Removed section: "Customize permissions further"
+  - Updated section: "Available modes"
+- `platforms.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `scheduled-tasks.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+- `web-scheduled-tasks.md`
+  - Content updated
+
 ## 2026-04-03
 
 ### Modified
