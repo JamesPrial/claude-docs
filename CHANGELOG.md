@@ -2,6 +2,45 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-04-05
+
+### Added
+- `2026-w13.md` - Week 13 · March 23–27, 2026
+- `2026-w14.md` - Week 14 · March 30 – April 3, 2026
+- `index.md` - What's new
+
+### Modified
+- `amazon-bedrock.md`
+  - New section: "Set up with the interactive wizard"
+- `cli-reference.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `data-usage.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `keybindings.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `server-managed-settings.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `skills.md`
+  - New section: "Environment"
+- `terminal-config.md`
+  - Content updated
+- `troubleshooting.md`
+  - Content updated
+
 ## 2026-04-04
 
 ### Added
