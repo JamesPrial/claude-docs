@@ -2,6 +2,50 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-04-08
+
+### Modified
+- `amazon-bedrock.md`
+  - New section: "Use the Mantle endpoint"
+- `changelog.md`
+  - Content updated
+- `claude-directory.md`
+  - New section: "Application data"
+- `code-review.md`
+  - Content updated
+- `common-workflows.md`
+  - Content updated
+- `context-window.md`
+  - Content updated
+- `data-usage.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `how-claude-code-works.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `keybindings.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `output-styles.md`
+  - Content updated
+- `plugins-reference.md`
+  - Content updated
+- `plugins.md`
+  - Content updated
+- `troubleshooting.md`
+  - Content updated
+- `ultraplan.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+
 ## 2026-04-05
 
 ### Added
