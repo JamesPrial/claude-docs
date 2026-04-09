@@ -6,7 +6,7 @@
 
 > Use the Agent SDK to run Claude Code programmatically from the CLI, Python, or TypeScript.
 
-The [Agent SDK](https://platform.claude.com/docs/en/agent-sdk/overview) gives you the same tools, agent loop, and context management that power Claude Code. It's available as a CLI for scripts and CI/CD, or as [Python](https://platform.claude.com/docs/en/agent-sdk/python) and [TypeScript](https://platform.claude.com/docs/en/agent-sdk/typescript) packages for full programmatic control.
+The [Agent SDK](agent-sdk/overview.md) gives you the same tools, agent loop, and context management that power Claude Code. It's available as a CLI for scripts and CI/CD, or as [Python](agent-sdk/python.md) and [TypeScript](agent-sdk/typescript.md) packages for full programmatic control.
 
 <Note>
   The CLI was previously called "headless mode." The `-p` flag and all CLI options work the same way.
@@ -18,7 +18,7 @@ To run Claude Code programmatically from the CLI, pass `-p` with your prompt and
 claude -p "Find and fix the bug in auth.py" --allowedTools "Read,Edit,Bash"
 ```
 
-This page covers using the Agent SDK via the CLI (`claude -p`). For the Python and TypeScript SDK packages with structured outputs, tool approval callbacks, and native message objects, see the [full Agent SDK documentation](https://platform.claude.com/docs/en/agent-sdk/overview).
+This page covers using the Agent SDK via the CLI (`claude -p`). For the Python and TypeScript SDK packages with structured outputs, tool approval callbacks, and native message objects, see the [full Agent SDK documentation](agent-sdk/overview.md).
 
 ## Basic usage
 
@@ -134,7 +134,7 @@ When an API request fails with a retryable error, Claude Code emits a `system/ap
 | `uuid`           | string          | unique event identifier                                                                                                                      |
 | `session_id`     | string          | session the event belongs to                                                                                                                 |
 
-For programmatic streaming with callbacks and message objects, see [Stream responses in real-time](https://platform.claude.com/docs/en/agent-sdk/streaming-output) in the Agent SDK documentation.
+For programmatic streaming with callbacks and message objects, see [Stream responses in real-time](agent-sdk/streaming-output.md) in the Agent SDK documentation.
 
 ### Auto-approve tools
 
@@ -200,7 +200,7 @@ claude -p "Continue that review" --resume "$session_id"
 
 ## Next steps
 
-* [Agent SDK quickstart](https://platform.claude.com/docs/en/agent-sdk/quickstart): build your first agent with Python or TypeScript
+* [Agent SDK quickstart](agent-sdk/quickstart.md): build your first agent with Python or TypeScript
 * [CLI reference](cli-reference.md): all CLI flags and options
 * [GitHub Actions](github-actions.md): use the Agent SDK in GitHub workflows
 * [GitLab CI/CD](gitlab-ci-cd.md): use the Agent SDK in GitLab pipelines

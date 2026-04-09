@@ -2,6 +2,118 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-04-09
+
+### Added
+- `agent-loop.md` - How the agent loop works
+- `claude-code-features.md` - Use Claude Code features in the SDK
+- `cost-tracking.md` - Track cost and usage
+- `custom-tools.md` - Give Claude custom tools
+- `file-checkpointing.md` - Rewind file changes with checkpointing
+- `hooks.md` - Intercept and control agent behavior with hooks
+- `hosting.md` - Hosting the Agent SDK
+- `mcp.md` - Connect to external tools with MCP
+- `migration-guide.md` - Migrate to Claude Agent SDK
+- `modifying-system-prompts.md` - Modifying system prompts
+- `observability.md` - Observability with OpenTelemetry
+- `overview.md` - Agent SDK overview
+- `permissions.md` - Configure permissions
+- `plugins.md` - Plugins in the SDK
+- `python.md` - Agent SDK reference - Python
+- `quickstart.md` - Quickstart
+- `secure-deployment.md` - Securely deploying AI agents
+- `sessions.md` - Work with sessions
+- `skills.md` - Agent Skills in the SDK
+- `slash-commands.md` - Slash Commands in the SDK
+- `streaming-output.md` - Stream responses in real-time
+- `streaming-vs-single-mode.md` - Streaming Input
+- `structured-outputs.md` - Get structured output from agents
+- `subagents.md` - Subagents in the SDK
+- `todo-tracking.md` - Todo Lists
+- `tool-search.md` - Scale to many tools with tool search
+- `typescript-v2-preview.md` - TypeScript SDK V2 interface (preview)
+- `typescript.md` - Agent SDK reference - TypeScript
+- `user-input.md` - Handle approvals and user input
+- `web-quickstart.md` - Get started with Claude Code on the web
+
+### Modified
+- `authentication.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - New section: "GitHub authentication options"
+  - New section: "The cloud environment"
+  - New section: "Setup scripts"
+  - New section: "Network access"
+  - New section: "Move tasks between web and terminal"
+  - New section: "Work with sessions"
+  - Removed section: "What is Claude Code on the web?"
+  - Removed section: "Who can use Claude Code on the web?"
+  - Removed section: "Getting started"
+  - Removed section: "How it works"
+  - Removed section: "Review changes with diff view"
+  - Removed section: "Moving tasks between web and terminal"
+  - Removed section: "Schedule recurring tasks"
+  - Removed section: "Managing sessions"
+  - Removed section: "Cloud environment"
+  - Removed section: "Network access and security"
+  - Removed section: "Pricing and rate limits"
+  - Removed section: "Best practices"
+  - Updated section: "Auto-fix pull requests"
+  - Updated section: "Security and isolation"
+  - Updated section: "Limitations"
+- `claude-directory.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `data-usage.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `devcontainer.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `fast-mode.md`
+  - Content updated
+- `github-actions.md`
+  - Content updated
+- `github-enterprise-server.md`
+  - Content updated
+- `gitlab-ci-cd.md`
+  - Content updated
+- `headless.md`
+  - Content updated
+- `how-claude-code-works.md`
+  - Content updated
+- `legal-and-compliance.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `platforms.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `setup.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `slack.md`
+  - Content updated
+- `statusline.md`
+  - Content updated
+- `troubleshooting.md`
+  - Content updated
+- `ultraplan.md`
+  - Content updated
+- `web-scheduled-tasks.md`
+  - Content updated
+
 ## 2026-04-08
 
 ### Modified

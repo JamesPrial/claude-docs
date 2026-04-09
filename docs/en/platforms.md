@@ -4,7 +4,7 @@
 
 # Platforms and integrations
 
-> Choose where to run Claude Code and what to connect it to. Compare the CLI, Desktop, VS Code, JetBrains, web, and integrations like Chrome, Slack, and CI/CD.
+> Choose where to run Claude Code and what to connect it to. Compare the CLI, Desktop, VS Code, JetBrains, web, mobile, and integrations like Chrome, Slack, and CI/CD.
 
 Claude Code runs the same underlying engine everywhere, but each surface is tuned for a different way of working. This page helps you pick the right platform for your workflow and connect the tools you already use.
 
@@ -12,15 +12,16 @@ Claude Code runs the same underlying engine everywhere, but each surface is tune
 
 Choose a platform based on how you like to work and where your project lives.
 
-| Platform                          | Best for                                                                                           | What you get                                                                                                                                         |
-| :-------------------------------- | :------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [CLI](quickstart.md)             | Terminal workflows, scripting, remote servers                                                      | Full feature set, [Agent SDK](headless.md), [computer use](computer-use.md) on macOS (Pro and Max), third-party providers                          |
-| [Desktop](desktop.md)            | Visual review, parallel sessions, managed setup                                                    | Diff viewer, app preview, [computer use](desktop.md#let-claude-use-your-computer) and [Dispatch](desktop.md#sessions-from-dispatch) on Pro and Max |
-| [VS Code](vs-code.md)            | Working inside VS Code without switching to a terminal                                             | Inline diffs, integrated terminal, file context                                                                                                      |
-| [JetBrains](jetbrains.md)        | Working inside IntelliJ, PyCharm, WebStorm, or other JetBrains IDEs                                | Diff viewer, selection sharing, terminal session                                                                                                     |
-| [Web](claude-code-on-the-web.md) | Long-running tasks that don't need much steering, or work that should continue when you're offline | Anthropic-managed cloud, continues after you disconnect                                                                                              |
+| Platform                          | Best for                                                                                           | What you get                                                                                                                                                                              |
+| :-------------------------------- | :------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [CLI](quickstart.md)             | Terminal workflows, scripting, remote servers                                                      | Full feature set, [Agent SDK](headless.md), [computer use](computer-use.md) on macOS (Pro and Max), third-party providers                                                               |
+| [Desktop](desktop.md)            | Visual review, parallel sessions, managed setup                                                    | Diff viewer, app preview, [computer use](desktop.md#let-claude-use-your-computer) and [Dispatch](desktop.md#sessions-from-dispatch) on Pro and Max                                      |
+| [VS Code](vs-code.md)            | Working inside VS Code without switching to a terminal                                             | Inline diffs, integrated terminal, file context                                                                                                                                           |
+| [JetBrains](jetbrains.md)        | Working inside IntelliJ, PyCharm, WebStorm, or other JetBrains IDEs                                | Diff viewer, selection sharing, terminal session                                                                                                                                          |
+| [Web](claude-code-on-the-web.md) | Long-running tasks that don't need much steering, or work that should continue when you're offline | Anthropic-managed cloud, continues after you disconnect                                                                                                                                   |
+| Mobile                            | Starting and monitoring tasks while away from your computer                                        | Cloud sessions from the Claude app for iOS and Android, [Remote Control](remote-control.md) for local sessions, [Dispatch](desktop.md#sessions-from-dispatch) to Desktop on Pro and Max |
 
-The CLI is the most complete surface for terminal-native work: scripting, third-party providers, and the Agent SDK are CLI-only. Desktop and the IDE extensions trade some CLI-only features for visual review and tighter editor integration. The web runs in Anthropic's cloud, so tasks keep going after you disconnect.
+The CLI is the most complete surface for terminal-native work: scripting, third-party providers, and the Agent SDK are CLI-only. Desktop and the IDE extensions trade some CLI-only features for visual review and tighter editor integration. The web runs in Anthropic's cloud, so tasks keep going after you disconnect. Mobile is a thin client into those same cloud sessions or into a local session via Remote Control, and can send tasks to Desktop with Dispatch.
 
 You can mix surfaces on the same project. Configuration, project memory, and MCP servers are shared across the local surfaces.
 
@@ -61,6 +62,7 @@ If you're not sure where to start, [install the CLI](quickstart.md) and run it i
 * [VS Code](vs-code.md): the Claude Code extension inside your editor
 * [JetBrains](jetbrains.md): the extension for IntelliJ, PyCharm, and other JetBrains IDEs
 * [Claude Code on the web](claude-code-on-the-web.md): cloud sessions that keep running when you disconnect
+* Mobile: the Claude app for [iOS](https://apps.apple.com/us/app/claude-by-anthropic/id6473753684) and [Android](https://play.google.com/store/apps/details?id=com.anthropic.claude) for starting and monitoring tasks while away from your computer
 
 ### Integrations
 
