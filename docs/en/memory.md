@@ -414,5 +414,4 @@ See [Write effective instructions](#write-effective-instructions) for guidance o
 
 * [Skills](skills.md): package repeatable workflows that load on demand
 * [Settings](settings.md): configure Claude Code behavior with settings files
-* [Manage sessions](sessions.md): manage context, resume conversations, and run parallel sessions
 * [Subagent memory](sub-agents.md#enable-persistent-memory): let subagents maintain their own auto memory

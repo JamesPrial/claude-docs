@@ -2,6 +2,71 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-04-11
+
+### Modified
+- `overview.md`
+  - Content updated
+- `python.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `amazon-bedrock.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `computer-use.md`
+  - Content updated
+- `costs.md`
+  - Content updated
+- `discover-plugins.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `google-vertex-ai.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `memory.md`
+  - Content updated
+- `microsoft-foundry.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `network-config.md`
+  - New section: "CA certificate store"
+- `overview.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `quickstart.md`
+  - Content updated
+- `scheduled-tasks.md`
+  - New section: "Run a prompt repeatedly with /loop"
+  - Removed section: "Schedule a recurring prompt with /loop"
+- `server-managed-settings.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `setup.md`
+  - Content updated
+- `statusline.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `third-party-integrations.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `troubleshooting.md`
+  - Content updated
+
 ## 2026-04-10
 
 ### Modified
