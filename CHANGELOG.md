@@ -2,6 +2,63 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-04-16
+
+### Modified
+- `cost-tracking.md`
+  - Content updated
+- `modifying-system-prompts.md`
+  - Content updated
+- `python.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `amazon-bedrock.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `code-review.md`
+  - New section: "What Important means here"
+  - New section: "Cap the nits"
+  - New section: "Do not report"
+  - Removed section: "Style"
+  - Removed section: "Skip"
+  - Updated section: "Always check"
+- `common-workflows.md`
+  - Content updated
+- `costs.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `google-vertex-ai.md`
+  - Content updated
+- `jetbrains.md`
+  - Content updated
+- `microsoft-foundry.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `quickstart.md`
+  - Content updated
+- `routines.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `statusline.md`
+  - Content updated
+- `third-party-integrations.md`
+  - Content updated
+- `web-quickstart.md`
+  - New section: "Pre-fill sessions"
+- `2026-w13.md`
+  - Content updated
+- `2026-w14.md`
+  - Content updated
+- `2026-w15.md`
+  - Content updated
+
 ## 2026-04-15
 
 ### Added
