@@ -2,6 +2,140 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-04-17
+
+### Added
+- `errors.md` - Error reference
+- `plugin-dependencies.md` - Constrain plugin dependency versions
+- `ultrareview.md` - Find bugs with ultrareview
+
+### Modified
+- `agent-loop.md`
+  - Content updated
+- `claude-code-features.md`
+  - New section: "Control filesystem settings with settingSources"
+  - Removed section: "Enable Claude Code features with settingSources"
+- `cost-tracking.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `migration-guide.md`
+  - Content updated
+- `modifying-system-prompts.md`
+  - Content updated
+- `observability.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `python.md`
+  - Content updated
+- `quickstart.md`
+  - New section: "Troubleshooting"
+- `secure-deployment.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `slash-commands.md`
+  - Content updated
+- `structured-outputs.md`
+  - Content updated
+- `typescript-v2-preview.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `amazon-bedrock.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - New section: "Troubleshooting"
+- `cli-reference.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `common-workflows.md`
+  - Content updated
+- `desktop-quickstart.md`
+  - Content updated
+- `desktop-scheduled-tasks.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `discover-plugins.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `fast-mode.md`
+  - Content updated
+- `fullscreen.md`
+  - Content updated
+- `github-actions.md`
+  - Content updated
+- `google-vertex-ai.md`
+  - Content updated
+- `headless.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `how-claude-code-works.md`
+  - Content updated
+- `interactive-mode.md`
+  - New section: "Session recap"
+- `keybindings.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `microsoft-foundry.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `plugin-marketplaces.md`
+  - Content updated
+- `plugins-reference.md`
+  - Content updated
+- `plugins.md`
+  - Content updated
+- `remote-control.md`
+  - New section: "Mobile push notifications"
+- `routines.md`
+  - Content updated
+- `scheduled-tasks.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `setup.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `statusline.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `terminal-config.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `troubleshooting.md`
+  - Content updated
+- `ultraplan.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+- `web-quickstart.md`
+  - Content updated
+
 ## 2026-04-16
 
 ### Modified

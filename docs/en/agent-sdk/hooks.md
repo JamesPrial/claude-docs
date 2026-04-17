@@ -24,7 +24,7 @@ This guide covers how hooks work, how to configure them, and provides examples f
   </Step>
 
   <Step title="The SDK collects registered hooks">
-    The SDK checks for hooks registered for that event type. This includes callback hooks you pass in `options.hooks` and shell command hooks from settings files, but only if you explicitly load them with [`settingSources`](agent-sdk/typescript.md#setting-source) or [`setting_sources`](agent-sdk/python.md#setting-source).
+    The SDK checks for hooks registered for that event type. This includes callback hooks you pass in `options.hooks` and shell command hooks from settings files when the corresponding [`settingSources`](agent-sdk/typescript.md#setting-source) or [`setting_sources`](agent-sdk/python.md#setting-source) entry is enabled, which it is for default `query()` options.
   </Step>
 
   <Step title="Matchers filter which hooks run">

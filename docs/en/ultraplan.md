@@ -80,4 +80,5 @@ If you start a new session, Claude prints a `claude --resume` command at the top
 
 * [Claude Code on the web](claude-code-on-the-web.md): the cloud infrastructure ultraplan runs on
 * [Plan mode](permission-modes.md#analyze-before-you-edit-with-plan-mode): how planning works in a local session
+* [Find bugs with ultrareview](ultrareview.md): the code review counterpart to ultraplan for catching issues before merge
 * [Remote Control](remote-control.md): use the claude.ai/code interface with a session running on your own machine
