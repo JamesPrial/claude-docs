@@ -2,6 +2,32 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-04-18
+
+### Modified
+- `hosting.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `quickstart.md`
+  - Content updated
+- `typescript-v2-preview.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `routines.md`
+  - Content updated
+- `setup.md`
+  - Content updated
+- `troubleshooting.md`
+  - Content updated
+
 ## 2026-04-17
 
 ### Added
