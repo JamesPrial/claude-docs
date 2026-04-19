@@ -2,6 +2,34 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-04-19
+
+### Modified
+- `typescript.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `fullscreen.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `keybindings.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `scheduled-tasks.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `ultrareview.md`
+  - Content updated
+
 ## 2026-04-18
 
 ### Modified
