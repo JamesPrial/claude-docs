@@ -2,6 +2,56 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-04-21
+
+### Modified
+- `typescript.md`
+  - Content updated
+- `best-practices.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `claude-directory.md`
+  - New section: "Explore the directory"
+  - New section: "Choose the right file"
+  - New section: "Troubleshoot configuration"
+- `commands.md`
+  - Content updated
+- `common-workflows.md`
+  - New section: "Work in notes and non-code folders"
+- `desktop.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `setup.md`
+  - Content updated
+- `statusline.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `terminal-config.md`
+  - New section: "Enter multiline prompts"
+  - New section: "Enable Option key shortcuts on macOS"
+  - New section: "Get a terminal bell or notification"
+  - New section: "Configure tmux"
+  - New section: "Match the color theme"
+  - New section: "Switch to fullscreen rendering"
+  - New section: "Paste large content"
+  - New section: "Edit prompts with Vim keybindings"
+  - New section: "Related resources"
+- `vs-code.md`
+  - Content updated
+- `zero-data-retention.md`
+  - Content updated
+
 ## 2026-04-19
 
 ### Modified
