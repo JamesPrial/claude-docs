@@ -402,6 +402,7 @@ See [Write effective instructions](#write-effective-instructions) for guidance o
 
 ## Related resources
 
+* [Debug your configuration](debug-your-config.md): diagnose why CLAUDE.md or settings aren't taking effect
 * [Skills](skills.md): package repeatable workflows that load on demand
 * [Settings](settings.md): configure Claude Code behavior with settings files
 * [Subagent memory](sub-agents.md#enable-persistent-memory): let subagents maintain their own auto memory

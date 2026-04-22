@@ -2,6 +2,77 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-04-22
+
+### Added
+- `debug-your-config.md` - Debug your configuration
+
+### Modified
+- `observability.md`
+  - New section: "Link traces to your application"
+- `python.md`
+  - Content updated
+- `sessions.md`
+  - Content updated
+- `subagents.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `claude-directory.md`
+  - Removed section: "Check what loaded"
+- `commands.md`
+  - Content updated
+- `common-workflows.md`
+  - Content updated
+- `data-usage.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `memory.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `network-config.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `plugin-dependencies.md`
+  - New section: "Depend on a plugin from another marketplace"
+- `plugin-marketplaces.md`
+  - Content updated
+- `plugins-reference.md`
+  - Content updated
+- `quickstart.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `setup.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `terminal-config.md`
+  - Content updated
+- `troubleshooting.md`
+  - Content updated
+- `ultrareview.md`
+  - Content updated
+
 ## 2026-04-21
 
 ### Modified
