@@ -2,6 +2,80 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-04-23
+
+### Added
+- `auto-mode-config.md` - Configure auto mode
+
+### Modified
+- `hooks.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `user-input.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `claude-directory.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `common-workflows.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `google-vertex-ai.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `keybindings.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `memory.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `network-config.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `permissions.md`
+  - Removed section: "Review auto mode denials"
+  - Removed section: "Configure the auto mode classifier"
+- `plugin-dependencies.md`
+  - Content updated
+- `plugin-marketplaces.md`
+  - Content updated
+- `quickstart.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `server-managed-settings.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `setup.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `voice-dictation.md`
+  - New section: "Hold to record"
+  - New section: "Tap to record and send"
+  - New section: "Rebind the dictation key"
+  - Removed section: "Record a prompt"
+  - Removed section: "Rebind the push-to-talk key"
+- `vs-code.md`
+  - Content updated
+
 ## 2026-04-22
 
 ### Added

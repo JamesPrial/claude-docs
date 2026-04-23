@@ -97,9 +97,9 @@ When the transcript viewer is open (toggled with `Ctrl+O`), these shortcuts are 
 
 ### Voice input
 
-| Shortcut     | Description            | Notes                                                                                                                                                      |
-| :----------- | :--------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Hold `Space` | Push-to-talk dictation | Requires [voice dictation](voice-dictation.md) to be enabled. Transcript inserts at cursor. [Rebindable](voice-dictation.md#rebind-the-push-to-talk-key) |
+| Shortcut            | Description     | Notes                                                                                                                                                                            |
+| :------------------ | :-------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Hold or tap `Space` | Voice dictation | Requires [voice dictation](voice-dictation.md) to be enabled. Hold to record, or run `/voice tap` for tap-to-toggle. [Rebindable](voice-dictation.md#rebind-the-dictation-key) |
 
 ## Commands
 
