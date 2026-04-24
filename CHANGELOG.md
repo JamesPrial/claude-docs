@@ -2,6 +2,93 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-04-24
+
+### Added
+- `admin-setup.md` - Set up Claude Code for your organization
+
+### Modified
+- `claude-code-features.md`
+  - Content updated
+- `cost-tracking.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `python.md`
+  - Content updated
+- `slash-commands.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `agent-teams.md`
+  - Content updated
+- `amazon-bedrock.md`
+  - Content updated
+- `auto-mode-config.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `claude-directory.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `common-workflows.md`
+  - Content updated
+- `costs.md`
+  - Content updated
+- `data-usage.md`
+  - Content updated
+- `desktop-scheduled-tasks.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `features-overview.md`
+  - Content updated
+- `google-vertex-ai.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `keybindings.md`
+  - Content updated
+- `microsoft-foundry.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `plugin-dependencies.md`
+  - Content updated
+- `plugin-marketplaces.md`
+  - Content updated
+- `plugins-reference.md`
+  - Content updated
+- `plugins.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `routines.md`
+  - Content updated
+- `scheduled-tasks.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `setup.md`
+  - Content updated
+- `statusline.md`
+  - Content updated
+- `sub-agents.md`
+  - New section: "Fork the current conversation"
+- `terminal-config.md`
+  - Content updated
+
 ## 2026-04-23
 
 ### Added
