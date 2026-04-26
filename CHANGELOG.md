@@ -2,6 +2,27 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-04-26
+
+### Modified
+- `chrome.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `desktop-quickstart.md`
+  - Content updated
+- `desktop-scheduled-tasks.md`
+  - New section: "Schedule options"
+  - Removed section: "Frequency options"
+- `desktop.md`
+  - Content updated
+- `routines.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `terminal-config.md`
+  - Content updated
+
 ## 2026-04-25
 
 ### Modified
