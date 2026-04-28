@@ -2,6 +2,41 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-04-28
+
+### Added
+- `2026-w16.md` - Week 16 · April 13–17, 2026
+- `2026-w17.md` - Week 17 · April 20–24, 2026
+
+### Modified
+- `changelog.md`
+  - Content updated
+- `devcontainer.md`
+  - New section: "Add Claude Code to your dev container"
+  - New section: "Persist authentication and settings across rebuilds"
+  - New section: "Enforce organization policy"
+  - New section: "Restrict network egress"
+  - New section: "Run without permission prompts"
+  - New section: "Try the reference container"
+  - New section: "Next steps"
+  - Removed section: "Key features"
+  - Removed section: "Getting started in 4 steps"
+  - Removed section: "Configuration breakdown"
+  - Removed section: "Security features"
+  - Removed section: "Customization options"
+  - Removed section: "Example use cases"
+  - Removed section: "Related resources"
+- `network-config.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `security.md`
+  - Content updated
+- `index.md`
+  - Content updated
+
 ## 2026-04-26
 
 ### Modified

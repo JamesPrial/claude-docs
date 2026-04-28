@@ -283,7 +283,7 @@ For organizations requiring advanced network security, you can implement a custo
 The sandboxed bash tool works alongside:
 
 * **Permission rules**: Combine with [permission settings](permissions.md) for defense-in-depth
-* **Development containers**: Use with [devcontainers](devcontainer.md) for additional isolation
+* **Development containers**: Use with [dev containers](devcontainer.md) for additional isolation
 * **Enterprise policies**: Enforce sandbox configurations through [managed settings](settings.md#settings-precedence)
 
 ## Best practices
