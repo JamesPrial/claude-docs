@@ -913,4 +913,4 @@ See the [tools reference](tools-reference.md) for the full list and Bash tool be
 * [Permissions](permissions.md): permission system, rule syntax, tool-specific patterns, and managed policies
 * [Authentication](authentication.md): set up user access to Claude Code
 * [Debug your configuration](debug-your-config.md): diagnose why a setting, hook, or MCP server isn't taking effect
-* [Troubleshooting](troubleshooting.md): installation, authentication, and platform issues
+* [Troubleshoot installation and login](troubleshoot-install.md): installation, authentication, and platform issues

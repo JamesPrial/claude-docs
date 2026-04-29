@@ -114,7 +114,7 @@ Share these resources to help developers get started:
 * [Common workflows](common-workflows.md): patterns for everyday tasks like code review, refactoring, and debugging
 * [Claude 101](https://anthropic.skilljar.com/claude-101) and [Claude Code in Action](https://anthropic.skilljar.com/claude-code-in-action): self-paced Anthropic Academy courses
 
-For login issues, point developers to [authentication troubleshooting](troubleshooting.md#authentication-issues). The most common fixes are:
+For login issues, point developers to [authentication troubleshooting](troubleshoot-install.md#login-and-authentication). The most common fixes are:
 
 * Run `/logout` then `/login` to switch accounts
 * Run `claude update` if the enterprise auth option is missing

@@ -2,6 +2,119 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-04-29
+
+### Added
+- `champion-kit.md` - Champion kit
+- `communications-kit.md` - Communications kit
+- `glossary.md` - Glossary
+- `troubleshoot-install.md` - Troubleshoot installation and login
+
+### Modified
+- `admin-setup.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `plugins.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `amazon-bedrock.md`
+  - New section: "Service tiers"
+- `authentication.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `claude-directory.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `common-workflows.md`
+  - Content updated
+- `data-usage.md`
+  - Content updated
+- `debug-your-config.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `fullscreen.md`
+  - New section: "Clear the conversation"
+- `google-vertex-ai.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `jetbrains.md`
+  - New section: "Special configurations"
+  - New section: "Security considerations"
+  - Removed section: "Special Configurations"
+  - Removed section: "Security Considerations"
+- `keybindings.md`
+  - Content updated
+- `legal-and-compliance.md`
+  - Content updated
+- `llm-gateway.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `plugin-dependencies.md`
+  - New section: "Remove orphaned auto-installed dependencies"
+- `plugin-marketplaces.md`
+  - Content updated
+- `plugins-reference.md`
+  - Content updated
+- `plugins.md`
+  - Content updated
+- `quickstart.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `security.md`
+  - Content updated
+- `server-managed-settings.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `setup.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `statusline.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `terminal-config.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `troubleshooting.md`
+  - Removed section: "Troubleshoot installation issues"
+  - Removed section: "Debug installation problems"
+  - Removed section: "Common installation issues"
+  - Removed section: "Permissions and authentication"
+  - Removed section: "Configuration file locations"
+  - Removed section: "IDE integration issues"
+  - Removed section: "Markdown formatting issues"
+- `ultrareview.md`
+  - New section: "Run ultrareview non-interactively"
+- `voice-dictation.md`
+  - Content updated
+
 ## 2026-04-28
 
 ### Added
