@@ -2,6 +2,24 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-04-30
+
+### Modified
+- `python.md`
+  - Content updated
+- `secure-deployment.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `troubleshoot-install.md`
+  - Content updated
+- `ultrareview.md`
+  - Content updated
+
 ## 2026-04-29
 
 ### Added
