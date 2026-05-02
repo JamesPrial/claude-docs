@@ -2,6 +2,22 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-05-02
+
+### Modified
+- `changelog.md`
+  - Content updated
+- `desktop-quickstart.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `plugins-reference.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+
 ## 2026-05-01
 
 ### Modified
