@@ -420,5 +420,5 @@ Agent teams are experimental. Current limitations to be aware of:
 Explore related approaches for parallel work and delegation:
 
 * **Lightweight delegation**: [subagents](sub-agents.md) spawn helper agents for research or verification within your session, better for tasks that don't need inter-agent coordination
-* **Manual parallel sessions**: [Git worktrees](common-workflows.md#run-parallel-claude-code-sessions-with-git-worktrees) let you run multiple Claude Code sessions yourself without automated team coordination
+* **Manual parallel sessions**: [Git worktrees](worktrees.md) let you run multiple Claude Code sessions yourself without automated team coordination
 * **Compare approaches**: see the [subagent vs agent team](features-overview.md#compare-similar-features) comparison for a side-by-side breakdown

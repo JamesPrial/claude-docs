@@ -2,6 +2,97 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-05-03
+
+### Added
+- `deep-links.md` - Launch sessions from links
+
+### Modified
+- `agent-teams.md`
+  - Content updated
+- `best-practices.md`
+  - Content updated
+- `checkpointing.md`
+  - Content updated
+- `claude-directory.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `code-review.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `common-workflows.md`
+  - New section: "Prompt recipes"
+  - New section: "Run parallel sessions with worktrees"
+  - New section: "Plan before editing"
+  - New section: "Delegate research to subagents"
+  - New section: "Pipe Claude into scripts"
+  - Removed section: "Understand new codebases"
+  - Removed section: "Fix bugs efficiently"
+  - Removed section: "Refactor code"
+  - Removed section: "Use specialized subagents"
+  - Removed section: "Use Plan Mode for safe code analysis"
+  - Removed section: "Work with tests"
+  - Removed section: "Create pull requests"
+  - Removed section: "Handle documentation"
+  - Removed section: "Work in notes and non-code folders"
+  - Removed section: "Work with images"
+  - Removed section: "Reference files and directories"
+  - Removed section: "Use extended thinking (thinking mode)"
+  - Removed section: "Run parallel Claude Code sessions with Git worktrees"
+  - Removed section: "Get notified when Claude needs your attention"
+  - Removed section: "Use Claude as a unix-style utility"
+  - Removed section: "Run Claude on a schedule"
+  - Removed section: "Ask Claude about its capabilities"
+  - Updated section: "Resume previous conversations"
+- `costs.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `github-actions.md`
+  - New section: "Using with Amazon Bedrock & Google Vertex AI"
+  - Removed section: "Using with AWS Bedrock & Google Vertex AI"
+- `gitlab-ci-cd.md`
+  - New section: "Using with Amazon Bedrock & Google Vertex AI"
+  - Removed section: "Using with AWS Bedrock & Google Vertex AI"
+- `glossary.md`
+  - Content updated
+- `headless.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `how-claude-code-works.md`
+  - Content updated
+- `legal-and-compliance.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+- `zero-data-retention.md`
+  - Content updated
+
 ## 2026-05-02
 
 ### Modified
