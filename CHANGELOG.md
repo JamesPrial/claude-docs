@@ -2,6 +2,36 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-05-05
+
+### Modified
+- `changelog.md`
+  - Content updated
+- `discover-plugins.md`
+  - Content updated
+- `features-overview.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `memory.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `terminal-config.md`
+  - Content updated
+- `troubleshoot-install.md`
+  - Content updated
+- `voice-dictation.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+
 ## 2026-05-03
 
 ### Added
