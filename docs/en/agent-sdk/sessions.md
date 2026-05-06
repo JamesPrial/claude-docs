@@ -31,7 +31,7 @@ How much session handling you need depends on your application's shape. Session 
 
 ### Continue, resume, and fork
 
-Continue, resume, and fork are option fields you set on `query()` ([`ClaudeAgentOptions`](agent-sdk/python.md#claude-agent-options) in Python, [`Options`](agent-sdk/typescript.md#options) in TypeScript).
+Continue, resume, and fork are option fields you set on `query()` ([`ClaudeAgentOptions`](agent-sdk/python.md#claudeagentoptions) in Python, [`Options`](agent-sdk/typescript.md#options) in TypeScript).
 
 **Continue** and **resume** both pick up an existing session and add to it. The difference is how they find that session:
 
@@ -46,7 +46,7 @@ Both SDKs offer an interface that tracks session state for you across calls, so 
 
 ### Python: `ClaudeSDKClient`
 
-[`ClaudeSDKClient`](agent-sdk/python.md#claude-sdk-client) handles session IDs internally. Each call to `client.query()` automatically continues the same session. Call [`client.receive_response()`](agent-sdk/python.md#claude-sdk-client) to iterate over the messages for the current query. The client must be used as an async context manager.
+[`ClaudeSDKClient`](agent-sdk/python.md#claudesdkclient) handles session IDs internally. Each call to `client.query()` automatically continues the same session. Call [`client.receive_response()`](agent-sdk/python.md#claudesdkclient) to iterate over the messages for the current query. The client must be used as an async context manager.
 
 This example runs two queries against the same `client`. The first asks the agent to analyze a module; the second asks it to refactor that module. Because both calls go through the same client instance, the second query has full context from the first without any explicit `resume` or session ID:
 
@@ -96,7 +96,7 @@ async def main():
 asyncio.run(main())
 ```
 
-See the [Python SDK reference](agent-sdk/python.md#choosing-between-query-and-claude-sdk-client) for details on when to use `ClaudeSDKClient` vs the standalone `query()` function.
+See the [Python SDK reference](agent-sdk/python.md#choosing-between-query-and-claudesdkclient) for details on when to use `ClaudeSDKClient` vs the standalone `query()` function.
 
 ### TypeScript: `continue: true`
 
@@ -139,7 +139,7 @@ for await (const message of query({
 
 ### Capture the session ID
 
-Resume and fork require a session ID. Read it from the `session_id` field on the result message ([`ResultMessage`](agent-sdk/python.md#result-message) in Python, [`SDKResultMessage`](agent-sdk/typescript.md#sdk-result-message) in TypeScript), which is present on every result regardless of success or error. In TypeScript the ID is also available earlier as a direct field on the init `SystemMessage`; in Python it's nested inside `SystemMessage.data`.
+Resume and fork require a session ID. Read it from the `session_id` field on the result message ([`ResultMessage`](agent-sdk/python.md#resultmessage) in Python, [`SDKResultMessage`](agent-sdk/typescript.md#sdkresultmessage) in TypeScript), which is present on every result regardless of success or error. In TypeScript the ID is also available earlier as a direct field on the init `SystemMessage`; in Python it's nested inside `SystemMessage.data`.
 
 <CodeGroup>
   ```python Python theme={null}
@@ -312,13 +312,13 @@ Session files are local to the machine that created them. To resume a session on
 * **Move the session file.** Persist `~/.claude/projects/<encoded-cwd>/<session-id>.jsonl` from the first run and restore it to the same path on the new host before calling `resume`. The `cwd` must match.
 * **Don't rely on session resume.** Capture the results you need (analysis output, decisions, file diffs) as application state and pass them into a fresh session's prompt. This is often more robust than shipping transcript files around.
 
-Both SDKs expose functions for enumerating sessions on disk and reading their messages: [`listSessions()`](agent-sdk/typescript.md#list-sessions) and [`getSessionMessages()`](agent-sdk/typescript.md#get-session-messages) in TypeScript, [`list_sessions()`](agent-sdk/python.md#list-sessions) and [`get_session_messages()`](agent-sdk/python.md#get-session-messages) in Python. Use them to build custom session pickers, cleanup logic, or transcript viewers.
+Both SDKs expose functions for enumerating sessions on disk and reading their messages: [`listSessions()`](agent-sdk/typescript.md#listsessions) and [`getSessionMessages()`](agent-sdk/typescript.md#getsessionmessages) in TypeScript, [`list_sessions()`](agent-sdk/python.md#list_sessions) and [`get_session_messages()`](agent-sdk/python.md#get_session_messages) in Python. Use them to build custom session pickers, cleanup logic, or transcript viewers.
 
-Both SDKs also expose functions for looking up and mutating individual sessions: [`get_session_info()`](agent-sdk/python.md#get-session-info), [`rename_session()`](agent-sdk/python.md#rename-session), and [`tag_session()`](agent-sdk/python.md#tag-session) in Python, and [`getSessionInfo()`](agent-sdk/typescript.md#get-session-info), [`renameSession()`](agent-sdk/typescript.md#rename-session), and [`tagSession()`](agent-sdk/typescript.md#tag-session) in TypeScript. Use them to organize sessions by tag or give them human-readable titles.
+Both SDKs also expose functions for looking up and mutating individual sessions: [`get_session_info()`](agent-sdk/python.md#get_session_info), [`rename_session()`](agent-sdk/python.md#rename_session), and [`tag_session()`](agent-sdk/python.md#tag_session) in Python, and [`getSessionInfo()`](agent-sdk/typescript.md#getsessioninfo), [`renameSession()`](agent-sdk/typescript.md#renamesession), and [`tagSession()`](agent-sdk/typescript.md#tagsession) in TypeScript. Use them to organize sessions by tag or give them human-readable titles.
 
 ## Related resources
 
 * [How the agent loop works](agent-sdk/agent-loop.md): Understand turns, messages, and context accumulation within a session
 * [File checkpointing](agent-sdk/file-checkpointing.md): Track and revert file changes across sessions
-* [Python `ClaudeAgentOptions`](agent-sdk/python.md#claude-agent-options): Full session option reference for Python
+* [Python `ClaudeAgentOptions`](agent-sdk/python.md#claudeagentoptions): Full session option reference for Python
 * [TypeScript `Options`](agent-sdk/typescript.md#options): Full session option reference for TypeScript

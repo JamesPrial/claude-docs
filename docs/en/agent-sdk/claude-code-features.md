@@ -14,7 +14,7 @@ For a conceptual overview of what each feature does and when to use it, see [Ext
 
 ## Control filesystem settings with settingSources
 
-The setting sources option ([`setting_sources`](agent-sdk/python.md#claude-agent-options) in Python, [`settingSources`](agent-sdk/typescript.md#setting-source) in TypeScript) controls which filesystem-based settings the SDK loads. Pass an explicit list to opt in to specific sources, or pass an empty array to disable user, project, and local settings.
+The setting sources option ([`setting_sources`](agent-sdk/python.md#claudeagentoptions) in Python, [`settingSources`](agent-sdk/typescript.md#settingsource) in TypeScript) controls which filesystem-based settings the SDK loads. Pass an explicit list to opt in to specific sources, or pass an empty array to disable user, project, and local settings.
 
 This example loads both user-level and project-level settings by setting `settingSources` to `["user", "project"]`:
 
@@ -65,7 +65,7 @@ This example loads both user-level and project-level settings by setting `settin
   ```
 </CodeGroup>
 
-Each source loads settings from a specific location, where `<cwd>` is the working directory you pass via the `cwd` option (or the process's current directory if unset). For the full type definition, see [`SettingSource`](agent-sdk/typescript.md#setting-source) (TypeScript) or [`SettingSource`](agent-sdk/python.md#setting-source) (Python).
+Each source loads settings from a specific location, where `<cwd>` is the working directory you pass via the `cwd` option, or the process's current directory if unset. For the full type definition, see [`SettingSource`](agent-sdk/typescript.md#settingsource) (TypeScript) or [`SettingSource`](agent-sdk/python.md#settingsource) (Python).
 
 | Source      | What it loads                                                                                   | Location                                                                                                                            |
 | :---------- | :---------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------- |

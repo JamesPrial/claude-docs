@@ -233,7 +233,7 @@ Claude automatically invokes the relevant Skill if the description matches your 
   ```
 </CodeGroup>
 
-For more details on `settingSources`/`setting_sources`, see the [TypeScript SDK reference](agent-sdk/typescript.md#setting-source) or [Python SDK reference](agent-sdk/python.md#setting-source).
+For more details on `settingSources`/`setting_sources`, see the [TypeScript SDK reference](agent-sdk/typescript.md#settingsource) or [Python SDK reference](agent-sdk/python.md#settingsource).
 
 **Check working directory**: The SDK loads Skills relative to the `cwd` option. Ensure it points to a directory containing `.claude/skills/`:
 

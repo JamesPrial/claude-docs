@@ -18,7 +18,7 @@ The Claude Agent SDK differs from traditional stateless LLM APIs in that it main
 
 For security and isolation, the SDK should run inside a sandboxed container environment. This provides process isolation, resource limits, network control, and ephemeral filesystems.
 
-The SDK also supports [programmatic sandbox configuration](agent-sdk/typescript.md#sandbox-settings) for command execution.
+The SDK also supports [programmatic sandbox configuration](agent-sdk/typescript.md#sandboxsettings) for command execution.
 
 ### System Requirements
 
@@ -135,7 +135,7 @@ An agent session will not timeout, but consider setting a 'maxTurns' property to
 ## Next Steps
 
 * [Secure Deployment](agent-sdk/secure-deployment.md) - Network controls, credential management, and isolation hardening
-* [TypeScript SDK - Sandbox Settings](agent-sdk/typescript.md#sandbox-settings) - Configure sandbox programmatically
+* [TypeScript SDK - Sandbox Settings](agent-sdk/typescript.md#sandboxsettings) - Configure sandbox programmatically
 * [Sessions Guide](agent-sdk/sessions.md) - Learn about session management
 * [Permissions](agent-sdk/permissions.md) - Configure tool permissions
 * [Cost Tracking](agent-sdk/cost-tracking.md) - Monitor API usage

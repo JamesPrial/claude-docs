@@ -2,6 +2,108 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-05-06
+
+### Modified
+- `agent-loop.md`
+  - Content updated
+- `claude-code-features.md`
+  - Content updated
+- `cost-tracking.md`
+  - Content updated
+- `custom-tools.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `hosting.md`
+  - Content updated
+- `migration-guide.md`
+  - Content updated
+- `observability.md`
+  - New section: "Attribute actions to your end users"
+- `permissions.md`
+  - Content updated
+- `python.md`
+  - Content updated
+- `quickstart.md`
+  - Content updated
+- `sessions.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `streaming-output.md`
+  - Content updated
+- `subagents.md`
+  - Content updated
+- `todo-tracking.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `user-input.md`
+  - Content updated
+- `authentication.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `channels-reference.md`
+  - Content updated
+- `channels.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `data-usage.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `fullscreen.md`
+  - Content updated
+- `headless.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `monitoring-usage.md`
+  - New section: "Audit security events"
+- `network-config.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `platforms.md`
+  - Content updated
+- `plugin-marketplaces.md`
+  - Content updated
+- `plugins-reference.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `scheduled-tasks.md`
+  - Content updated
+- `security.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `statusline.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `voice-dictation.md`
+  - Content updated
+- `web-quickstart.md`
+  - Content updated
+
 ## 2026-05-05
 
 ### Modified

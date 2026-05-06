@@ -34,7 +34,7 @@ A tool is defined by four parts, passed as arguments to the [`tool()`](agent-sdk
   * `content` (required): an array of result blocks, each with a `type` of `"text"`, `"image"`, or `"resource"`. See [Return images and resources](#return-images-and-resources) for non-text blocks.
   * `isError` (optional): set to `true` to signal a tool failure so Claude can react to it. See [Handle errors](#handle-errors).
 
-After defining a tool, wrap it in a server with [`createSdkMcpServer`](agent-sdk/typescript.md#create-sdk-mcp-server) (TypeScript) or [`create_sdk_mcp_server`](agent-sdk/python.md#create-sdk-mcp-server) (Python). The server runs in-process inside your application, not as a separate process.
+After defining a tool, wrap it in a server with [`createSdkMcpServer`](agent-sdk/typescript.md#createsdkmcpserver) (TypeScript) or [`create_sdk_mcp_server`](agent-sdk/python.md#create_sdk_mcp_server) (Python). The server runs in-process inside your application, not as a separate process.
 
 ### Weather tool example
 
@@ -306,7 +306,7 @@ This example adds `readOnlyHint` to the `get_temperature` tool from the [weather
   ```
 </CodeGroup>
 
-See `ToolAnnotations` in the [TypeScript](agent-sdk/typescript.md#tool-annotations) or [Python](agent-sdk/python.md#tool-annotations) reference.
+See `ToolAnnotations` in the [TypeScript](agent-sdk/typescript.md#toolannotations) or [Python](agent-sdk/python.md#toolannotations) reference.
 
 ## Control tool access
 

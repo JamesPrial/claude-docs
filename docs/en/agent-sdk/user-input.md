@@ -53,11 +53,11 @@ The callback fires in two cases:
 
 Once you've passed a `canUseTool` callback in your query options, it fires when Claude wants to use a tool that isn't auto-approved. Your callback receives three arguments:
 
-| Argument                            | Description                                                                                                                                                                                                                                                                                                                             |
-| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `toolName`                          | The name of the tool Claude wants to use (e.g., `"Bash"`, `"Write"`, `"Edit"`)                                                                                                                                                                                                                                                          |
-| `input`                             | The parameters Claude is passing to the tool. Contents vary by tool.                                                                                                                                                                                                                                                                    |
-| `options` (TS) / `context` (Python) | Additional context including optional `suggestions` (proposed `PermissionUpdate` entries to avoid re-prompting) and a cancellation signal. In TypeScript, `signal` is an `AbortSignal`; in Python, the signal field is reserved for future use. See [`ToolPermissionContext`](agent-sdk/python.md#tool-permission-context) for Python. |
+| Argument                            | Description                                                                                                                                                                                                                                                                                                                           |
+| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `toolName`                          | The name of the tool Claude wants to use (e.g., `"Bash"`, `"Write"`, `"Edit"`)                                                                                                                                                                                                                                                        |
+| `input`                             | The parameters Claude is passing to the tool. Contents vary by tool.                                                                                                                                                                                                                                                                  |
+| `options` (TS) / `context` (Python) | Additional context including optional `suggestions` (proposed `PermissionUpdate` entries to avoid re-prompting) and a cancellation signal. In TypeScript, `signal` is an `AbortSignal`; in Python, the signal field is reserved for future use. See [`ToolPermissionContext`](agent-sdk/python.md#toolpermissioncontext) for Python. |
 
 The `input` object contains tool-specific parameters. Common examples:
 
@@ -68,7 +68,7 @@ The `input` object contains tool-specific parameters. Common examples:
 | `Edit`  | `file_path`, `old_string`, `new_string` |
 | `Read`  | `file_path`, `offset`, `limit`          |
 
-See the SDK reference for complete input schemas: [Python](agent-sdk/python.md#tool-input-output-types) | [TypeScript](agent-sdk/typescript.md#tool-input-types).
+See the SDK reference for complete input schemas: [Python](agent-sdk/python.md#tool-input%2Foutput-types) | [TypeScript](agent-sdk/typescript.md#tool-input-types).
 
 You can display this information to the user so they can decide whether to allow or reject the action, then return the appropriate response.
 
@@ -807,4 +807,4 @@ Custom tools give you full control over the interaction, but require more implem
 
 * [Configure permissions](agent-sdk/permissions.md): set up permission modes and rules
 * [Control execution with hooks](agent-sdk/hooks.md): run custom code at key points in the agent lifecycle
-* [TypeScript SDK reference](agent-sdk/typescript.md#can-use-tool): full canUseTool API documentation
+* [TypeScript SDK reference](agent-sdk/typescript.md#canusetool): full canUseTool API documentation
