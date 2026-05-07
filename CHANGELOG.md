@@ -2,6 +2,52 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-05-07
+
+### Modified
+- `python.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `features-overview.md`
+  - Content updated
+- `fullscreen.md`
+  - Content updated
+- `headless.md`
+  - Content updated
+- `how-claude-code-works.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `llm-gateway.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `plugins-reference.md`
+  - Content updated
+- `plugins.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `setup.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `statusline.md`
+  - Content updated
+- `terminal-config.md`
+  - Content updated
+
 ## 2026-05-06
 
 ### Modified
