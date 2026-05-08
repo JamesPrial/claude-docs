@@ -2,6 +2,78 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-05-08
+
+### Modified
+- `claude-code-features.md`
+  - Content updated
+- `custom-tools.md`
+  - New section: "Return structured data"
+- `python.md`
+  - Content updated
+- `sessions.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `subagents.md`
+  - Content updated
+- `typescript-v2-preview.md`
+  - Removed section: "Feedback"
+- `typescript.md`
+  - Content updated
+- `amazon-bedrock.md`
+  - Content updated
+- `authentication.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `debug-your-config.md`
+  - New section: "Test against a clean configuration"
+  - New section: "Check common causes"
+  - Removed section: "Common causes"
+- `discover-plugins.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `features-overview.md`
+  - Content updated
+- `google-vertex-ai.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `memory.md`
+  - Content updated
+- `microsoft-foundry.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `output-styles.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `plugins.md`
+  - Content updated
+- `quickstart.md`
+  - Content updated
+- `routines.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `third-party-integrations.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+
 ## 2026-05-07
 
 ### Modified
