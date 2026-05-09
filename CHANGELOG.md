@@ -2,6 +2,41 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-05-09
+
+### Added
+- `2026-w18.md` - Week 18 · April 27 – May 1, 2026
+- `2026-w19.md` - Week 19 · May 4–8, 2026
+
+### Modified
+- `mcp.md`
+  - Content updated
+- `agent-teams.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `commands.md`
+  - New section: "Commands across a typical workflow"
+  - New section: "All commands"
+- `desktop.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `routines.md`
+  - Content updated
+- `setup.md`
+  - Content updated
+- `terminal-config.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+- `2026-w16.md`
+  - Content updated
+- `index.md`
+  - Content updated
+
 ## 2026-05-08
 
 ### Modified
