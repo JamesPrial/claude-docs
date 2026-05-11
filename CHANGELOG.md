@@ -2,6 +2,16 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-05-11
+
+### Modified
+- `hooks-guide.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+
 ## 2026-05-10
 
 ### Modified
