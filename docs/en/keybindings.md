@@ -104,7 +104,7 @@ Actions available in the `Chat` context:
 | `chat:cancel`         | Escape                    | Cancel current input                                                                                                                                           |
 | `chat:clearInput`     | Ctrl+L                    | Force a full screen redraw, preserving input. In [fullscreen rendering](fullscreen.md#clear-the-conversation), press twice within two seconds to run `/clear` |
 | `chat:clearScreen`    | Cmd+K                     | In [fullscreen rendering](fullscreen.md#clear-the-conversation), press twice within two seconds to run `/clear`                                               |
-| `chat:killAgents`     | Ctrl+X Ctrl+K             | Kill all background agents                                                                                                                                     |
+| `chat:killAgents`     | Ctrl+X Ctrl+K             | Kill all running [background subagents](sub-agents.md#run-subagents-in-foreground-or-background) in this session                                              |
 | `chat:cycleMode`      | Shift+Tab\*               | Cycle permission modes                                                                                                                                         |
 | `chat:modelPicker`    | Meta+P                    | Open model picker                                                                                                                                              |
 | `chat:fastMode`       | Meta+O                    | Toggle fast mode                                                                                                                                               |

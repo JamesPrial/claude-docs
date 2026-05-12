@@ -2,6 +2,112 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-05-12
+
+### Added
+- `agent-view.md` - Manage multiple agents with agent view
+- `agents.md` - Run agents in parallel
+- `claude-platform-on-aws.md` - Claude Code on Claude Platform on AWS
+- `goal.md` - Keep Claude working toward a goal
+- `worktrees.md` - Run parallel sessions with worktrees
+
+### Modified
+- `admin-setup.md`
+  - Content updated
+- `agent-loop.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `modifying-system-prompts.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `python.md`
+  - Content updated
+- `quickstart.md`
+  - Content updated
+- `tool-search.md`
+  - Content updated
+- `user-input.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `channels-reference.md`
+  - Content updated
+- `channels.md`
+  - Content updated
+- `claude-directory.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `common-workflows.md`
+  - Content updated
+- `data-usage.md`
+  - Content updated
+- `debug-your-config.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `fullscreen.md`
+  - Content updated
+- `glossary.md`
+  - Content updated
+- `google-vertex-ai.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `keybindings.md`
+  - Content updated
+- `llm-gateway.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `memory.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `output-styles.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `plugins-reference.md`
+  - Content updated
+- `quickstart.md`
+  - Content updated
+- `scheduled-tasks.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `third-party-integrations.md`
+  - Content updated
+- `tools-reference.md`
+  - New section: "Configure tools with permission rules and hooks"
+  - New section: "Agent tool behavior"
+  - New section: "Edit tool behavior"
+  - New section: "Glob tool behavior"
+  - New section: "Grep tool behavior"
+  - New section: "NotebookEdit tool behavior"
+  - New section: "Read tool behavior"
+  - New section: "WebFetch tool behavior"
+  - New section: "WebSearch tool behavior"
+  - New section: "Write tool behavior"
+- `vs-code.md`
+  - Content updated
+
 ## 2026-05-11
 
 ### Modified
