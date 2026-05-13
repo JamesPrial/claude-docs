@@ -2,6 +2,90 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-05-13
+
+### Modified
+- `claude-code-features.md`
+  - Content updated
+- `modifying-system-prompts.md`
+  - New section: "How system prompts work"
+  - New section: "Customize agent behavior"
+  - New section: "Compare the four approaches"
+  - New section: "Combine approaches"
+  - Removed section: "Understanding system prompts"
+  - Removed section: "Methods of modification"
+  - Removed section: "Code Style"
+  - Removed section: "Testing"
+  - Removed section: "Commands"
+  - Removed section: "Comparison of all four approaches"
+  - Removed section: "Combining approaches"
+- `python.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `todo-tracking.md`
+  - New section: "Migrate to Task tools"
+- `typescript.md`
+  - Content updated
+- `user-input.md`
+  - Content updated
+- `agent-teams.md`
+  - Content updated
+- `agent-view.md`
+  - New section: "Related resources"
+  - Removed section: "Next steps"
+- `changelog.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `data-usage.md`
+  - Content updated
+- `discover-plugins.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `fast-mode.md`
+  - New section: "Use fast mode on Opus 4.7"
+- `goal.md`
+  - Content updated
+- `mcp.md`
+  - New section: "Find and build MCP servers"
+  - Removed section: "Popular MCP servers"
+- `model-config.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `output-styles.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `plugins-reference.md`
+  - Content updated
+- `plugins.md`
+  - Content updated
+- `routines.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `security.md`
+  - Content updated
+- `server-managed-settings.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `web-quickstart.md`
+  - Content updated
+- `worktrees.md`
+  - Content updated
+
 ## 2026-05-12
 
 ### Added

@@ -128,7 +128,7 @@ The evaluator runs on whichever provider your session is configured for. It does
 
 ## Requirements
 
-`/goal` runs only in workspaces where you have accepted the trust dialog, because the evaluator is part of the hooks system. If [`disableAllHooks`](hooks.md#disable-or-remove-hooks) is set in managed policy settings, `/goal` is unavailable. In both cases, the command tells you why instead of silently doing nothing.
+`/goal` runs only in workspaces where you have accepted the trust dialog, because the evaluator is part of the hooks system. `/goal` is also unavailable when [`disableAllHooks`](hooks.md#disable-or-remove-hooks) is set at any settings level or when [`allowManagedHooksOnly`](settings.md#hook-configuration) is set in managed settings. In each case, the command tells you why instead of silently doing nothing.
 
 ## See also
 
