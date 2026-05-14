@@ -2,6 +2,47 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-05-14
+
+### Modified
+- `admin-setup.md`
+  - Content updated
+- `modifying-system-prompts.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `agent-view.md`
+  - Content updated
+- `authentication.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `fast-mode.md`
+  - Content updated
+- `headless.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `legal-and-compliance.md`
+  - Content updated
+- `memory.md`
+  - Content updated
+- `output-styles.md`
+  - New section: "Related resources"
+  - Removed section: "Specific Behaviors"
+  - Updated section: "How output styles work"
+  - Updated section: "Comparisons to related features"
+- `permissions.md`
+  - Content updated
+- `plugins.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `ultrareview.md`
+  - Content updated
+
 ## 2026-05-13
 
 ### Modified
