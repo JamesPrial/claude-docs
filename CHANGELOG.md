@@ -2,6 +2,61 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-05-15
+
+### Added
+- `desktop-changelog.md` - Desktop changelog
+
+### Modified
+- `hooks.md`
+  - Content updated
+- `python.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `agent-view.md`
+  - Content updated
+- `amazon-bedrock.md`
+  - Content updated
+- `best-practices.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `checkpointing.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `desktop-scheduled-tasks.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `github-actions.md`
+  - Content updated
+- `glossary.md`
+  - Content updated
+- `goal.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `voice-dictation.md`
+  - Content updated
+
 ## 2026-05-14
 
 ### Modified
