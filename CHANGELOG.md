@@ -2,6 +2,40 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-05-16
+
+### Modified
+- `plugins.md`
+  - Content updated
+- `slash-commands.md`
+  - Content updated
+- `streaming-vs-single-mode.md`
+  - Content updated
+- `subagents.md`
+  - Content updated
+- `tool-search.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `amazon-bedrock.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `claude-directory.md`
+  - Content updated
+- `data-usage.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `google-vertex-ai.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `microsoft-foundry.md`
+  - Content updated
+
 ## 2026-05-15
 
 ### Added
