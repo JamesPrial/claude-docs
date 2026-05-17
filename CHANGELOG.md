@@ -2,6 +2,16 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-05-17
+
+### Modified
+- `microsoft-foundry.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+
 ## 2026-05-16
 
 ### Modified
