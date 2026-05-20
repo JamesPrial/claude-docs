@@ -2,6 +2,88 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-05-20
+
+### Added
+- `prompt-caching.md` - How Claude Code uses prompt caching
+- `2026-w20.md` - Week 20 · May 11–15, 2026
+
+### Modified
+- `custom-tools.md`
+  - Content updated
+- `modifying-system-prompts.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `python.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `agent-view.md`
+  - Content updated
+- `amazon-bedrock.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `channels-reference.md`
+  - Content updated
+- `claude-platform-on-aws.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `context-window.md`
+  - Content updated
+- `costs.md`
+  - Content updated
+- `discover-plugins.md`
+  - New section: "Community marketplace"
+- `env-vars.md`
+  - New section: "Set environment variables"
+  - New section: "Precedence"
+  - New section: "Variables"
+- `features-overview.md`
+  - Content updated
+- `google-vertex-ai.md`
+  - Content updated
+- `headless.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `keybindings.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `microsoft-foundry.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `output-styles.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `plugins.md`
+  - Content updated
+- `routines.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `statusline.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `2026-w13.md`
+  - Content updated
+- `index.md`
+  - Content updated
+
 ## 2026-05-19
 
 ### Modified
