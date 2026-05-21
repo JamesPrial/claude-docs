@@ -2,6 +2,68 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-05-21
+
+### Added
+- `session-storage.md` - Persist sessions to external storage
+- `plugin-hints.md` - Recommend your plugin from your CLI
+- `prompt-library.md` - Prompt library
+- `sessions.md` - Manage sessions
+
+### Modified
+- `typescript.md`
+  - Content updated
+- `agent-view.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `checkpointing.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `desktop-quickstart.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `discover-plugins.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `fullscreen.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `how-claude-code-works.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `output-styles.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `plugin-marketplaces.md`
+  - Content updated
+- `plugins-reference.md`
+  - Content updated
+- `scheduled-tasks.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `statusline.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+
 ## 2026-05-20
 
 ### Added
