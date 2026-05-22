@@ -2,6 +2,87 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-05-22
+
+### Added
+- `managed-mcp.md` - Control MCP server access for your organization
+- `sandbox-environments.md` - Choose a sandbox environment
+
+### Modified
+- `admin-setup.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `agent-view.md`
+  - Content updated
+- `auto-mode-config.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `devcontainer.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `features-overview.md`
+  - Content updated
+- `glossary.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `keybindings.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `plugin-marketplaces.md`
+  - Content updated
+- `sandboxing.md`
+  - New section: "Get started"
+  - New section: "Configure sandboxing"
+  - New section: "How sandboxing works"
+  - New section: "How sandboxing relates to permissions and permission modes"
+  - New section: "Configure the sandbox for your organization"
+  - New section: "Troubleshooting"
+  - Removed section: "Overview"
+  - Removed section: "Why sandboxing matters"
+  - Removed section: "How it works"
+  - Removed section: "Getting started"
+  - Removed section: "Security benefits"
+  - Removed section: "Security Limitations"
+  - Removed section: "How sandboxing relates to permissions"
+  - Removed section: "Advanced usage"
+  - Removed section: "Best practices"
+  - Removed section: "Open source"
+  - Removed section: "What sandboxing does not cover"
+  - Updated section: "Limitations"
+- `scheduled-tasks.md`
+  - Content updated
+- `security.md`
+  - Content updated
+- `server-managed-settings.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `setup.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `troubleshoot-install.md`
+  - Content updated
+
 ## 2026-05-21
 
 ### Added
