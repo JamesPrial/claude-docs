@@ -2,6 +2,28 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-05-23
+
+### Modified
+- `mcp.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `plugins.md`
+  - Content updated
+- `quickstart.md`
+  - Content updated
+- `slash-commands.md`
+  - Content updated
+- `subagents.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `worktrees.md`
+  - Content updated
+
 ## 2026-05-22
 
 ### Added
