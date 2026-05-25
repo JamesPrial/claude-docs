@@ -2,6 +2,18 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-05-25
+
+### Modified
+- `code-review.md`
+  - Content updated
+- `quickstart.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+
 ## 2026-05-24
 
 ### Modified
