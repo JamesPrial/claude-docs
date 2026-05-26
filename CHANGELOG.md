@@ -2,6 +2,54 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-05-26
+
+### Modified
+- `typescript.md`
+  - Content updated
+- `agent-view.md`
+  - Content updated
+- `claude-directory.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `costs.md`
+  - Content updated
+- `discover-plugins.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `fast-mode.md`
+  - Content updated
+- `features-overview.md`
+  - Content updated
+- `github-enterprise-server.md`
+  - Content updated
+- `keybindings.md`
+  - Content updated
+- `managed-mcp.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `output-styles.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `prompt-caching.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+
 ## 2026-05-25
 
 ### Modified
