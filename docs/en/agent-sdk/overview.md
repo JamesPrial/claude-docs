@@ -472,12 +472,12 @@ Everything that makes Claude Code powerful is available in the SDK:
 
 The SDK also supports Claude Code's filesystem-based configuration. With default options the SDK loads these from `.claude/` in your working directory and `~/.claude/`. To restrict which sources load, set `setting_sources` (Python) or `settingSources` (TypeScript) in your options.
 
-| Feature                                          | Description                                          | Location                           |
-| ------------------------------------------------ | ---------------------------------------------------- | ---------------------------------- |
-| [Skills](agent-sdk/skills.md)                   | Specialized capabilities defined in Markdown         | `.claude/skills/*/SKILL.md`        |
-| [Slash commands](agent-sdk/slash-commands.md)   | Custom commands for common tasks                     | `.claude/commands/*.md`            |
-| [Memory](agent-sdk/modifying-system-prompts.md) | Project context and instructions                     | `CLAUDE.md` or `.claude/CLAUDE.md` |
-| [Plugins](agent-sdk/plugins.md)                 | Extend with custom commands, agents, and MCP servers | Programmatic via `plugins` option  |
+| Feature                                          | Description                                                                   | Location                           |
+| ------------------------------------------------ | ----------------------------------------------------------------------------- | ---------------------------------- |
+| [Skills](agent-sdk/skills.md)                   | Specialized capabilities Claude uses automatically or you invoke with `/name` | `.claude/skills/*/SKILL.md`        |
+| [Commands](agent-sdk/slash-commands.md)         | Custom commands in the legacy format. Use skills for new custom commands      | `.claude/commands/*.md`            |
+| [Memory](agent-sdk/modifying-system-prompts.md) | Project context and instructions                                              | `CLAUDE.md` or `.claude/CLAUDE.md` |
+| [Plugins](agent-sdk/plugins.md)                 | Extend with skills, agents, hooks, and MCP servers                            | Programmatic via `plugins` option  |
 
 ## Compare the Agent SDK to other Claude tools
 

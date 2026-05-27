@@ -2,6 +2,48 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-05-27
+
+### Added
+- `large-codebases.md` - Set up Claude Code in a monorepo or large codebase
+- `security-guidance.md` - Catch security issues as Claude writes code
+
+### Modified
+- `admin-setup.md`
+  - Content updated
+- `agent-loop.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `plugins.md`
+  - Content updated
+- `amazon-bedrock.md`
+  - Content updated
+- `best-practices.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `common-workflows.md`
+  - Content updated
+- `discover-plugins.md`
+  - Content updated
+- `google-vertex-ai.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `memory.md`
+  - Content updated
+- `microsoft-foundry.md`
+  - Content updated
+- `plugins-reference.md`
+  - Content updated
+- `security.md`
+  - Content updated
+
 ## 2026-05-26
 
 ### Modified
