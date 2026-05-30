@@ -2,6 +2,83 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-05-30
+
+### Modified
+- `hosting.md`
+  - New section: "The subprocess model"
+  - New section: "Choose a session pattern"
+  - New section: "Provision the container"
+  - New section: "Handle production concerns"
+  - New section: "Known limitations"
+  - New section: "Next steps"
+  - Removed section: "Hosting Requirements"
+  - Removed section: "Understanding the SDK Architecture"
+  - Removed section: "Sandbox Provider Options"
+  - Removed section: "Production Deployment Patterns"
+  - Removed section: "FAQ"
+  - Removed section: "Next Steps"
+- `overview.md`
+  - Content updated
+- `quickstart.md`
+  - Content updated
+- `subagents.md`
+  - New section: "Scale up with dynamic workflows"
+- `typescript.md`
+  - Content updated
+- `user-input.md`
+  - Content updated
+- `agent-view.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `keybindings.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `memory.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `plugin-marketplaces.md`
+  - Content updated
+- `plugins-reference.md`
+  - New section: "Skills-directory plugins"
+- `plugins.md`
+  - New section: "Develop a plugin in your skills directory"
+- `settings.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `statusline.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `terminal-config.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `workflows.md`
+  - Content updated
+- `worktrees.md`
+  - Content updated
+
 ## 2026-05-29
 
 ### Added
