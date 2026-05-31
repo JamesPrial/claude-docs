@@ -2,6 +2,18 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-05-31
+
+### Added
+- `2026-w21.md` - Week 21 · May 18–22, 2026
+- `2026-w22.md` - Week 22 · May 25–29, 2026
+
+### Modified
+- `changelog.md`
+  - Content updated
+- `index.md`
+  - Content updated
+
 ## 2026-05-30
 
 ### Modified
