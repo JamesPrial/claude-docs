@@ -2,6 +2,78 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-06-02
+
+### Added
+- `mcp-quickstart.md` - Connect to MCP servers
+
+### Modified
+- `claude-code-features.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `plugins.md`
+  - Content updated
+- `python.md`
+  - Content updated
+- `sessions.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `slash-commands.md`
+  - Content updated
+- `streaming-output.md`
+  - Content updated
+- `streaming-vs-single-mode.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `agent-view.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `discover-plugins.md`
+  - Content updated
+- `features-overview.md`
+  - Content updated
+- `glossary.md`
+  - Content updated
+- `goal.md`
+  - New section: "Compare ways to keep a session running"
+  - Removed section: "Compare to other autonomous workflows"
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `large-codebases.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `plugins-reference.md`
+  - Content updated
+- `plugins.md`
+  - Content updated
+- `prompt-caching.md`
+  - Content updated
+- `scheduled-tasks.md`
+  - Content updated
+- `security-guidance.md`
+  - Content updated
+- `voice-dictation.md`
+  - Content updated
+- `workflows.md`
+  - Content updated
+
 ## 2026-06-01
 
 ### Modified

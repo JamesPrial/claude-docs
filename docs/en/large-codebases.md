@@ -380,7 +380,7 @@ See [server-managed or endpoint-managed settings](server-managed-settings.md#cho
 
 Once conventions live in plugins, a teammate starting Claude in an unfamiliar part of the tree has no signal about which plugin that area's owners maintain. A [`SessionStart` hook](hooks.md#sessionstart) can close that gap, since anything the hook prints to stdout is added to Claude's context before the first prompt.
 
-For example, you can write a script that reads the launch directory from the [hook input](hooks.md#common-input-fields), looks it up in a path-to-plugin map committed to the repository, and prints the recommendation for Claude to relay in its first reply. See [Automate workflows with hooks](hooks-guide.md) to write and register the hook.
+For example, you can write a script that reads the launch directory from the [hook input](hooks.md#common-input-fields), looks it up in a path-to-plugin map committed to the repository, and prints the recommendation for Claude to relay in its first reply. See [Automate actions with hooks](hooks-guide.md) to write and register the hook.
 
 ## Put it together
 
