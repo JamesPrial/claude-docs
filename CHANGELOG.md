@@ -2,6 +2,64 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-06-04
+
+### Modified
+- `quickstart.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `agent-view.md`
+  - Content updated
+- `amazon-bedrock.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `chrome.md`
+  - Content updated
+- `claude-directory.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `context-window.md`
+  - New section: "When your context fills up"
+- `env-vars.md`
+  - Content updated
+- `fast-mode.md`
+  - Content updated
+- `fullscreen.md`
+  - Content updated
+- `headless.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `prompt-caching.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `troubleshooting.md`
+  - Content updated
+- `2026-w18.md`
+  - Content updated
+- `2026-w19.md`
+  - Content updated
+- `2026-w20.md`
+  - Content updated
+- `2026-w21.md`
+  - Content updated
+- `2026-w22.md`
+  - Content updated
+
 ## 2026-06-03
 
 ### Modified
