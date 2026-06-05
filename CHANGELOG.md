@@ -2,6 +2,32 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-06-05
+
+### Modified
+- `python.md`
+  - Content updated
+- `agent-view.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `deep-links.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `memory.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `troubleshoot-install.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+
 ## 2026-06-04
 
 ### Modified
