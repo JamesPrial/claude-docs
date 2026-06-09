@@ -2,6 +2,24 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-06-09
+
+### Modified
+- `admin-setup.md`
+  - Content updated
+- `agents.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `data-usage.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `workflows.md`
+  - Content updated
+- `zero-data-retention.md`
+  - Content updated
+
 ## 2026-06-07
 
 ### Modified
