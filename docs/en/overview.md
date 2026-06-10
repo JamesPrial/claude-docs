@@ -205,7 +205,7 @@ Here are some of the ways you can use Claude Code:
 
     * Step away from your desk and keep working from your phone or any browser with [Remote Control](remote-control.md)
     * Message [Dispatch](desktop.md#sessions-from-dispatch) a task from your phone and open the Desktop session it creates
-    * Kick off a long-running task on the [web](claude-code-on-the-web.md) or [iOS app](https://apps.apple.com/app/claude-by-anthropic/id6473753684), then pull it into your terminal with `claude --teleport`
+    * Kick off a long-running task on the [web](claude-code-on-the-web.md) or [iOS app](https://apps.apple.com/app/claude-by-anthropic/id6473753684), then pull it into your terminal with `claude --teleport`. Teleport requires a claude.ai subscription.
     * Hand off a terminal session to the [Desktop app](desktop.md) with `/desktop` for visual diff review
     * Route tasks from team chat: mention `@Claude` in [Slack](slack.md) with a bug report and get a pull request back
   </Accordion>
