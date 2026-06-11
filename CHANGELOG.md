@@ -2,6 +2,43 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-06-11
+
+### Modified
+- `amazon-bedrock.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `claude-directory.md`
+  - Removed section: "Commands"
+  - Removed section: "Stack"
+  - Removed section: "Rules"
+  - Removed section: "Diff to review"
+  - Removed section: "Input Validation"
+  - Removed section: "Authentication"
+  - Removed section: "Patterns seen"
+  - Removed section: "Recurring issues"
+  - Removed section: "Project"
+  - Removed section: "Reference"
+  - Removed section: "Auth Token Issues"
+  - Removed section: "Database Connection Drops"
+- `claude-platform-on-aws.md`
+  - Content updated
+- `context-window.md`
+  - Content updated
+- `google-vertex-ai.md`
+  - Content updated
+- `microsoft-foundry.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `plugins.md`
+  - Content updated
+- `prompt-library.md`
+  - Content updated
+- `third-party-integrations.md`
+  - Content updated
+
 ## 2026-06-10
 
 ### Added
