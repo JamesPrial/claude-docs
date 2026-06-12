@@ -2,6 +2,59 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-06-12
+
+### Modified
+- `amazon-bedrock.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `claude-directory.md`
+  - New section: "Commands"
+  - New section: "Stack"
+  - New section: "Rules"
+  - New section: "Diff to review"
+  - New section: "Input Validation"
+  - New section: "Authentication"
+  - New section: "Patterns seen"
+  - New section: "Recurring issues"
+  - New section: "Project"
+  - New section: "Reference"
+  - New section: "Auth Token Issues"
+  - New section: "Database Connection Drops"
+- `claude-platform-on-aws.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `code-review.md`
+  - Content updated
+- `context-window.md`
+  - Content updated
+- `google-vertex-ai.md`
+  - Content updated
+- `headless.md`
+  - Content updated
+- `jetbrains.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `microsoft-foundry.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `prompt-library.md`
+  - Content updated
+- `quickstart.md`
+  - Content updated
+- `sessions.md`
+  - Content updated
+- `third-party-integrations.md`
+  - Content updated
+- `troubleshoot-install.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+
 ## 2026-06-11
 
 ### Modified
