@@ -2,6 +2,60 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-06-13
+
+### Modified
+- `agent-loop.md`
+  - Content updated
+- `structured-outputs.md`
+  - Content updated
+- `subagents.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `agent-teams.md`
+  - Content updated
+- `amazon-bedrock.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `costs.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `fullscreen.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `jetbrains.md`
+  - Content updated
+- `keybindings.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `plugin-hints.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+
 ## 2026-06-12
 
 ### Modified
