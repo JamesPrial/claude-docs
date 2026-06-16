@@ -2,6 +2,48 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-06-16
+
+### Added
+- `2026-w23.md` - Week 23 · June 1–5, 2026
+- `2026-w24.md` - Week 24 · June 8–12, 2026
+
+### Modified
+- `cost-tracking.md`
+  - Content updated
+- `hosting.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `agent-view.md`
+  - Content updated
+- `authentication.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `features-overview.md`
+  - Content updated
+- `headless.md`
+  - Content updated
+- `legal-and-compliance.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `quickstart.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `troubleshoot-install.md`
+  - Content updated
+- `index.md`
+  - Content updated
+
 ## 2026-06-14
 
 ### Modified
