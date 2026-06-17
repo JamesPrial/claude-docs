@@ -2,6 +2,68 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-06-17
+
+### Modified
+- `advisor.md`
+  - Content updated
+- `agent-loop.md`
+  - Content updated
+- `python.md`
+  - Content updated
+- `structured-outputs.md`
+  - Content updated
+- `subagents.md`
+  - Content updated
+- `todo-tracking.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `agent-teams.md`
+  - Content updated
+- `amazon-bedrock.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `costs.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `fast-mode.md`
+  - Content updated
+- `fullscreen.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `output-styles.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `plugin-hints.md`
+  - Content updated
+- `plugin-marketplaces.md`
+  - Content updated
+- `plugins-reference.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `statusline.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `workflows.md`
+  - Content updated
+
 ## 2026-06-16
 
 ### Added
