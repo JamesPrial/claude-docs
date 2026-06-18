@@ -2,6 +2,18 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-06-18
+
+### Modified
+- `changelog.md`
+  - Content updated
+- `memory.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+
 ## 2026-06-17
 
 ### Modified
