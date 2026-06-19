@@ -2,6 +2,71 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-06-19
+
+### Added
+- `artifacts.md` - Share session output as artifacts
+
+### Modified
+- `subagents.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `agent-teams.md`
+  - Content updated
+- `amazon-bedrock.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `features-overview.md`
+  - Content updated
+- `fullscreen.md`
+  - Content updated
+- `glossary.md`
+  - Content updated
+- `headless.md`
+  - Content updated
+- `mcp-quickstart.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `network-config.md`
+  - Content updated
+- `plugin-marketplaces.md`
+  - Content updated
+- `plugins-reference.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `skills.md`
+  - New section: "Evaluate and iterate on a skill"
+- `statusline.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `ultrareview.md`
+  - Content updated
+- `2026-w24.md`
+  - Content updated
+- `workflows.md`
+  - Content updated
+- `zero-data-retention.md`
+  - Content updated
+
 ## 2026-06-18
 
 ### Modified
