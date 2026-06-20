@@ -2,6 +2,36 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-06-20
+
+### Modified
+- `claude-code-features.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `chrome.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `headless.md`
+  - Content updated
+- `keybindings.md`
+  - Content updated
+- `managed-mcp.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+
 ## 2026-06-19
 
 ### Added
