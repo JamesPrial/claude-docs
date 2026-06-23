@@ -2,6 +2,56 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-06-23
+
+### Added
+- `plugin-relevance.md` - Recommend plugins for your org
+
+### Modified
+- `python.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `agent-teams.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `claude-platform-on-aws.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `plugin-marketplaces.md`
+  - Content updated
+- `prompt-library.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `ultrareview.md`
+  - New section: "How ultrareview compares to /code-review and /review"
+  - Removed section: "How ultrareview compares to /review"
+- `workflows.md`
+  - Content updated
+
 ## 2026-06-21
 
 ### Modified
