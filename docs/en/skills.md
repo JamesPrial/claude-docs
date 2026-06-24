@@ -848,3 +848,4 @@ To raise the budget, set the [`skillListingBudgetFraction`](settings.md#availabl
 * **[Memory](memory.md)**: manage CLAUDE.md files for persistent context
 * **[Commands](commands.md)**: reference for built-in commands and bundled skills
 * **[Permissions](permissions.md)**: control tool and skill access
+* **[Claude Tag skills](https://claude.com/docs/claude-tag/admins/skills-repo)**: project skills committed to a repo also load when that repo is used in a Claude Tag channel

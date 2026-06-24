@@ -2,6 +2,20 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-06-24
+
+### Modified
+- `agent-view.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `slack.md`
+  - Content updated
+
 ## 2026-06-23
 
 ### Added
