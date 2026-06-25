@@ -152,9 +152,9 @@ Learn more: [Get started with hooks](hooks-guide.md) · [Hooks reference](hooks.
 
 ### Managed settings
 
-A settings file enforced org-wide by IT or DevOps, placed at an OS-level path outside `~/.claude`. Users cannot override or exclude managed settings. Use this for security policies, compliance requirements, or standardized tooling across a fleet.
+Settings enforced org-wide by IT or DevOps, delivered from Anthropic's servers through the admin console or deployed to devices at an OS-level path outside `~/.claude`. User and project settings cannot override managed settings. Server-managed delivery applies on [eligible configurations](server-managed-settings.md#platform-availability); see [Security considerations](server-managed-settings.md#security-considerations). Use this for security policies, compliance requirements, or standardized tooling across a fleet.
 
-Learn more: [Server-managed settings](server-managed-settings.md)
+Learn more: [Server-managed settings](server-managed-settings.md) · [Settings files](settings.md#settings-files)
 
 ### MCP (Model Context Protocol)
 
