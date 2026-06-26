@@ -2,6 +2,94 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-06-26
+
+### Added
+- `feature-availability.md` - Feature availability
+- `llm-gateway-connect.md` - Connect Claude Code to an LLM gateway
+- `llm-gateway-protocol.md` - Gateway protocol reference
+- `llm-gateway-rollout.md` - Roll out an LLM gateway for your organization
+
+### Modified
+- `mcp.md`
+  - Content updated
+- `agent-teams.md`
+  - Content updated
+- `agent-view.md`
+  - Content updated
+- `artifacts.md`
+  - Content updated
+- `authentication.md`
+  - Content updated
+- `auto-mode-config.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `channels.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `code-review.md`
+  - Content updated
+- `costs.md`
+  - Content updated
+- `debug-your-config.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `fast-mode.md`
+  - Content updated
+- `github-enterprise-server.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `llm-gateway.md`
+  - New section: "What a gateway provides"
+  - New section: "How a gateway works"
+  - New section: "Roll out a gateway"
+  - New section: "Third-party gateways"
+  - New section: "Subscriptions and gateways"
+  - New section: "Configure separately from the gateway"
+  - New section: "Related pages"
+  - Removed section: "Gateway requirements"
+  - Removed section: "Configuration"
+  - Removed section: "LiteLLM configuration"
+  - Removed section: "Additional resources"
+- `mcp-quickstart.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `quickstart.md`
+  - Content updated
+- `remote-control.md`
+  - New section: "Trusted Devices"
+- `routines.md`
+  - Content updated
+- `server-managed-settings.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `setup.md`
+  - Content updated
+- `third-party-integrations.md`
+  - Content updated
+- `ultrareview.md`
+  - Content updated
+- `web-quickstart.md`
+  - Content updated
+
 ## 2026-06-25
 
 ### Modified

@@ -383,7 +383,7 @@ This is a server-side organization setting, so it cannot be overridden from loca
 
 ### Routines are disabled by your organization's policy
 
-Your Team or Enterprise admin has turned off routines at the organization level. The error appears when you try to create or run a routine, including from `/schedule` and the [Routines](routines.md) UI on claude.ai/code.
+An Owner in your Team or Enterprise organization has turned off routines at the organization level. The error appears when you try to create or run a routine, including from `/schedule` and the [Routines](routines.md) UI on claude.ai/code.
 
 ```text theme={null}
 Routines are disabled by your organization's policy.
@@ -393,7 +393,7 @@ This is a server-side setting, so it cannot be overridden from local settings, e
 
 **What to do:**
 
-* Ask your admin to enable the **Routines** toggle at [claude.ai/admin-settings/claude-code](https://claude.ai/admin-settings/claude-code)
+* Ask an Owner in your organization to enable the **Routines** toggle at [claude.ai/admin-settings/claude-code](https://claude.ai/admin-settings/claude-code)
 * For one-off scheduled work that does not require organization-level routines, see [scheduled tasks](scheduled-tasks.md)
 
 ### OAuth token revoked or expired
@@ -448,7 +448,7 @@ Common causes include no internet access, a VPN that blocks `api.anthropic.com`,
 
 * Confirm you can reach the API host from the same shell by running `curl -I https://api.anthropic.com`. On Windows PowerShell use `curl.exe -I https://api.anthropic.com` so the built-in `Invoke-WebRequest` alias is not used.
 * If you are behind a corporate proxy, set `HTTPS_PROXY` before launching Claude Code and see [Network configuration](network-config.md)
-* If you route through an LLM gateway or relay, set [`ANTHROPIC_BASE_URL`](env-vars.md) to its address. See [LLM gateway configuration](llm-gateway.md) for setup.
+* If you route through an LLM gateway or relay, set [`ANTHROPIC_BASE_URL`](env-vars.md) to its address. See [Connect Claude Code to an LLM gateway](llm-gateway-connect.md) for setup.
 * Ensure your firewall allows the hosts listed in [Network access requirements](network-config.md#network-access-requirements)
 * Intermittent failures are [retried automatically](#automatic-retries); persistent failures point to a local network issue
 
@@ -611,7 +611,7 @@ Claude Code sends beta-only fields such as `context_management`, `effort`, and t
 
 **What to do:**
 
-* Configure your gateway to forward the `anthropic-beta` header. See [LLM gateway configuration](llm-gateway.md).
+* Configure your gateway to forward the `anthropic-beta` header. See [feature pass-through](llm-gateway-protocol.md#feature-pass-through) for what gateways must forward.
 * As a fallback, set [`CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS=1`](env-vars.md) before launching. This disables features that require the beta header so requests succeed through a gateway that cannot forward it.
 
 ### There's an issue with the selected model
