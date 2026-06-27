@@ -2,6 +2,98 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-06-27
+
+### Added
+- `2026-w25.md` - Week 25 · June 15–19, 2026
+- `2026-w26.md` - Week 26 · June 22–26, 2026
+
+### Modified
+- `admin-setup.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `quickstart.md`
+  - Removed section: "Troubleshooting"
+- `slash-commands.md`
+  - Content updated
+- `subagents.md`
+  - Content updated
+- `tool-search.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `agent-teams.md`
+  - Content updated
+- `agent-view.md`
+  - Content updated
+- `artifacts.md`
+  - Content updated
+- `auto-mode-config.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `channels.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `devcontainer.md`
+  - Content updated
+- `discover-plugins.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `fast-mode.md`
+  - Content updated
+- `fullscreen.md`
+  - Content updated
+- `goal.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `interactive-mode.md`
+  - New section: "Background Bash commands"
+  - Removed section: "Background bash commands"
+- `llm-gateway-protocol.md`
+  - Content updated
+- `llm-gateway.md`
+  - Content updated
+- `mcp.md`
+  - New section: "Use MCP servers from claude.ai"
+  - New section: "Scale with MCP tool search"
+  - Removed section: "Use MCP servers from Claude.ai"
+  - Removed section: "Scale with MCP Tool Search"
+- `model-config.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `plugin-marketplaces.md`
+  - Content updated
+- `sandbox-environments.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `sessions.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `troubleshoot-install.md`
+  - Content updated
+- `voice-dictation.md`
+  - Content updated
+- `index.md`
+  - Content updated
+- `workflows.md`
+  - Content updated
+
 ## 2026-06-26
 
 ### Added
