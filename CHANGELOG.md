@@ -2,6 +2,58 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-06-30
+
+### Added
+- `claude-apps-gateway-config.md` - Claude apps gateway configuration
+- `claude-apps-gateway-deploy.md` - Claude apps gateway deployment and operations
+- `claude-apps-gateway-on-gcp.md` - Deploy Claude apps gateway on Google Cloud
+- `claude-apps-gateway-spend-limits.md` - Claude apps gateway spend limits
+- `claude-apps-gateway.md` - Claude apps gateway for Amazon Bedrock, Google Cloud, and Microsoft Foundry
+- `gateways.md` - Run Claude Code through a gateway
+
+### Modified
+- `admin-setup.md`
+  - Content updated
+- `authentication.md`
+  - Content updated
+- `auto-mode-config.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `costs.md`
+  - Content updated
+- `data-usage.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `llm-gateway-connect.md`
+  - Content updated
+- `llm-gateway-protocol.md`
+  - Content updated
+- `llm-gateway-rollout.md`
+  - Content updated
+- `llm-gateway.md`
+  - Removed section: "How a gateway works"
+  - Removed section: "Third-party gateways"
+  - Removed section: "Configure separately from the gateway"
+- `monitoring-usage.md`
+  - Content updated
+- `network-config.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `quickstart.md`
+  - Content updated
+- `server-managed-settings.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `third-party-integrations.md`
+  - Content updated
+
 ## 2026-06-27
 
 ### Added
