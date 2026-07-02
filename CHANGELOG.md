@@ -2,6 +2,36 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-07-02
+
+### Modified
+- `advisor.md`
+  - Content updated
+- `agent-loop.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `artifacts.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `llm-gateway-protocol.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+
 ## 2026-07-01
 
 ### Added
