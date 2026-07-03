@@ -2,6 +2,133 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-07-03
+
+### Modified
+- `admin-setup.md`
+  - Content updated
+- `advisor.md`
+  - Content updated
+- `claude-code-features.md`
+  - Content updated
+- `file-checkpointing.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `python.md`
+  - Content updated
+- `subagents.md`
+  - New section: "Create subagents"
+  - New section: "Invoke subagents"
+  - New section: "Detect subagent invocation"
+  - New section: "Resume subagents"
+  - Removed section: "Creating subagents"
+  - Removed section: "Invoking subagents"
+  - Removed section: "Detecting subagent invocation"
+  - Removed section: "Resuming subagents"
+- `todo-tracking.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `agent-teams.md`
+  - Content updated
+- `agent-view.md`
+  - Content updated
+- `agents.md`
+  - Content updated
+- `amazon-bedrock.md`
+  - Content updated
+- `artifacts.md`
+  - Content updated
+- `auto-mode-config.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `chrome.md`
+  - Content updated
+- `claude-apps-gateway-config.md`
+  - Content updated
+- `claude-apps-gateway-deploy.md`
+  - Content updated
+- `claude-apps-gateway.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `claude-platform-on-aws.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `context-window.md`
+  - Content updated
+- `costs.md`
+  - Content updated
+- `debug-your-config.md`
+  - Content updated
+- `desktop-linux.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - New section: "Command-line errors"
+- `feature-availability.md`
+  - Content updated
+- `fullscreen.md`
+  - Content updated
+- `gateways.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `how-claude-code-works.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `keybindings.md`
+  - Content updated
+- `mcp.md`
+  - New section: "Tool input schemas with a root-level combinator"
+  - New section: "Require approval for a specific tool"
+- `memory.md`
+  - Content updated
+- `model-config.md`
+  - New section: "Organization default model"
+  - New section: "Organization effort limits"
+- `monitoring-usage.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `plugins-reference.md`
+  - Content updated
+- `plugins.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `server-managed-settings.md`
+  - Content updated
+- `sessions.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `setup.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `sub-agents.md`
+  - Updated section: "Configure subagents"
+- `third-party-integrations.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `workflows.md`
+  - New section: "Example workflow prompts"
+- `worktrees.md`
+  - Content updated
+
 ## 2026-07-02
 
 ### Modified
