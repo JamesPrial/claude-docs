@@ -73,9 +73,9 @@ When you open the container in VS Code or Codespaces, the feature also adds the 
 What you see at the authentication prompt depends on your provider:
 
 * **Anthropic**: sign in through a browser with your Claude or Anthropic Console account
-* **[Amazon Bedrock, Google Vertex AI, or Microsoft Foundry](third-party-integrations.md)**: Claude Code uses your cloud provider credentials, with no browser prompt
+* **[Amazon Bedrock, Google Cloud's Agent Platform, or Microsoft Foundry](third-party-integrations.md)**: Claude Code uses your cloud provider credentials, with no browser prompt
 
-For cloud providers, pass credentials into the container as environment variables through `containerEnv`, a Codespaces secret, or your cloud's workload identity rather than mounting credential files from the host. See [Amazon Bedrock](amazon-bedrock.md), [Google Vertex AI](google-vertex-ai.md), or [Microsoft Foundry](microsoft-foundry.md) for the credential chain Claude Code reads.
+For cloud providers, pass credentials into the container as environment variables through `containerEnv`, a Codespaces secret, or your cloud's workload identity rather than mounting credential files from the host. See [Amazon Bedrock](amazon-bedrock.md), [Google Cloud's Agent Platform](google-vertex-ai.md), or [Microsoft Foundry](microsoft-foundry.md) for the credential chain Claude Code reads.
 
 See [Choose your API provider](admin-setup.md#choose-your-api-provider) to decide which path fits your organization.
 
