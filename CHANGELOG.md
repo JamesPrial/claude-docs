@@ -2,6 +2,36 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-07-08
+
+### Modified
+- `agent-loop.md`
+  - Content updated
+- `custom-tools.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `python.md`
+  - Content updated
+- `quickstart.md`
+  - Content updated
+- `user-input.md`
+  - Content updated
+- `channels-reference.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `plugins-reference.md`
+  - Content updated
+- `setup.md`
+  - Content updated
+
 ## 2026-07-07
 
 ### Modified
