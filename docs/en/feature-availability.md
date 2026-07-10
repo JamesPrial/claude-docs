@@ -47,7 +47,7 @@ These require signing in with a claude.ai account and are not reachable with an 
 * [Artifacts](artifacts.md): Pro, Max, Team, and Enterprise plans
 * [Voice dictation](voice-dictation.md)
 
-Desktop is the partial exception: Enterprise deployments can route Desktop to Google Cloud's Agent Platform or a gateway provider via [managed settings](https://support.claude.com/en/articles/12622667-enterprise-configuration), and the [Cowork on 3P research preview](https://claude.com/docs/cowork/3p/overview) runs the Code tab on Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry, or a self-hosted LLM gateway. For per-plan availability of these features, see [Availability by subscription plan](#availability-by-subscription-plan).
+Desktop is the partial exception: Enterprise deployments can route Desktop to Google Cloud's Agent Platform or a gateway provider via [managed settings](https://support.claude.com/en/articles/12622667-enterprise-configuration), and [Claude Desktop on 3P](https://claude.com/docs/third-party/claude-desktop/overview) runs the Code tab on Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry, or a self-hosted LLM gateway. For per-plan availability of these features, see [Availability by subscription plan](#availability-by-subscription-plan).
 
 ### CLI capabilities that vary by provider
 
@@ -209,7 +209,7 @@ Each tab lists what is unavailable or partially supported on that provider, with
 
     **Partial support:**
 
-    * [Desktop](desktop.md): only via the [Cowork on 3P research preview](https://claude.com/docs/cowork/3p/overview)
+    * [Desktop](desktop.md): only via [Claude Desktop on 3P](https://claude.com/docs/third-party/claude-desktop/overview)
     * [Auto mode](auto-mode-config.md): set `CLAUDE_CODE_ENABLE_AUTO_MODE`
     * [`/loop`](scheduled-tasks.md): explicit intervals only
     * [Zero Data Retention](zero-data-retention.md): subject to your AWS agreement
@@ -230,7 +230,7 @@ Each tab lists what is unavailable or partially supported on that provider, with
 
     **Partial support:**
 
-    * [Desktop](desktop.md): via [managed settings](https://support.claude.com/en/articles/12622667-enterprise-configuration) or the [Cowork on 3P research preview](https://claude.com/docs/cowork/3p/overview)
+    * [Desktop](desktop.md): via [managed settings](https://support.claude.com/en/articles/12622667-enterprise-configuration) or [Claude Desktop on 3P](https://claude.com/docs/third-party/claude-desktop/overview)
     * [Web search](tools-reference.md#websearch-tool-behavior): Claude 4 models and later
     * [Auto mode](auto-mode-config.md): set `CLAUDE_CODE_ENABLE_AUTO_MODE`
     * [`/loop`](scheduled-tasks.md): explicit intervals only
@@ -244,7 +244,7 @@ Each tab lists what is unavailable or partially supported on that provider, with
 
     **Partial support:**
 
-    * [Desktop](desktop.md): only via the [Cowork on 3P research preview](https://claude.com/docs/cowork/3p/overview)
+    * [Desktop](desktop.md): only via [Claude Desktop on 3P](https://claude.com/docs/third-party/claude-desktop/overview)
     * [Auto mode](auto-mode-config.md): set `CLAUDE_CODE_ENABLE_AUTO_MODE`
     * [`/loop`](scheduled-tasks.md): explicit intervals only
     * [Zero Data Retention](zero-data-retention.md): subject to your Azure agreement
