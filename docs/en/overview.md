@@ -10,7 +10,7 @@ Claude Code is an AI-powered coding assistant that helps you build features, fix
 
 ## Get started
 
-Choose your environment to get started. Most surfaces require a [Claude subscription](https://claude.com/pricing?utm_source=claude_code\&utm_medium=docs\&utm_content=overview_pricing) or [Anthropic Console](https://console.anthropic.com/) account. The Terminal CLI and VS Code also support [third-party providers](third-party-integrations.md).
+Claude Code runs on several surfaces: the terminal, IDE extensions, a desktop app, and the web. Choose one from the tabs below to get started. Most surfaces require a [Claude subscription](https://claude.com/pricing?utm_source=claude_code\&utm_medium=docs\&utm_content=overview_pricing) or [Anthropic Console](https://console.anthropic.com/) account. The Terminal CLI and VS Code also support [third-party providers](third-party-integrations.md).
 
 <Tabs>
   <Tab title="Terminal">
@@ -203,7 +203,7 @@ Here are some of the ways you can use Claude Code:
   </Accordion>
 
   <Accordion title="Work from anywhere" icon="globe">
-    Sessions aren't tied to a single surface. Move work between environments as your context changes:
+    Sessions aren't tied to a single surface. Move work between them as your context changes:
 
     * Step away from your desk and keep working from your phone or any browser with [Remote Control](remote-control.md)
     * Message [Dispatch](desktop.md#sessions-from-dispatch) a task from your phone and open the Desktop session it creates
@@ -215,9 +215,9 @@ Here are some of the ways you can use Claude Code:
 
 ## Use Claude Code everywhere
 
-Each surface connects to the same underlying Claude Code engine, so your CLAUDE.md files, settings, and MCP servers work across all of them.
+Each [surface](glossary.md#surface) connects to the same underlying Claude Code engine, so your CLAUDE.md files, settings, and MCP servers work across all of them.
 
-Beyond the [Terminal](quickstart.md), [VS Code](vs-code.md), [JetBrains](jetbrains.md), [Desktop](desktop.md), and [Web](claude-code-on-the-web.md) environments above, Claude Code integrates with CI/CD, chat, and browser workflows:
+Beyond the [Terminal](quickstart.md), [VS Code](vs-code.md), [JetBrains](jetbrains.md), [Desktop](desktop.md), and [Web](claude-code-on-the-web.md) surfaces above, Claude Code integrates with CI/CD, chat, and browser workflows:
 
 | I want to...                                                                    | Best option                                                                                                        |
 | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |

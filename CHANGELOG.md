@@ -2,6 +2,40 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-07-11
+
+### Modified
+- `python.md`
+  - Content updated
+- `amazon-bedrock.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `claude-platform-on-aws.md`
+  - Content updated
+- `desktop-linux.md`
+  - New section: "Troubleshoot"
+- `desktop.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `glossary.md`
+  - Content updated
+- `google-vertex-ai.md`
+  - Content updated
+- `how-claude-code-works.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `troubleshooting.md`
+  - Content updated
+
 ## 2026-07-10
 
 ### Modified
