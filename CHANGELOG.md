@@ -2,6 +2,34 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-07-12
+
+### Added
+- `2026-w27.md` - Week 27 · June 29 – July 3, 2026
+- `2026-w28.md` - Week 28 · July 6–10, 2026
+
+### Modified
+- `mcp.md`
+  - Content updated
+- `communications-kit.md`
+  - Content updated
+- `desktop-linux.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `security.md`
+  - Content updated
+- `setup.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `troubleshoot-install.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+- `index.md`
+  - Content updated
+
 ## 2026-07-11
 
 ### Modified
