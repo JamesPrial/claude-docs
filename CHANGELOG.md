@@ -2,6 +2,199 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-07-14
+
+### Added
+- `accessibility.md` - Use Claude Code with a screen reader
+- `desktop-wsl.md` - Claude Code Desktop in WSL
+
+### Modified
+- `admin-setup.md`
+  - Content updated
+- `advisor.md`
+  - Content updated
+- `agent-loop.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `python.md`
+  - Content updated
+- `subagents.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `user-input.md`
+  - Content updated
+- `agent-teams.md`
+  - Content updated
+- `agent-view.md`
+  - Content updated
+- `amazon-bedrock.md`
+  - Content updated
+- `analytics.md`
+  - Content updated
+- `artifacts.md`
+  - Content updated
+- `authentication.md`
+  - Content updated
+- `auto-mode-config.md`
+  - New section: "Common boundaries"
+- `best-practices.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `channels-reference.md`
+  - Content updated
+- `channels.md`
+  - Content updated
+- `checkpointing.md`
+  - Content updated
+- `chrome.md`
+  - Content updated
+- `claude-apps-gateway-config.md`
+  - Content updated
+- `claude-apps-gateway-deploy.md`
+  - Content updated
+- `claude-apps-gateway.md`
+  - Content updated
+- `claude-directory.md`
+  - Content updated
+- `claude-platform-on-aws.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `common-workflows.md`
+  - Content updated
+- `communications-kit.md`
+  - Content updated
+- `computer-use.md`
+  - Content updated
+- `costs.md`
+  - New section: "Manage costs for your organization"
+  - Removed section: "Managing costs for teams"
+- `debug-your-config.md`
+  - Content updated
+- `deep-links.md`
+  - Content updated
+- `desktop-linux.md`
+  - Content updated
+- `desktop-quickstart.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `discover-plugins.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `fast-mode.md`
+  - Content updated
+- `feature-availability.md`
+  - Content updated
+- `fullscreen.md`
+  - New section: "Troubleshooting"
+- `gateways.md`
+  - Content updated
+- `glossary.md`
+  - Content updated
+- `goal.md`
+  - Content updated
+- `google-vertex-ai.md`
+  - Content updated
+- `headless.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `how-claude-code-works.md`
+  - Content updated
+- `jetbrains.md`
+  - Content updated
+- `keybindings.md`
+  - Content updated
+- `large-codebases.md`
+  - Content updated
+- `legal-and-compliance.md`
+  - Content updated
+- `llm-gateway-connect.md`
+  - Content updated
+- `llm-gateway-protocol.md`
+  - Content updated
+- `managed-mcp.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `memory.md`
+  - Content updated
+- `microsoft-foundry.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `network-config.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `plugin-marketplaces.md`
+  - Content updated
+- `plugins-reference.md`
+  - Content updated
+- `plugins.md`
+  - Content updated
+- `prompt-caching.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `routines.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `scheduled-tasks.md`
+  - Content updated
+- `server-managed-settings.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `setup.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `terminal-config.md`
+  - Content updated
+- `third-party-integrations.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `troubleshoot-install.md`
+  - Content updated
+- `ultraplan.md`
+  - Content updated
+- `ultrareview.md`
+  - Content updated
+- `voice-dictation.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+- `web-quickstart.md`
+  - Content updated
+- `2026-w14.md`
+  - Content updated
+- `2026-w23.md`
+  - Content updated
+- `workflows.md`
+  - Content updated
+- `worktrees.md`
+  - Content updated
+
 ## 2026-07-12
 
 ### Added
