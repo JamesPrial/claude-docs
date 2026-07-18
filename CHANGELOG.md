@@ -2,6 +2,168 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-07-18
+
+### Added
+- `mobile.md` - Claude Code on mobile
+- `2026-w29.md` - Week 29 · July 13–17, 2026
+
+### Modified
+- `admin-setup.md`
+  - Content updated
+- `claude-code-features.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `mcp.md`
+  - New section: "Connection timing"
+- `observability.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `python.md`
+  - Content updated
+- `quickstart.md`
+  - Content updated
+- `slash-commands.md`
+  - Content updated
+- `structured-outputs.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `agent-view.md`
+  - Content updated
+- `agents.md`
+  - Content updated
+- `authentication.md`
+  - Content updated
+- `auto-mode-config.md`
+  - Content updated
+- `best-practices.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `checkpointing.md`
+  - Content updated
+- `chrome.md`
+  - Content updated
+- `claude-apps-gateway-config.md`
+  - Content updated
+- `claude-apps-gateway-deploy.md`
+  - Content updated
+- `claude-apps-gateway-on-gcp.md`
+  - Content updated
+- `claude-apps-gateway.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `claude-platform-on-aws.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `code-review.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `costs.md`
+  - Content updated
+- `data-usage.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `fast-mode.md`
+  - Content updated
+- `fullscreen.md`
+  - Content updated
+- `glossary.md`
+  - Content updated
+- `headless.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `llm-gateway-connect.md`
+  - Content updated
+- `llm-gateway-protocol.md`
+  - Content updated
+- `llm-gateway-rollout.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `memory.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `network-config.md`
+  - Content updated
+- `output-styles.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `platforms.md`
+  - Content updated
+- `plugin-dependencies.md`
+  - Content updated
+- `plugin-hints.md`
+  - Content updated
+- `plugins-reference.md`
+  - Content updated
+- `prompt-caching.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `routines.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `server-managed-settings.md`
+  - Content updated
+- `sessions.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `statusline.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `troubleshoot-install.md`
+  - Content updated
+- `troubleshooting.md`
+  - Content updated
+- `ultrareview.md`
+  - Content updated
+- `index.md`
+  - Content updated
+- `worktrees.md`
+  - New section: "Resume a worktree session"
+  - New section: "Customize worktree creation"
+  - New section: "What worktrees share with the main checkout"
+  - New section: "Troubleshooting"
+  - Removed section: "Copy gitignored files into worktrees"
+  - Updated section: "Clean up worktrees"
+  - Updated section: "Isolate subagents with worktrees"
+- `zero-data-retention.md`
+  - Content updated
+
 ## 2026-07-17
 
 ### Added
