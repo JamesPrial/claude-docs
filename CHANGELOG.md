@@ -2,6 +2,32 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-07-19
+
+### Modified
+- `artifacts.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `claude-apps-gateway-deploy.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `routines.md`
+  - Content updated
+- `statusline.md`
+  - Content updated
+- `troubleshoot-install.md`
+  - Content updated
+- `troubleshooting.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+
 ## 2026-07-18
 
 ### Added
