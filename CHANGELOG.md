@@ -2,6 +2,350 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-07-21
+
+### Modified
+- `accessibility.md`
+  - Content updated
+- `admin-setup.md`
+  - Content updated
+- `advisor.md`
+  - Content updated
+- `agent-loop.md`
+  - Content updated
+- `claude-code-features.md`
+  - Content updated
+- `cost-tracking.md`
+  - Content updated
+- `custom-tools.md`
+  - Content updated
+- `file-checkpointing.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `hosting.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `migration-guide.md`
+  - Content updated
+- `modifying-system-prompts.md`
+  - Content updated
+- `observability.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `plugins.md`
+  - Content updated
+- `python.md`
+  - Content updated
+- `quickstart.md`
+  - Content updated
+- `secure-deployment.md`
+  - Content updated
+- `session-storage.md`
+  - Content updated
+- `sessions.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `slash-commands.md`
+  - Content updated
+- `streaming-output.md`
+  - Content updated
+- `streaming-vs-single-mode.md`
+  - Content updated
+- `structured-outputs.md`
+  - Content updated
+- `subagents.md`
+  - Content updated
+- `todo-tracking.md`
+  - Content updated
+- `tool-search.md`
+  - Content updated
+- `typescript-v2-preview.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `user-input.md`
+  - Content updated
+- `agent-teams.md`
+  - Content updated
+- `agent-view.md`
+  - Content updated
+- `agents.md`
+  - Content updated
+- `amazon-bedrock.md`
+  - Content updated
+- `analytics.md`
+  - Content updated
+- `artifacts.md`
+  - Content updated
+- `authentication.md`
+  - Content updated
+- `auto-mode-config.md`
+  - Content updated
+- `best-practices.md`
+  - Content updated
+- `champion-kit.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `channels-reference.md`
+  - Content updated
+- `channels.md`
+  - Content updated
+- `checkpointing.md`
+  - Content updated
+- `chrome.md`
+  - Content updated
+- `claude-apps-gateway-config.md`
+  - Content updated
+- `claude-apps-gateway-deploy.md`
+  - Content updated
+- `claude-apps-gateway-on-gcp.md`
+  - Content updated
+- `claude-apps-gateway-spend-limits.md`
+  - Content updated
+- `claude-apps-gateway.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `claude-directory.md`
+  - Content updated
+- `claude-platform-on-aws.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `code-review.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `common-workflows.md`
+  - Content updated
+- `communications-kit.md`
+  - Content updated
+- `computer-use.md`
+  - Content updated
+- `context-window.md`
+  - Content updated
+- `corporate-launcher.md`
+  - Content updated
+- `costs.md`
+  - Content updated
+- `data-usage.md`
+  - Content updated
+- `debug-your-config.md`
+  - Content updated
+- `deep-links.md`
+  - Content updated
+- `desktop-linux.md`
+  - Content updated
+- `desktop-quickstart.md`
+  - Content updated
+- `desktop-scheduled-tasks.md`
+  - Content updated
+- `desktop-wsl.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `devcontainer.md`
+  - Content updated
+- `discover-plugins.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - New section: "Rewind warnings"
+- `fast-mode.md`
+  - Content updated
+- `feature-availability.md`
+  - Content updated
+- `features-overview.md`
+  - Content updated
+- `fullscreen.md`
+  - Content updated
+- `gateways.md`
+  - Content updated
+- `github-actions.md`
+  - Content updated
+- `github-enterprise-server.md`
+  - Content updated
+- `gitlab-ci-cd.md`
+  - Content updated
+- `glossary.md`
+  - Content updated
+- `goal.md`
+  - Content updated
+- `google-vertex-ai.md`
+  - Content updated
+- `headless.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `how-claude-code-works.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `jetbrains.md`
+  - Content updated
+- `keybindings.md`
+  - Content updated
+- `large-codebases.md`
+  - Content updated
+- `legal-and-compliance.md`
+  - Content updated
+- `llm-gateway-connect.md`
+  - Content updated
+- `llm-gateway-protocol.md`
+  - Content updated
+- `llm-gateway-rollout.md`
+  - Content updated
+- `llm-gateway.md`
+  - Content updated
+- `managed-mcp.md`
+  - Content updated
+- `mcp-quickstart.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `memory.md`
+  - Content updated
+- `microsoft-foundry.md`
+  - Content updated
+- `mobile.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `network-config.md`
+  - Content updated
+- `output-styles.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `platforms.md`
+  - Content updated
+- `plugin-dependencies.md`
+  - Content updated
+- `plugin-hints.md`
+  - Content updated
+- `plugin-marketplaces.md`
+  - Content updated
+- `plugin-relevance.md`
+  - Content updated
+- `plugins-reference.md`
+  - Content updated
+- `plugins.md`
+  - Content updated
+- `prompt-caching.md`
+  - Content updated
+- `prompt-library.md`
+  - Content updated
+- `quickstart.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `routines.md`
+  - Content updated
+- `sandbox-environments.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `scheduled-tasks.md`
+  - Content updated
+- `security-guidance.md`
+  - Content updated
+- `security.md`
+  - Content updated
+- `server-managed-settings.md`
+  - Content updated
+- `sessions.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `setup.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `slack.md`
+  - Content updated
+- `statusline.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `terminal-config.md`
+  - Content updated
+- `third-party-integrations.md`
+  - Content updated
+- `tools-reference.md`
+  - New section: "EndConversation tool behavior"
+- `troubleshoot-install.md`
+  - Content updated
+- `troubleshooting.md`
+  - Content updated
+- `ultraplan.md`
+  - Content updated
+- `ultrareview.md`
+  - Content updated
+- `voice-dictation.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+- `web-quickstart.md`
+  - Content updated
+- `2026-w13.md`
+  - Content updated
+- `2026-w14.md`
+  - Content updated
+- `2026-w15.md`
+  - Content updated
+- `2026-w16.md`
+  - Content updated
+- `2026-w17.md`
+  - Content updated
+- `2026-w18.md`
+  - Content updated
+- `2026-w19.md`
+  - Content updated
+- `2026-w20.md`
+  - Content updated
+- `2026-w21.md`
+  - Content updated
+- `2026-w22.md`
+  - Content updated
+- `2026-w23.md`
+  - Content updated
+- `2026-w24.md`
+  - Content updated
+- `2026-w25.md`
+  - Content updated
+- `2026-w26.md`
+  - Content updated
+- `2026-w27.md`
+  - Content updated
+- `2026-w28.md`
+  - Content updated
+- `2026-w29.md`
+  - Content updated
+- `index.md`
+  - Content updated
+- `workflows.md`
+  - Content updated
+- `worktrees.md`
+  - Content updated
+- `zero-data-retention.md`
+  - Content updated
+
 ## 2026-07-19
 
 ### Modified
