@@ -2,6 +2,65 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-07-23
+
+### Added
+- `claude-security.md` - Scan your codebase for vulnerabilities
+
+### Modified
+- `accessibility.md`
+  - Content updated
+- `python.md`
+  - Content updated
+- `subagents.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `authentication.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `costs.md`
+  - New section: "Why usage climbs in a long session"
+- `desktop-quickstart.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `interactive-mode.md`
+  - New section: "Emoji shortcodes"
+- `keybindings.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `memory.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `routines.md`
+  - Content updated
+- `security-guidance.md`
+  - Content updated
+- `sessions.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `tools-reference.md`
+  - New section: "AskUserQuestion tool behavior"
+- `vs-code.md`
+  - Content updated
+- `2026-w24.md`
+  - Content updated
+
 ## 2026-07-22
 
 ### Added
