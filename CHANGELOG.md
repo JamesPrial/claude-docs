@@ -2,6 +2,50 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-07-24
+
+### Modified
+- `agent-view.md`
+  - Content updated
+- `checkpointing.md`
+  - Content updated
+- `claude-security.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `code-review.md`
+  - Content updated
+- `desktop-ios-simulator.md`
+  - Content updated
+- `errors.md`
+  - New section: "Wrapper and IDE errors"
+- `fast-mode.md`
+  - Content updated
+- `network-config.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `plugins-reference.md`
+  - Content updated
+- `sessions.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `troubleshoot-install.md`
+  - Content updated
+- `troubleshooting.md`
+  - Content updated
+- `ultrareview.md`
+  - Content updated
+- `workflows.md`
+  - Content updated
+
 ## 2026-07-23
 
 ### Added
