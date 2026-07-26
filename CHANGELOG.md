@@ -2,6 +2,20 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-07-26
+
+### Modified
+- `agent-view.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `plugin-marketplaces.md`
+  - Content updated
+- `troubleshoot-install.md`
+  - Content updated
+
 ## 2026-07-25
 
 ### Modified
