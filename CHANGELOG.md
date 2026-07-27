@@ -2,6 +2,22 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-07-27
+
+### Modified
+- `subagents.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `workflows.md`
+  - Content updated
+
 ## 2026-07-26
 
 ### Modified
