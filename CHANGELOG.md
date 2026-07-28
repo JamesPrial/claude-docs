@@ -2,6 +2,30 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-07-28
+
+### Modified
+- `python.md`
+  - Content updated
+- `claude-apps-gateway-config.md`
+  - Content updated
+- `claude-apps-gateway-deploy.md`
+  - Content updated
+- `claude-apps-gateway.md`
+  - Content updated
+- `fullscreen.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+
 ## 2026-07-27
 
 ### Modified
