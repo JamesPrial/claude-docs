@@ -2,6 +2,14 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-08-01
+
+### Modified
+- `agent-loop.md`
+  - Content updated
+- `quickstart.md`
+  - Content updated
+
 ## 2026-07-30
 
 ### Added
