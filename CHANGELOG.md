@@ -2,6 +2,52 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-08-03
+
+### Modified
+- `agent-loop.md`
+  - Content updated
+- `custom-tools.md`
+  - Content updated
+- `migration-guide.md`
+  - Content updated
+- `quickstart.md`
+  - Content updated
+- `streaming-vs-single-mode.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `discover-plugins.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `fullscreen.md`
+  - Content updated
+- `headless.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `keybindings.md`
+  - Content updated
+- `plugin-marketplaces.md`
+  - Content updated
+- `plugins-reference.md`
+  - Content updated
+- `plugins.md`
+  - Content updated
+- `routines.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `troubleshoot-install.md`
+  - Content updated
+
 ## 2026-08-01
 
 ### Modified
