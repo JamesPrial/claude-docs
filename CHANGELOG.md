@@ -2,6 +2,123 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-08-06
+
+### Added
+- `claude-tag.md` - Claude Tag
+- `github-actions-cloud-providers.md` - Use Claude Code GitHub Actions with cloud providers
+
+### Modified
+- `admin-setup.md`
+  - Content updated
+- `file-checkpointing.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `python.md`
+  - Content updated
+- `subagents.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `agent-teams.md`
+  - Content updated
+- `agent-view.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `claude-apps-gateway-deploy.md`
+  - Content updated
+- `claude-directory.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `code-review.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `costs.md`
+  - Content updated
+- `debug-your-config.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `devcontainer.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `feature-availability.md`
+  - Content updated
+- `github-actions.md`
+  - New section: "Interactive and automation modes"
+  - New section: "Use a cloud provider"
+  - New section: "Upgrade from beta"
+  - New section: "What's next"
+  - Removed section: "Why use Claude Code GitHub Actions?"
+  - Removed section: "What can Claude do?"
+  - Removed section: "Quick setup"
+  - Removed section: "Manual setup"
+  - Removed section: "Upgrading from Beta"
+  - Removed section: "Configuration examples"
+  - Removed section: "Using with Amazon Bedrock and Google Cloud"
+  - Updated section: "Setup"
+- `glossary.md`
+  - Content updated
+- `headless.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `llm-gateway-protocol.md`
+  - Content updated
+- `llm-gateway-rollout.md`
+  - Content updated
+- `mcp-quickstart.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `memory.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `network-config.md`
+  - New section: "Streaming idle watchdogs"
+- `permissions.md`
+  - Content updated
+- `platforms.md`
+  - Content updated
+- `plugin-marketplaces.md`
+  - Content updated
+- `plugins-reference.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `server-managed-settings.md`
+  - Content updated
+- `sessions.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `statusline.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `troubleshoot-install.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+- `worktrees.md`
+  - New section: "How Claude Code enforces isolation"
+
 ## 2026-08-05
 
 ### Added
