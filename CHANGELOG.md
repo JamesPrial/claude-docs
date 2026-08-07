@@ -2,6 +2,115 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-08-07
+
+### Modified
+- `admin-setup.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `python.md`
+  - Content updated
+- `sessions.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `slash-commands.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `authentication.md`
+  - Content updated
+- `checkpointing.md`
+  - Content updated
+- `claude-apps-gateway-config.md`
+  - Content updated
+- `claude-apps-gateway.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `claude-directory.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `code-review.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `data-usage.md`
+  - Content updated
+- `debug-your-config.md`
+  - Content updated
+- `desktop-linux.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `discover-plugins.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `google-vertex-ai.md`
+  - Content updated
+- `headless.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `llm-gateway-protocol.md`
+  - Content updated
+- `mcp-quickstart.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `plugin-dependencies.md`
+  - Content updated
+- `plugin-hints.md`
+  - Content updated
+- `plugin-marketplaces.md`
+  - Content updated
+- `plugin-relevance.md`
+  - Content updated
+- `plugins-reference.md`
+  - Content updated
+- `plugins.md`
+  - Content updated
+- `sandbox-environments.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `security-guidance.md`
+  - Content updated
+- `server-managed-settings.md`
+  - Content updated
+- `sessions.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `statusline.md`
+  - Content updated
+- `terminal-config.md`
+  - Content updated
+- `troubleshoot-install.md`
+  - Content updated
+- `ultrareview.md`
+  - New section: "How ultrareview compares to /code-review"
+  - Removed section: "How ultrareview compares to /code-review and /review"
+- `voice-dictation.md`
+  - Content updated
+
 ## 2026-08-06
 
 ### Added
