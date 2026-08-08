@@ -2,6 +2,191 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-08-08
+
+### Added
+- `examples.md` - Examples
+- `cross-session-messaging.md` - Message your other Claude Code sessions
+- `self-hosted-environments-configuration.md` - Customize sessions in self-hosted environments
+- `self-hosted-environments-deploy.md` - Deploy self-hosted environments to production
+- `self-hosted-environments-identity.md` - Verify session identity in self-hosted environments
+- `self-hosted-environments-quickstart.md` - Self-hosted environments quickstart
+- `self-hosted-environments-reference.md` - Self-hosted environments reference
+- `self-hosted-environments-testing.md` - Test self-hosted environments end to end
+- `self-hosted-environments.md` - Self-hosted environments
+
+### Modified
+- `agent-loop.md`
+  - Content updated
+- `cost-tracking.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `sessions.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `agent-teams.md`
+  - Content updated
+- `agent-view.md`
+  - Content updated
+- `agents.md`
+  - Content updated
+- `amazon-bedrock.md`
+  - New section: "Cross-region inference profile prefixes"
+- `auto-mode-config.md`
+  - Content updated
+- `best-practices.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `channels-reference.md`
+  - Content updated
+- `channels.md`
+  - Content updated
+- `claude-apps-gateway-config.md`
+  - Content updated
+- `claude-apps-gateway-deploy.md`
+  - Content updated
+- `claude-apps-gateway-on-aws.md`
+  - Content updated
+- `claude-apps-gateway-on-gcp.md`
+  - Content updated
+- `claude-apps-gateway-spend-limits.md`
+  - Content updated
+- `claude-apps-gateway.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `claude-directory.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `cloud-environments.md`
+  - Content updated
+- `code-review.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `common-workflows.md`
+  - Content updated
+- `costs.md`
+  - Content updated
+- `data-usage.md`
+  - Content updated
+- `deep-links.md`
+  - Content updated
+- `desktop-quickstart.md`
+  - Content updated
+- `desktop-scheduled-tasks.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `devcontainer.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `feature-availability.md`
+  - Content updated
+- `features-overview.md`
+  - Content updated
+- `fullscreen.md`
+  - Content updated
+- `gateways.md`
+  - Content updated
+- `github-enterprise-server.md`
+  - Content updated
+- `goal.md`
+  - Content updated
+- `headless.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `how-claude-code-works.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `llm-gateway-connect.md`
+  - Content updated
+- `llm-gateway-protocol.md`
+  - Content updated
+- `llm-gateway-rollout.md`
+  - Content updated
+- `mcp-quickstart.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `memory.md`
+  - Content updated
+- `mobile.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `network-config.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `platforms.md`
+  - Content updated
+- `plugin-dependencies.md`
+  - Content updated
+- `plugin-marketplaces.md`
+  - Content updated
+- `plugins-reference.md`
+  - Content updated
+- `plugins.md`
+  - Content updated
+- `prompt-caching.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `routines.md`
+  - Content updated
+- `sandbox-environments.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `scheduled-tasks.md`
+  - Content updated
+- `security-guidance.md`
+  - Content updated
+- `security.md`
+  - Content updated
+- `server-managed-settings.md`
+  - Content updated
+- `sessions.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `statusline.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `terminal-config.md`
+  - Content updated
+- `third-party-integrations.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `troubleshoot-install.md`
+  - Content updated
+- `web-quickstart.md`
+  - Content updated
+- `2026-w24.md`
+  - Content updated
+- `workflows.md`
+  - Content updated
+
 ## 2026-08-07
 
 ### Modified
