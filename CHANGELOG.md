@@ -2,6 +2,14 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-08-09
+
+### Modified
+- `changelog.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+
 ## 2026-08-08
 
 ### Added
