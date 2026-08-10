@@ -2,6 +2,16 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-08-10
+
+### Modified
+- `env-vars.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+
 ## 2026-08-09
 
 ### Modified
