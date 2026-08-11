@@ -2,6 +2,102 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-08-11
+
+### Added
+- `2026-w30.md` - Week 30 · July 20–24, 2026
+- `2026-w32.md` - Week 32 · August 3–7, 2026
+
+### Modified
+- `agent-loop.md`
+  - Content updated
+- `claude-code-features.md`
+  - Content updated
+- `custom-tools.md`
+  - Content updated
+- `file-checkpointing.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `hosting.md`
+  - Content updated
+- `migration-guide.md`
+  - Removed section: "Why the Rename?"
+  - Removed section: "Getting Help"
+- `modifying-system-prompts.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `plugins.md`
+  - New section: "Multiple plugin sources"
+  - Removed section: "Common use cases"
+- `python.md`
+  - Content updated
+- `secure-deployment.md`
+  - Content updated
+- `skills.md`
+  - Removed section: "Skill Locations"
+- `slash-commands.md`
+  - Content updated
+- `streaming-output.md`
+  - Removed section: "Stream text responses"
+- `streaming-vs-single-mode.md`
+  - Content updated
+- `subagents.md`
+  - Content updated
+- `todo-tracking.md`
+  - Content updated
+- `tool-search.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `agents.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `claude-apps-gateway-config.md`
+  - Content updated
+- `claude-apps-gateway-deploy.md`
+  - Content updated
+- `claude-apps-gateway-spend-limits.md`
+  - Content updated
+- `claude-tag.md`
+  - Content updated
+- `context-window.md`
+  - Content updated
+- `cross-session-messaging.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `feature-availability.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `llm-gateway-protocol.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `plugin-dependencies.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `slack.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `terminal-config.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `index.md`
+  - Content updated
+
 ## 2026-08-10
 
 ### Modified
