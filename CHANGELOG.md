@@ -2,6 +2,162 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-08-14
+
+### Modified
+- `admin-setup.md`
+  - Content updated
+- `cost-tracking.md`
+  - Content updated
+- `python.md`
+  - Content updated
+- `tool-search.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `agent-teams.md`
+  - Content updated
+- `agent-view.md`
+  - Content updated
+- `artifacts.md`
+  - Content updated
+- `authentication.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `channels-reference.md`
+  - Content updated
+- `channels.md`
+  - Content updated
+- `claude-apps-gateway-config.md`
+  - Content updated
+- `claude-apps-gateway-deploy.md`
+  - Content updated
+- `claude-apps-gateway-on-aws.md`
+  - Content updated
+- `claude-apps-gateway.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `claude-directory.md`
+  - Content updated
+- `claude-security.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `cloud-environments.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `computer-use.md`
+  - Content updated
+- `cross-session-messaging.md`
+  - Content updated
+- `data-usage.md`
+  - Content updated
+- `debug-your-config.md`
+  - Content updated
+- `deep-links.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `devcontainer.md`
+  - Content updated
+- `discover-plugins.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `fullscreen.md`
+  - Content updated
+- `gateways.md`
+  - Content updated
+- `github-actions.md`
+  - Content updated
+- `glossary.md`
+  - Content updated
+- `goal.md`
+  - Content updated
+- `google-vertex-ai.md`
+  - Content updated
+- `headless.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `jetbrains.md`
+  - Content updated
+- `large-codebases.md`
+  - Content updated
+- `llm-gateway-connect.md`
+  - Content updated
+- `llm-gateway-protocol.md`
+  - Content updated
+- `managed-mcp.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `memory.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `network-config.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `plugin-dependencies.md`
+  - Content updated
+- `plugin-marketplaces.md`
+  - Content updated
+- `plugins-reference.md`
+  - Content updated
+- `plugins.md`
+  - Content updated
+- `prompt-caching.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `scheduled-tasks.md`
+  - Content updated
+- `security-guidance.md`
+  - Content updated
+- `self-hosted-environments-configuration.md`
+  - Content updated
+- `self-hosted-environments-deploy.md`
+  - Content updated
+- `self-hosted-environments-reference.md`
+  - Content updated
+- `server-managed-settings.md`
+  - Content updated
+- `sessions.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `statusline.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `ultrareview.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+- `workflows.md`
+  - Content updated
+- `worktrees.md`
+  - Content updated
+
 ## 2026-08-13
 
 ### Modified
