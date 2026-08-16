@@ -2,6 +2,54 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-08-16
+
+### Modified
+- `agent-loop.md`
+  - Content updated
+- `custom-tools.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `observability.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `python.md`
+  - Content updated
+- `todo-tracking.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `agent-teams.md`
+  - Content updated
+- `agent-view.md`
+  - Content updated
+- `agents.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `features-overview.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `tools-reference.md`
+  - New section: "Task tool availability"
+- `worktrees.md`
+  - Content updated
+
 ## 2026-08-15
 
 ### Modified
