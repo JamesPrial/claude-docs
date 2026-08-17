@@ -2,6 +2,46 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-08-17
+
+### Modified
+- `admin-setup.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `session-storage.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `claude-apps-gateway-config.md`
+  - Content updated
+- `claude-apps-gateway-deploy.md`
+  - Content updated
+- `claude-apps-gateway-on-aws.md`
+  - Content updated
+- `claude-apps-gateway-spend-limits.md`
+  - Content updated
+- `claude-apps-gateway.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `llm-gateway-protocol.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `self-hosted-environments-deploy.md`
+  - Content updated
+- `server-managed-settings.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+
 ## 2026-08-16
 
 ### Modified
