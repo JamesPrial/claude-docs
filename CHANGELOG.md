@@ -2,6 +2,105 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-08-19
+
+### Modified
+- `accessibility.md`
+  - New section: "Accessibility settings"
+  - Removed section: "Accessibility settings beyond screen reader mode"
+  - Removed section: "Related resources"
+- `admin-setup.md`
+  - Content updated
+- `advisor.md`
+  - Content updated
+- `agent-loop.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `plugins.md`
+  - Content updated
+- `skills.md`
+  - New section: "How skills work with the Agent SDK"
+  - New section: "Use skills with the Agent SDK"
+  - New section: "Commands in Agent SDK sessions"
+  - New section: "Create skills"
+  - New section: "Pre-approve tools for skills"
+  - New section: "Next steps"
+  - New section: "Related resources"
+  - Removed section: "Overview"
+  - Removed section: "How Skills Work with the SDK"
+  - Removed section: "Using Skills with the SDK"
+  - Removed section: "Creating Skills"
+  - Removed section: "Tool Restrictions"
+  - Removed section: "Discovering Available Skills"
+  - Removed section: "Testing Skills"
+  - Removed section: "Related Documentation"
+- `subagents.md`
+  - Content updated
+- `agent-teams.md`
+  - Content updated
+- `agent-view.md`
+  - Content updated
+- `amazon-bedrock.md`
+  - Content updated
+- `best-practices.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `channels-reference.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `cross-session-messaging.md`
+  - Content updated
+- `debug-your-config.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `feature-availability.md`
+  - Content updated
+- `glossary.md`
+  - Content updated
+- `goal.md`
+  - Content updated
+- `headless.md`
+  - Content updated
+- `how-claude-code-works.md`
+  - Content updated
+- `interactive-mode.md`
+  - New section: "Queue messages while Claude works"
+  - New section: "Check spelling as you type"
+- `mcp.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `quickstart.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `security.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `statusline.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `troubleshooting.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+
 ## 2026-08-18
 
 ### Modified
