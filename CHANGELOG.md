@@ -2,6 +2,68 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-08-20
+
+### Modified
+- `hosting.md`
+  - Content updated
+- `modifying-system-prompts.md`
+  - Content updated
+- `python.md`
+  - Content updated
+- `session-storage.md`
+  - Content updated
+- `sessions.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `channels-reference.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `fullscreen.md`
+  - Content updated
+- `github-actions.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `keybindings.md`
+  - Content updated
+- `memory.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `plugin-marketplaces.md`
+  - Content updated
+- `plugins-reference.md`
+  - Content updated
+- `prompt-caching.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `sandbox-environments.md`
+  - Content updated
+- `sessions.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+
 ## 2026-08-19
 
 ### Modified
