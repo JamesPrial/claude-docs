@@ -2,6 +2,129 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-08-21
+
+### Modified
+- `accessibility.md`
+  - Content updated
+- `admin-setup.md`
+  - Content updated
+- `custom-tools.md`
+  - Removed section: "Related documentation"
+- `file-checkpointing.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `python.md`
+  - Content updated
+- `subagents.md`
+  - Content updated
+- `todo-tracking.md`
+  - New section: "Model availability"
+  - New section: "Todo lifecycle"
+  - New section: "When Claude creates todos"
+  - New section: "Related documentation"
+  - Removed section: "Migrate to Task tools"
+  - Removed section: "Related Documentation"
+- `typescript.md`
+  - Content updated
+- `amazon-bedrock.md`
+  - Content updated
+- `artifacts.md`
+  - New section: "Collect comments on an artifact"
+- `authentication.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `claude-apps-gateway-config.md`
+  - Content updated
+- `claude-apps-gateway.md`
+  - Content updated
+- `code-review.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `costs.md`
+  - Content updated
+- `cross-session-messaging.md`
+  - Content updated
+- `deep-links.md`
+  - Content updated
+- `desktop-scheduled-tasks.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `fullscreen.md`
+  - Content updated
+- `glossary.md`
+  - Content updated
+- `goal.md`
+  - Content updated
+- `google-vertex-ai.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `keybindings.md`
+  - Content updated
+- `llm-gateway-connect.md`
+  - Content updated
+- `llm-gateway-rollout.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `output-styles.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `plugin-hints.md`
+  - Content updated
+- `plugin-marketplaces.md`
+  - Content updated
+- `prompt-caching.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `routines.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `security-guidance.md`
+  - Content updated
+- `self-hosted-environments-configuration.md`
+  - Content updated
+- `self-hosted-environments-deploy.md`
+  - Content updated
+- `self-hosted-environments-reference.md`
+  - Content updated
+- `self-hosted-environments.md`
+  - Content updated
+- `server-managed-settings.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `terminal-config.md`
+  - New section: "Fix Backspace deleting a whole word on Windows"
+- `tools-reference.md`
+  - Content updated
+- `vs-code.md`
+  - New section: "Use a screen reader"
+- `workflows.md`
+  - Content updated
+- `worktrees.md`
+  - Content updated
+
 ## 2026-08-20
 
 ### Modified
