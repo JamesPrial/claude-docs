@@ -2,6 +2,132 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-08-23
+
+### Added
+- `2026-w33.md` - Week 33 · August 10–14, 2026
+- `2026-w34.md` - Week 34 · August 17–21, 2026
+
+### Modified
+- `admin-setup.md`
+  - Content updated
+- `python.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `agent-view.md`
+  - Content updated
+- `auto-mode-config.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `chrome.md`
+  - Content updated
+- `claude-apps-gateway.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `claude-directory.md`
+  - Content updated
+- `cloud-environments.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `common-workflows.md`
+  - Content updated
+- `computer-use.md`
+  - Content updated
+- `cross-session-messaging.md`
+  - Content updated
+- `debug-your-config.md`
+  - Content updated
+- `deep-links.md`
+  - Content updated
+- `desktop-scheduled-tasks.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `fullscreen.md`
+  - Content updated
+- `goal.md`
+  - Content updated
+- `headless.md`
+  - Content updated
+- `how-claude-code-works.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `jetbrains.md`
+  - Content updated
+- `llm-gateway-protocol.md`
+  - Content updated
+- `managed-settings.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `memory.md`
+  - Content updated
+- `mobile.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `network-config.md`
+  - Content updated
+- `plugin-marketplaces.md`
+  - Content updated
+- `plugins-reference.md`
+  - Content updated
+- `prompt-caching.md`
+  - Content updated
+- `quickstart.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `routines.md`
+  - Content updated
+- `self-hosted-environments-configuration.md`
+  - Content updated
+- `self-hosted-environments-deploy.md`
+  - Content updated
+- `self-hosted-environments-identity.md`
+  - Content updated
+- `self-hosted-environments-quickstart.md`
+  - Content updated
+- `self-hosted-environments-reference.md`
+  - Content updated
+- `self-hosted-environments-testing.md`
+  - Content updated
+- `self-hosted-environments.md`
+  - Content updated
+- `server-managed-settings.md`
+  - Content updated
+- `sessions.md`
+  - Content updated
+- `settings-reference.md`
+  - Removed section: "Scopes"
+- `settings.md`
+  - Content updated
+- `slack.md`
+  - Content updated
+- `statusline.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `voice-dictation.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+- `web-quickstart.md`
+  - Content updated
+- `2026-w32.md`
+  - Content updated
+- `index.md`
+  - Content updated
+
 ## 2026-08-22
 
 ### Added
