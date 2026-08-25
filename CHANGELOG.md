@@ -2,6 +2,98 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-08-25
+
+### Modified
+- `admin-setup.md`
+  - Content updated
+- `cost-tracking.md`
+  - Content updated
+- `python.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `tool-search.md`
+  - Content updated
+- `agent-teams.md`
+  - Content updated
+- `amazon-bedrock.md`
+  - Content updated
+- `claude-apps-gateway-config.md`
+  - Content updated
+- `claude-platform-on-aws.md`
+  - Content updated
+- `cloud-environments.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `context-window.md`
+  - Content updated
+- `costs.md`
+  - Content updated
+- `discover-plugins.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `github-enterprise-server.md`
+  - Content updated
+- `google-vertex-ai.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `interactive-mode.md`
+  - New section: "Wait for a usage limit to reset"
+- `llm-gateway-connect.md`
+  - Content updated
+- `llm-gateway-protocol.md`
+  - Content updated
+- `managed-mcp.md`
+  - Content updated
+- `managed-settings.md`
+  - Content updated
+- `microsoft-foundry.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `network-config.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `plugin-dependencies.md`
+  - Content updated
+- `plugin-marketplaces.md`
+  - Content updated
+- `plugins-reference.md`
+  - Content updated
+- `plugins.md`
+  - Content updated
+- `prompt-caching.md`
+  - Content updated
+- `quickstart.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `sessions.md`
+  - Content updated
+- `settings-reference.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+- `workflows.md`
+  - Content updated
+- `worktrees.md`
+  - Content updated
+
 ## 2026-08-23
 
 ### Added
