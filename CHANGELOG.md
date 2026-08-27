@@ -2,6 +2,84 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-08-27
+
+### Modified
+- `python.md`
+  - Content updated
+- `streaming-vs-single-mode.md`
+  - Content updated
+- `agent-view.md`
+  - Content updated
+- `best-practices.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `chrome.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `claude-directory.md`
+  - Content updated
+- `cloud-environments.md`
+  - Content updated
+- `code-review.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `data-usage.md`
+  - Content updated
+- `desktop-linux.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `discover-plugins.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `keybindings.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `network-config.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `plugin-relevance.md`
+  - Content updated
+- `plugins-reference.md`
+  - Content updated
+- `plugins.md`
+  - Content updated
+- `security-guidance.md`
+  - Content updated
+- `server-managed-settings.md`
+  - Content updated
+- `settings-reference.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `slack.md`
+  - Content updated
+- `terminal-config.md`
+  - Content updated
+- `tools-reference.md`
+  - New section: "SendFeedback tool behavior"
+- `troubleshoot-install.md`
+  - Content updated
+- `web-quickstart.md`
+  - Content updated
+- `workflows.md`
+  - Content updated
+- `zero-data-retention.md`
+  - Content updated
+
 ## 2026-08-26
 
 ### Modified
