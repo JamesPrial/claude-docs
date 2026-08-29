@@ -2,6 +2,193 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-08-29
+
+### Modified
+- `advisor.md`
+  - Content updated
+- `claude-code-features.md`
+  - Content updated
+- `cost-tracking.md`
+  - Content updated
+- `file-checkpointing.md`
+  - Content updated
+- `hosting.md`
+  - New section: "Troubleshoot deployment failures"
+- `mcp.md`
+  - Content updated
+- `migration-guide.md`
+  - Content updated
+- `modifying-system-prompts.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `python.md`
+  - New section: "Build a continuous conversation interface"
+  - New section: "Error handling"
+  - Removed section: "Advanced Features with ClaudeSDKClient"
+  - Removed section: "Example Usage"
+- `quickstart.md`
+  - Content updated
+- `secure-deployment.md`
+  - Content updated
+- `streaming-vs-single-mode.md`
+  - Content updated
+- `structured-outputs.md`
+  - Content updated
+- `subagents.md`
+  - Content updated
+- `todo-tracking.md`
+  - Content updated
+- `troubleshooting.md`
+  - New section: "CLI process exit"
+- `typescript.md`
+  - Content updated
+- `user-input.md`
+  - Content updated
+- `agent-teams.md`
+  - Content updated
+- `agent-view.md`
+  - Content updated
+- `amazon-bedrock.md`
+  - Content updated
+- `artifacts.md`
+  - Content updated
+- `best-practices.md`
+  - Content updated
+- `champion-kit.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `chrome.md`
+  - Content updated
+- `claude-apps-gateway-config.md`
+  - Content updated
+- `claude-apps-gateway-deploy.md`
+  - Content updated
+- `claude-apps-gateway-spend-limits.md`
+  - Content updated
+- `claude-apps-gateway.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `claude-directory.md`
+  - Content updated
+- `claude-platform-on-aws.md`
+  - Content updated
+- `claude-security.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `cloud-environments.md`
+  - Content updated
+- `code-review.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `corporate-launcher.md`
+  - Content updated
+- `costs.md`
+  - Content updated
+- `cross-session-messaging.md`
+  - Content updated
+- `debug-your-config.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `devcontainer.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `fast-mode.md`
+  - Content updated
+- `feature-availability.md`
+  - Content updated
+- `gateways.md`
+  - Content updated
+- `gitlab-ci-cd.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `jetbrains.md`
+  - Content updated
+- `llm-gateway-connect.md`
+  - Content updated
+- `llm-gateway-protocol.md`
+  - Content updated
+- `managed-mcp.md`
+  - Content updated
+- `managed-settings.md`
+  - Content updated
+- `mcp-quickstart.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `network-config.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `plugin-marketplaces.md`
+  - Content updated
+- `plugin-relevance.md`
+  - Content updated
+- `plugins-reference.md`
+  - Content updated
+- `prompt-caching.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `self-hosted-environments-configuration.md`
+  - Content updated
+- `self-hosted-environments-deploy.md`
+  - Content updated
+- `self-hosted-environments-identity.md`
+  - Content updated
+- `self-hosted-environments-reference.md`
+  - Content updated
+- `self-hosted-environments.md`
+  - Content updated
+- `server-managed-settings.md`
+  - Content updated
+- `settings-reference.md`
+  - Content updated
+- `setup.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `statusline.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `terminal-config.md`
+  - Content updated
+- `third-party-integrations.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `ultrareview.md`
+  - Content updated
+- `workflows.md`
+  - Content updated
+- `worktrees.md`
+  - Content updated
+
 ## 2026-08-28
 
 ### Modified
