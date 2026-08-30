@@ -2,6 +2,72 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-08-30
+
+### Modified
+- `admin-setup.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `modifying-system-prompts.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `claude-directory.md`
+  - Content updated
+- `cloud-environments.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `data-usage.md`
+  - Content updated
+- `desktop-scheduled-tasks.md`
+  - Content updated
+- `discover-plugins.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `glossary.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `managed-settings.md`
+  - New section: "Turn telemetry off for your organization"
+- `monitoring-usage.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `plugins-reference.md`
+  - Content updated
+- `prompt-caching.md`
+  - Content updated
+- `routines.md`
+  - Content updated
+- `self-hosted-environments-deploy.md`
+  - Content updated
+- `server-managed-settings.md`
+  - Content updated
+- `sessions.md`
+  - Content updated
+- `settings-reference.md`
+  - Content updated
+- `setup.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `third-party-integrations.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `web-quickstart.md`
+  - Content updated
+
 ## 2026-08-29
 
 ### Modified
