@@ -2,6 +2,68 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-08-31
+
+### Modified
+- `agent-view.md`
+  - Content updated
+- `amazon-bedrock.md`
+  - Content updated
+- `artifacts.md`
+  - Content updated
+- `authentication.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `cloud-environments.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `computer-use.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `fast-mode.md`
+  - Content updated
+- `features-overview.md`
+  - Content updated
+- `headless.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `llm-gateway-connect.md`
+  - Content updated
+- `llm-gateway-protocol.md`
+  - Content updated
+- `managed-settings.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `quickstart.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `settings-example.md`
+  - Content updated
+- `settings-reference.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `terminal-config.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+
 ## 2026-08-30
 
 ### Modified
