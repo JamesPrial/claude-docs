@@ -2,6 +2,102 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-09-02
+
+### Modified
+- `admin-setup.md`
+  - Content updated
+- `advisor.md`
+  - Content updated
+- `agent-loop.md`
+  - Content updated
+- `custom-tools.md`
+  - Content updated
+- `hosting.md`
+  - Content updated
+- `python.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `agent-teams.md`
+  - Content updated
+- `agent-view.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `claude-apps-gateway-config.md`
+  - Content updated
+- `claude-directory.md`
+  - Content updated
+- `claude-security.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `communications-kit.md`
+  - Content updated
+- `context-window.md`
+  - Content updated
+- `costs.md`
+  - Content updated
+- `cross-session-messaging.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `feature-availability.md`
+  - Content updated
+- `glossary.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `keybindings.md`
+  - Content updated
+- `llm-gateway-connect.md`
+  - Content updated
+- `llm-gateway-protocol.md`
+  - Content updated
+- `managed-settings.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `output-styles.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `prompt-caching.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `sessions.md`
+  - Content updated
+- `settings-example.md`
+  - Content updated
+- `settings-reference.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+- `zero-data-retention.md`
+  - Content updated
+
 ## 2026-09-01
 
 ### Modified
