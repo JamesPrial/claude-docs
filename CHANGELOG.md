@@ -2,6 +2,34 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-09-03
+
+### Modified
+- `agent-teams.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `desktop-ios-simulator.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `plugins-reference.md`
+  - Content updated
+- `prompt-caching.md`
+  - Content updated
+- `self-hosted-environments-deploy.md`
+  - Content updated
+- `self-hosted-environments-reference.md`
+  - Content updated
+- `settings-reference.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+
 ## 2026-09-02
 
 ### Modified
