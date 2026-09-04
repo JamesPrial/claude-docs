@@ -2,6 +2,106 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-09-04
+
+### Modified
+- `advisor.md`
+  - Content updated
+- `python.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `claude-apps-gateway-config.md`
+  - Content updated
+- `claude-apps-gateway.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `gateways.md`
+  - Content updated
+- `headless.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `llm-gateway-connect.md`
+  - Content updated
+- `llm-gateway-protocol.md`
+  - Content updated
+- `llm-gateway-rollout.md`
+  - Content updated
+- `llm-gateway.md`
+  - Content updated
+- `managed-settings.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `network-config.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `prompt-caching.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `security.md`
+  - Content updated
+- `server-managed-settings.md`
+  - Content updated
+- `settings-reference.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `2026-w13.md`
+  - Content updated
+- `2026-w14.md`
+  - Content updated
+- `2026-w15.md`
+  - Content updated
+- `2026-w16.md`
+  - Content updated
+- `2026-w17.md`
+  - Content updated
+- `2026-w18.md`
+  - Content updated
+- `2026-w19.md`
+  - Content updated
+- `2026-w20.md`
+  - Content updated
+- `2026-w21.md`
+  - Content updated
+- `2026-w22.md`
+  - Content updated
+- `2026-w23.md`
+  - Content updated
+- `2026-w24.md`
+  - Content updated
+- `2026-w25.md`
+  - Content updated
+- `2026-w26.md`
+  - Content updated
+- `2026-w27.md`
+  - Content updated
+- `2026-w28.md`
+  - Content updated
+- `2026-w29.md`
+  - Content updated
+- `2026-w30.md`
+  - Content updated
+- `2026-w32.md`
+  - Content updated
+- `2026-w33.md`
+  - Content updated
+- `2026-w34.md`
+  - Content updated
+
 ## 2026-09-03
 
 ### Modified
