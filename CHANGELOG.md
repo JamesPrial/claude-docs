@@ -2,6 +2,77 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-09-05
+
+### Modified
+- `migration-guide.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `todo-tracking.md`
+  - Content updated
+- `troubleshooting.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `auto-mode-config.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `checkpointing.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `claude-directory.md`
+  - Content updated
+- `cloud-environments.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `costs.md`
+  - Content updated
+- `discover-plugins.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - New section: "Rewind warnings and errors"
+  - Removed section: "Rewind warnings"
+- `fullscreen.md`
+  - New section: "Watch your changes in the diff panel"
+- `headless.md`
+  - Content updated
+- `interactive-mode.md`
+  - New section: "Review changes with /diff"
+- `keybindings.md`
+  - Content updated
+- `memory.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `prompt-caching.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `routines.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `statusline.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `troubleshooting.md`
+  - Content updated
+
 ## 2026-09-04
 
 ### Modified
