@@ -2,6 +2,74 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-09-06
+
+### Modified
+- `accessibility.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `user-input.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `cloud-environments.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `deep-links.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `headless.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `large-codebases.md`
+  - Content updated
+- `llm-gateway-connect.md`
+  - Content updated
+- `llm-gateway-protocol.md`
+  - Content updated
+- `managed-mcp.md`
+  - Content updated
+- `managed-settings.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `network-config.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `plugins-reference.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `settings-example.md`
+  - Content updated
+- `settings-reference.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `terminal-config.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `worktrees.md`
+  - Content updated
+
 ## 2026-09-05
 
 ### Modified
