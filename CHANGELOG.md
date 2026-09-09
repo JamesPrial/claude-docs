@@ -2,6 +2,79 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-09-09
+
+### Modified
+- `admin-setup.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `auto-mode-config.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `claude-directory.md`
+  - Content updated
+- `cloud-environments.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `desktop-quickstart.md`
+  - Removed section: "Coming from the CLI?"
+- `env-vars.md`
+  - Content updated
+- `features-overview.md`
+  - Content updated
+- `github-actions-cloud-providers.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `keybindings.md`
+  - Content updated
+- `llm-gateway-protocol.md`
+  - Content updated
+- `managed-settings.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `network-config.md`
+  - Content updated
+- `output-styles.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `plugin-relevance.md`
+  - Content updated
+- `prompt-caching.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `server-managed-settings.md`
+  - Content updated
+- `sessions.md`
+  - Content updated
+- `settings-reference.md`
+  - New section: "Settings index"
+  - Removed section: "All settings"
+- `settings.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `terminal-config.md`
+  - Content updated
+- `voice-dictation.md`
+  - Content updated
+- `workflows.md`
+  - Content updated
+
 ## 2026-09-06
 
 ### Modified
