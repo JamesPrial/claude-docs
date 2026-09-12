@@ -2,6 +2,123 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-09-12
+
+### Added
+- `plugin-evals.md` - Test plugins with evals
+
+### Modified
+- `admin-setup.md`
+  - Content updated
+- `advisor.md`
+  - Content updated
+- `agent-loop.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `agent-view.md`
+  - Content updated
+- `artifacts.md`
+  - Content updated
+- `authentication.md`
+  - Content updated
+- `best-practices.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `checkpointing.md`
+  - Content updated
+- `claude-apps-gateway-config.md`
+  - Content updated
+- `claude-apps-gateway.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `corporate-launcher.md`
+  - Content updated
+- `costs.md`
+  - Content updated
+- `desktop-quickstart.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `fast-mode.md`
+  - Content updated
+- `feature-availability.md`
+  - Content updated
+- `fullscreen.md`
+  - Content updated
+- `glossary.md`
+  - Content updated
+- `google-vertex-ai.md`
+  - Content updated
+- `headless.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `managed-settings.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `plugin-marketplaces.md`
+  - Content updated
+- `plugins-reference.md`
+  - Content updated
+- `plugins.md`
+  - Content updated
+- `prompt-caching.md`
+  - Content updated
+- `sandbox-environments.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `self-hosted-environments-deploy.md`
+  - Content updated
+- `server-managed-settings.md`
+  - Content updated
+- `settings-reference.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `setup.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `terminal-config.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `troubleshoot-install.md`
+  - Content updated
+- `troubleshooting.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+- `web-quickstart.md`
+  - Content updated
+- `worktrees.md`
+  - Content updated
+
 ## 2026-09-11
 
 ### Modified
