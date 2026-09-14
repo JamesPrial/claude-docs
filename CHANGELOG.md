@@ -2,6 +2,58 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-09-14
+
+### Modified
+- `advisor.md`
+  - Content updated
+- `agent-loop.md`
+  - Content updated
+- `claude-code-features.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `modifying-system-prompts.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `plugins.md`
+  - Content updated
+- `python.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `streaming-output.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `user-input.md`
+  - Content updated
+- `chrome.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `computer-use.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `github-enterprise-server.md`
+  - Content updated
+- `goal.md`
+  - Content updated
+- `mobile.md`
+  - Content updated
+- `settings-reference.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+- `web-quickstart.md`
+  - Content updated
+
 ## 2026-09-13
 
 ### Modified
