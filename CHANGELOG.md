@@ -2,6 +2,95 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-09-15
+
+### Added
+- `2026-w35.md` - Week 35 · August 24–28, 2026
+- `2026-w36.md` - Week 36 · August 31 – September 4, 2026
+- `2026-w37.md` - Week 37 · September 7–11, 2026
+
+### Modified
+- `subagents.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `amazon-bedrock.md`
+  - Content updated
+- `best-practices.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `claude-apps-gateway-config.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `claude-directory.md`
+  - Content updated
+- `cloud-environments.md`
+  - Content updated
+- `common-workflows.md`
+  - Content updated
+- `costs.md`
+  - Content updated
+- `debug-your-config.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `fast-mode.md`
+  - Content updated
+- `features-overview.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `how-claude-code-works.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `jetbrains.md`
+  - Content updated
+- `large-codebases.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `mobile.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `plugin-marketplaces.md`
+  - Content updated
+- `plugins-reference.md`
+  - Content updated
+- `prompt-caching.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `self-hosted-environments-configuration.md`
+  - Content updated
+- `self-hosted-environments-reference.md`
+  - Content updated
+- `settings-reference.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+- `web-quickstart.md`
+  - Content updated
+- `index.md`
+  - Content updated
+- `workflows.md`
+  - Content updated
+
 ## 2026-09-14
 
 ### Modified
