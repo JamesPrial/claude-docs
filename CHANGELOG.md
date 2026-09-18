@@ -2,6 +2,121 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-09-18
+
+### Added
+- `claude-projects.md` - Let Claude coordinate ongoing work with Projects
+
+### Modified
+- `accessibility.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `modifying-system-prompts.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `agent-teams.md`
+  - Content updated
+- `agent-view.md`
+  - Content updated
+- `agents.md`
+  - Content updated
+- `amazon-bedrock.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `channels-reference.md`
+  - Content updated
+- `claude-apps-gateway-deploy.md`
+  - Content updated
+- `claude-apps-gateway.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `claude-directory.md`
+  - Content updated
+- `cloud-environments.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `discover-plugins.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `headless.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `llm-gateway-protocol.md`
+  - Content updated
+- `managed-mcp.md`
+  - Content updated
+- `managed-settings.md`
+  - Content updated
+- `mcp-quickstart.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `memory.md`
+  - Content updated
+- `mobile.md`
+  - Content updated
+- `output-styles.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `platforms.md`
+  - Content updated
+- `plugin-dependencies.md`
+  - Content updated
+- `plugin-marketplaces.md`
+  - Content updated
+- `plugin-relevance.md`
+  - Content updated
+- `plugins-reference.md`
+  - Content updated
+- `prompt-caching.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `routines.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `scheduled-tasks.md`
+  - Content updated
+- `server-managed-settings.md`
+  - Content updated
+- `settings-reference.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `ultrareview.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+- `web-quickstart.md`
+  - Content updated
+- `workflows.md`
+  - Content updated
+- `worktrees.md`
+  - Content updated
+
 ## 2026-09-17
 
 ### Modified
