@@ -2,6 +2,82 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-09-19
+
+### Modified
+- `artifacts.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `claude-apps-gateway-config.md`
+  - Content updated
+- `claude-apps-gateway-deploy.md`
+  - Content updated
+- `claude-apps-gateway-on-aws.md`
+  - Content updated
+- `claude-apps-gateway-on-gcp.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `claude-directory.md`
+  - Content updated
+- `cloud-environments.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `context-window.md`
+  - Content updated
+- `corporate-launcher.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `feature-availability.md`
+  - Content updated
+- `glossary.md`
+  - Content updated
+- `headless.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `how-claude-code-works.md`
+  - Content updated
+- `llm-gateway-protocol.md`
+  - New section: "How the connection method changes client behavior"
+  - New section: "Response headers"
+- `llm-gateway-rollout.md`
+  - Content updated
+- `llm-gateway.md`
+  - Content updated
+- `memory.md`
+  - New section: "AGENTS.md"
+  - Updated section: "Claude Code"
+- `overview.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `plugins-reference.md`
+  - Content updated
+- `routines.md`
+  - Content updated
+- `self-hosted-environments-deploy.md`
+  - Content updated
+- `self-hosted-environments-reference.md`
+  - Content updated
+- `settings-reference.md`
+  - Content updated
+- `slack.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `web-quickstart.md`
+  - Content updated
+
 ## 2026-09-18
 
 ### Added
