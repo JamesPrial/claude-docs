@@ -2,6 +2,14 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-09-21
+
+### Modified
+- `artifacts.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+
 ## 2026-09-19
 
 ### Modified
