@@ -2,6 +2,148 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-09-22
+
+### Modified
+- `admin-setup.md`
+  - Content updated
+- `advisor.md`
+  - Content updated
+- `configuration.md`
+  - Content updated
+- `cost-tracking.md`
+  - Content updated
+- `hosting.md`
+  - Content updated
+- `modifying-system-prompts.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `python.md`
+  - Content updated
+- `subagents.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `agent-teams.md`
+  - Content updated
+- `artifacts.md`
+  - Content updated
+- `authentication.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `claude-apps-gateway.md`
+  - Content updated
+- `claude-directory.md`
+  - Content updated
+- `claude-projects.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `cloud-environments.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `communications-kit.md`
+  - Content updated
+- `context-window.md`
+  - Content updated
+- `costs.md`
+  - Content updated
+- `desktop-linux.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `discover-plugins.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `fast-mode.md`
+  - Content updated
+- `features-overview.md`
+  - Content updated
+- `headless.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `how-claude-code-works.md`
+  - Content updated
+- `interactive-mode.md`
+  - New section: "Invisible characters in prompts"
+- `keybindings.md`
+  - Content updated
+- `large-codebases.md`
+  - Content updated
+- `llm-gateway-connect.md`
+  - Content updated
+- `llm-gateway-protocol.md`
+  - Content updated
+- `llm-gateway-rollout.md`
+  - Content updated
+- `managed-settings.md`
+  - Content updated
+- `memory.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `network-config.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `plugin-evals.md`
+  - Content updated
+- `plugins-reference.md`
+  - Content updated
+- `prompt-library.md`
+  - Content updated
+- `quickstart.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `security-guidance.md`
+  - Content updated
+- `self-hosted-environments-deploy.md`
+  - Content updated
+- `server-managed-settings.md`
+  - Content updated
+- `sessions.md`
+  - Content updated
+- `settings-reference.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `statusline.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `terminal-config.md`
+  - Content updated
+- `third-party-integrations.md`
+  - Content updated
+- `troubleshoot-install.md`
+  - Content updated
+- `troubleshooting.md`
+  - Content updated
+- `ultrareview.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+- `workflows.md`
+  - Content updated
+- `worktrees.md`
+  - Content updated
+
 ## 2026-09-21
 
 ### Modified
