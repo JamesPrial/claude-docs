@@ -2,6 +2,26 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-09-24
+
+### Modified
+- `changelog.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `cloud-environments.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `feature-availability.md`
+  - Content updated
+- `glossary.md`
+  - Content updated
+- `memory.md`
+  - Content updated
+- `web-quickstart.md`
+  - Content updated
+
 ## 2026-09-23
 
 ### Modified
