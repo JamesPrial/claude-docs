@@ -2,6 +2,369 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-09-30
+
+### Added
+- `anthropic-marketplaces.md` - Anthropic's marketplaces
+- `cli-hints.md` - Recommend your plugin from your CLI
+- `cli-reference.md` - Plugin commands reference
+- `code-intelligence.md` - Code intelligence plugins
+- `components.md` - Add components to a plugin
+- `create-marketplace.md` - Create a marketplace
+- `create.md` - Create a Claude Code plugin
+- `dependencies.md` - Plugin dependencies
+- `host-marketplace.md` - Host and maintain a marketplace
+- `install.md` - Install and manage plugins
+- `loading.md` - Plugin loading reference
+- `manifest-reference.md` - Plugin manifest reference
+- `marketplace-reference.md` - Marketplace reference
+- `measure.md` - Measure plugin cost and usage
+- `org.md` - Manage Claude Code plugins for your organization
+- `overview.md` - Plugins overview
+- `publish.md` - Publish and distribute a plugin
+- `relevance.md` - Recommend plugins for your org
+- `security.md` - Plugin security and trust
+- `troubleshooting.md` - Troubleshoot plugins
+
+### Modified
+- `accessibility.md`
+  - Content updated
+- `admin-setup.md`
+  - Content updated
+- `advisor.md`
+  - Content updated
+- `agent-loop.md`
+  - Content updated
+- `claude-code-features.md`
+  - Content updated
+- `configuration.md`
+  - Content updated
+- `cost-tracking.md`
+  - Content updated
+- `custom-tools.md`
+  - Content updated
+- `examples.md`
+  - New section: "Explore a demo application"
+  - Removed section: "Explore a TypeScript application"
+- `file-checkpointing.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `hosting.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `migration-guide.md`
+  - Content updated
+- `modifying-system-prompts.md`
+  - New section: "Context Claude Code adds outside the system prompt"
+- `observability.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `plugins.md`
+  - New section: "Use plugin skills"
+  - Removed section: "Using plugin skills"
+- `python.md`
+  - Content updated
+- `quickstart.md`
+  - Content updated
+- `secure-deployment.md`
+  - Content updated
+- `session-storage.md`
+  - Content updated
+- `sessions.md`
+  - Content updated
+- `streaming-output.md`
+  - Content updated
+- `structured-outputs.md`
+  - Content updated
+- `subagents.md`
+  - Content updated
+- `tool-search.md`
+  - Content updated
+- `troubleshooting.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `user-input.md`
+  - Content updated
+- `agent-teams.md`
+  - Content updated
+- `agent-view.md`
+  - Content updated
+- `agents.md`
+  - Content updated
+- `amazon-bedrock.md`
+  - Content updated
+- `analytics.md`
+  - Content updated
+- `artifacts.md`
+  - New section: "Start from a Slides, Design, or Docs template"
+  - Removed section: "Draft a design canvas"
+- `authentication.md`
+  - Content updated
+- `auto-mode-config.md`
+  - Content updated
+- `best-practices.md`
+  - Content updated
+- `champion-kit.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `channels-reference.md`
+  - Content updated
+- `channels.md`
+  - Content updated
+- `checkpointing.md`
+  - Content updated
+- `chrome.md`
+  - Content updated
+- `claude-apps-gateway-config.md`
+  - Content updated
+- `claude-apps-gateway-deploy.md`
+  - Content updated
+- `claude-apps-gateway-on-aws.md`
+  - Content updated
+- `claude-apps-gateway-on-gcp.md`
+  - Content updated
+- `claude-apps-gateway-spend-limits.md`
+  - Content updated
+- `claude-apps-gateway.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `claude-directory.md`
+  - Content updated
+- `claude-platform-on-aws.md`
+  - Content updated
+- `claude-projects.md`
+  - Content updated
+- `claude-security.md`
+  - New section: "Models and providers"
+- `claude-tag.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `cloud-environments.md`
+  - Content updated
+- `code-review.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `common-workflows.md`
+  - Content updated
+- `communications-kit.md`
+  - Content updated
+- `computer-use.md`
+  - Content updated
+- `context-window.md`
+  - Content updated
+- `costs.md`
+  - Content updated
+- `cross-session-messaging.md`
+  - Content updated
+- `data-usage.md`
+  - Content updated
+- `debug-your-config.md`
+  - Content updated
+- `deep-links.md`
+  - Content updated
+- `desktop-ios-simulator.md`
+  - Content updated
+- `desktop-linux.md`
+  - Content updated
+- `desktop-quickstart.md`
+  - Content updated
+- `desktop-scheduled-tasks.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `devcontainer.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `fast-mode.md`
+  - Content updated
+- `feature-availability.md`
+  - Content updated
+- `features-overview.md`
+  - Content updated
+- `fullscreen.md`
+  - Content updated
+- `github-actions-cloud-providers.md`
+  - Content updated
+- `github-actions.md`
+  - Content updated
+- `github-enterprise-server.md`
+  - Content updated
+- `glossary.md`
+  - Content updated
+- `goal.md`
+  - Content updated
+- `google-vertex-ai.md`
+  - Content updated
+- `headless.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `how-claude-code-works.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `jetbrains.md`
+  - Content updated
+- `keybindings.md`
+  - New section: "Text fields"
+- `large-codebases.md`
+  - Content updated
+- `llm-gateway-connect.md`
+  - Content updated
+- `llm-gateway-protocol.md`
+  - Content updated
+- `llm-gateway-rollout.md`
+  - Content updated
+- `llm-gateway.md`
+  - Content updated
+- `managed-mcp.md`
+  - Content updated
+- `managed-settings.md`
+  - Content updated
+- `mcp-quickstart.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `memory.md`
+  - Content updated
+- `mobile.md`
+  - Content updated
+- `model-config.md`
+  - New section: "Version history"
+- `monitoring-usage.md`
+  - New section: "Telemetry from cloud sessions and Claude Tag"
+- `network-config.md`
+  - Content updated
+- `output-styles.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `platforms.md`
+  - Content updated
+- `plugin-evals.md`
+  - Content updated
+- `prompt-caching.md`
+  - Content updated
+- `prompt-library.md`
+  - Content updated
+- `quickstart.md`
+  - Content updated
+- `remote-control.md`
+  - Removed section: "Choose the right approach"
+- `routines.md`
+  - Content updated
+- `sandbox-environments.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `scheduled-tasks.md`
+  - Content updated
+- `security-guidance.md`
+  - Content updated
+- `security.md`
+  - Content updated
+- `self-hosted-environments-configuration.md`
+  - Content updated
+- `self-hosted-environments-deploy.md`
+  - Content updated
+- `self-hosted-environments-identity.md`
+  - Content updated
+- `self-hosted-environments-quickstart.md`
+  - Content updated
+- `self-hosted-environments-reference.md`
+  - Content updated
+- `self-hosted-environments.md`
+  - Content updated
+- `server-managed-settings.md`
+  - Content updated
+- `sessions.md`
+  - Content updated
+- `settings-example.md`
+  - Content updated
+- `settings-reference.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `setup.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `slack.md`
+  - Content updated
+- `statusline.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `terminal-config.md`
+  - New section: "Cap response width in wide terminals"
+- `third-party-integrations.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `troubleshoot-install.md`
+  - Content updated
+- `troubleshooting.md`
+  - Content updated
+- `ultrareview.md`
+  - Content updated
+- `voice-dictation.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+- `web-quickstart.md`
+  - Content updated
+- `2026-w13.md`
+  - Content updated
+- `2026-w14.md`
+  - Content updated
+- `2026-w16.md`
+  - Content updated
+- `2026-w17.md`
+  - Content updated
+- `2026-w18.md`
+  - Content updated
+- `2026-w19.md`
+  - Content updated
+- `2026-w20.md`
+  - Content updated
+- `2026-w21.md`
+  - Content updated
+- `2026-w22.md`
+  - Content updated
+- `2026-w23.md`
+  - Content updated
+- `2026-w32.md`
+  - Content updated
+- `2026-w33.md`
+  - Content updated
+- `2026-w37.md`
+  - Content updated
+- `workflows.md`
+  - Content updated
+- `worktrees.md`
+  - Content updated
+- `zero-data-retention.md`
+  - Content updated
+
 ## 2026-09-24
 
 ### Modified
