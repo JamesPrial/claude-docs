@@ -2,6 +2,140 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-10-01
+
+### Modified
+- `admin-setup.md`
+  - Content updated
+- `advisor.md`
+  - Content updated
+- `agent-loop.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `python.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `agent-view.md`
+  - Content updated
+- `amazon-bedrock.md`
+  - Content updated
+- `artifacts.md`
+  - Content updated
+- `authentication.md`
+  - Content updated
+- `auto-mode-config.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `claude-apps-gateway-config.md`
+  - Content updated
+- `claude-apps-gateway-on-aws.md`
+  - New section: "Cost attribution"
+- `claude-apps-gateway-spend-limits.md`
+  - Content updated
+- `claude-projects.md`
+  - Content updated
+- `claude-tag.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `cloud-environments.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `context-window.md`
+  - Content updated
+- `costs.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `glossary.md`
+  - Content updated
+- `google-vertex-ai.md`
+  - Content updated
+- `headless.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `keybindings.md`
+  - Content updated
+- `llm-gateway-protocol.md`
+  - Content updated
+- `llm-gateway.md`
+  - Content updated
+- `managed-settings.md`
+  - Content updated
+- `mcp-quickstart.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `memory.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `network-config.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `plugin-evals.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `components.md`
+  - Content updated
+- `host-marketplace.md`
+  - Content updated
+- `install.md`
+  - Content updated
+- `marketplace-reference.md`
+  - Content updated
+- `troubleshooting.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `sandbox-environments.md`
+  - Content updated
+- `scheduled-tasks.md`
+  - Content updated
+- `self-hosted-environments.md`
+  - Content updated
+- `server-managed-settings.md`
+  - Content updated
+- `sessions.md`
+  - Content updated
+- `settings-reference.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `statusline.md`
+  - Content updated
+- `third-party-integrations.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `troubleshoot-install.md`
+  - Content updated
+- `ultrareview.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+- `worktrees.md`
+  - Content updated
+
 ## 2026-09-30
 
 ### Added
