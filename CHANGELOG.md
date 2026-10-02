@@ -2,6 +2,180 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-10-02
+
+### Added
+- `admin.md` - Manage mods for your organization
+- `api.md` - Use the mods API
+- `create.md` - Create a mod
+- `events.md` - React to events with a mod
+- `gallery.md` - Interface gallery for mods
+- `interface.md` - Draw in the interface with a mod
+- `overview.md` - Mods overview
+- `reference.md` - Mods reference
+- `test.md` - Test a mod
+- `troubleshoot.md` - Troubleshoot a mod
+
+### Modified
+- `accessibility.md`
+  - Content updated
+- `admin-setup.md`
+  - Content updated
+- `agent-loop.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `python.md`
+  - Content updated
+- `secure-deployment.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `streaming-vs-single-mode.md`
+  - Content updated
+- `subagents.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `agent-teams.md`
+  - Content updated
+- `agent-view.md`
+  - Content updated
+- `amazon-bedrock.md`
+  - Content updated
+- `artifacts.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `channels.md`
+  - Content updated
+- `claude-directory.md`
+  - Content updated
+- `claude-security.md`
+  - Content updated
+- `claude-tag.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `cloud-environments.md`
+  - Content updated
+- `code-review.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `costs.md`
+  - Content updated
+- `cross-session-messaging.md`
+  - Content updated
+- `debug-your-config.md`
+  - Content updated
+- `desktop-linux.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `fullscreen.md`
+  - Content updated
+- `headless.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `large-codebases.md`
+  - Content updated
+- `llm-gateway-protocol.md`
+  - Content updated
+- `managed-settings.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `memory.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `network-config.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `plugin-evals.md`
+  - Content updated
+- `anthropic-marketplaces.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `code-intelligence.md`
+  - Content updated
+- `components.md`
+  - Content updated
+- `create-marketplace.md`
+  - Content updated
+- `install.md`
+  - Content updated
+- `loading.md`
+  - Content updated
+- `manifest-reference.md`
+  - Content updated
+- `marketplace-reference.md`
+  - Content updated
+- `org.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `security.md`
+  - Content updated
+- `troubleshooting.md`
+  - Content updated
+- `prompt-library.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `routines.md`
+  - Content updated
+- `sandbox-environments.md`
+  - Content updated
+- `sandboxing.md`
+  - New section: "What the sandbox restricts"
+- `security.md`
+  - Content updated
+- `self-hosted-environments-configuration.md`
+  - Content updated
+- `self-hosted-environments-deploy.md`
+  - Content updated
+- `self-hosted-environments.md`
+  - Content updated
+- `settings-example.md`
+  - Content updated
+- `settings-reference.md`
+  - Content updated
+- `setup.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `troubleshoot-install.md`
+  - Content updated
+- `troubleshooting.md`
+  - Content updated
+- `ultrareview.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+- `web-quickstart.md`
+  - Content updated
+- `worktrees.md`
+  - Content updated
+
 ## 2026-10-01
 
 ### Modified
