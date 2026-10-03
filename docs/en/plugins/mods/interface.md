@@ -511,6 +511,9 @@ This table lists what a key does while your pane or band has keyboard focus:
 | Up and Down | Move between controls while your drawing fits. When the pane or band has more rows than it can show, they scroll it. |
 | Enter | Presses the focused `Button`, submits the focused `Input`, or picks in a `Select` |
 | A button's hotkey | Presses that button. While an `Input` has the focus, every printable key goes to the field. |
+| Page Up, Page Down, Home, and End | Scroll your pane or band when it has more rows than it can show |
+| Ctrl+X then an arrow key | Resizes your pane. Left or Up gives it more room, and Right or Down gives the room back. |
+| Ctrl+X then X | Closes your pane, even while one of its fields has the focus |
 | Esc | Returns keyboard focus to the prompt. With `closeOnEscape: true`, it also closes the pane. |
 
 A mod can't bind Tab or the arrow keys to anything else, so a game steers with `w`, `a`, `s`, and `d`.
@@ -686,7 +689,7 @@ Claude Code now runs your `ui.render` hook once a second. The timer stops when t
 
 ### How often a site can redraw
 
-Claude Code throttles redraws of a site, so your mod can call `$.ui.invalidate` as often as its data changes. The visible pane and the band have a higher limit than other sites, and the [limits table](/docs/en/plugins/mods/reference#limits) has the numbers.
+Claude Code throttles redraws of a site, so your mod can call `$.ui.invalidate` as often as its data changes. For how often each site can redraw, see the [limits table](/docs/en/plugins/mods/reference#limits).
 
 Calls that come faster than the limit are coalesced into one redraw. That redraw runs your hook once, and the hook reads your data as it is at that moment, so the latest value shows and the values in between don't. An animation can't run faster than the limit.
 

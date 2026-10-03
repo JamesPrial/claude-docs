@@ -55,7 +55,7 @@ Tool events fire around each tool call Claude makes, from the description Claude
 | :- | :- | :- |
 | [`tool.call`](/docs/en/plugins/mods/events#guard-or-change-a-tool-call) | A tool is about to run | `next(e)`, `{ deny: reason }`, or `{ result }` |
 | [`tool.check`](/docs/en/plugins/mods/events#where-settings-hooks-run-in-the-order) | Claude Code decides whether a tool call may run, after the `tool.call` and `PreToolUse` hooks. `next(e)` resolves to the decision the rules, the permission mode, and those hooks reached. | `{ decision }`, which is `allow`, `ask`, or `deny` |
-| `tool.describe` | Once for each tool, when its description is first sent to Claude | `{ description }` |
+| `tool.describe` | Once for each tool, when its description is first sent to Claude | `{ description }`, optionally with `isDeferred` set to `true` to put the tool behind [tool search](/docs/en/mcp#scale-with-mcp-tool-search) or `false` to load it upfront |
 
 ### Prompts and what Claude reads
 
@@ -251,7 +251,7 @@ Hooks and mods API calls run under time and size limits. Claude Code skips a hoo
 | One string child of a `Text` | 10,000 characters |
 | `$.store` | 4 MiB of JSON in total |
 | `$.session.messages()` | The newest 4,096 entries |
-| `$.ui.invalidate('ui.render')` redraws | Throttled to 10 a second, 30 for the visible pane and the band. Calls that come sooner are coalesced. |
+| `$.ui.invalidate('ui.render')` redraws | Throttled to 10 a second, or 30 in the terminal for the visible pane, the expanded band, and the hint line under the prompt. Calls that come sooner are coalesced. |
 | `$.ui.toast` | Shown for 4 seconds unless you pass `{ timeoutMs }` |
 | A pane opened without the user asking | Placed from 144 terminal columns, 110 after they've opened it once |
 | Command, tool, subagent type, and pane names | Letters, digits, `_`, and `-`, up to 64 characters |
