@@ -2,6 +2,94 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-10-05
+
+### Modified
+- `admin-setup.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `python.md`
+  - Content updated
+- `troubleshooting.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `amazon-bedrock.md`
+  - Content updated
+- `best-practices.md`
+  - Content updated
+- `channels.md`
+  - Content updated
+- `claude-apps-gateway-config.md`
+  - Content updated
+- `claude-apps-gateway.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `claude-directory.md`
+  - Content updated
+- `claude-tag.md`
+  - Content updated
+- `cloud-environments.md`
+  - Content updated
+- `costs.md`
+  - Content updated
+- `desktop-ios-simulator.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `env-vars.md`
+  - New section: "What the subprocess environment scrub removes"
+- `errors.md`
+  - Content updated
+- `fast-mode.md`
+  - Content updated
+- `google-vertex-ai.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `keybindings.md`
+  - Content updated
+- `llm-gateway-protocol.md`
+  - Content updated
+- `managed-mcp.md`
+  - Content updated
+- `managed-settings.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `create.md`
+  - Content updated
+- `host-marketplace.md`
+  - Content updated
+- `marketplace-reference.md`
+  - Content updated
+- `self-hosted-environments-deploy.md`
+  - Content updated
+- `server-managed-settings.md`
+  - Content updated
+- `sessions.md`
+  - Content updated
+- `settings-reference.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `web-quickstart.md`
+  - Content updated
+
 ## 2026-10-04
 
 ### Modified
