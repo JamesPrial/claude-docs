@@ -2,6 +2,179 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-10-06
+
+### Added
+- `hipaa-setup.md` - Set up Claude Code (local mode) for a HIPAA-ready organization
+
+### Modified
+- `admin-setup.md`
+  - Content updated
+- `claude-code-features.md`
+  - Content updated
+- `cost-tracking.md`
+  - Content updated
+- `custom-tools.md`
+  - Content updated
+- `migration-guide.md`
+  - Content updated
+- `python.md`
+  - Content updated
+- `quickstart.md`
+  - Content updated
+- `secure-deployment.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `structured-outputs.md`
+  - Content updated
+- `subagents.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `agent-view.md`
+  - Content updated
+- `best-practices.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `channels-reference.md`
+  - Content updated
+- `channels.md`
+  - Content updated
+- `checkpointing.md`
+  - Content updated
+- `chrome.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `claude-directory.md`
+  - Content updated
+- `claude-security.md`
+  - Content updated
+- `claude-tag.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `code-review.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `common-workflows.md`
+  - Content updated
+- `context-window.md`
+  - Content updated
+- `costs.md`
+  - Content updated
+- `debug-your-config.md`
+  - Content updated
+- `deep-links.md`
+  - Content updated
+- `desktop-ios-simulator.md`
+  - Content updated
+- `desktop-quickstart.md`
+  - Content updated
+- `desktop-scheduled-tasks.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `feature-availability.md`
+  - Content updated
+- `fullscreen.md`
+  - Content updated
+- `github-actions.md`
+  - Content updated
+- `github-enterprise-server.md`
+  - Content updated
+- `glossary.md`
+  - Content updated
+- `headless.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `keybindings.md`
+  - Content updated
+- `large-codebases.md`
+  - Content updated
+- `legal-and-compliance.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `memory.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `network-config.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `platforms.md`
+  - Content updated
+- `install.md`
+  - Content updated
+- `admin.md`
+  - Content updated
+- `create.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `troubleshoot.md`
+  - Content updated
+- `troubleshooting.md`
+  - Content updated
+- `prompt-caching.md`
+  - Content updated
+- `prompt-library.md`
+  - Content updated
+- `quickstart.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `security-guidance.md`
+  - Content updated
+- `self-hosted-environments-deploy.md`
+  - Content updated
+- `self-hosted-environments.md`
+  - Content updated
+- `settings-reference.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `slack.md`
+  - Content updated
+- `statusline.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `third-party-integrations.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `troubleshoot-install.md`
+  - Content updated
+- `ultrareview.md`
+  - Content updated
+- `voice-dictation.md`
+  - Content updated
+- `web-quickstart.md`
+  - Content updated
+- `workflows.md`
+  - Content updated
+- `zero-data-retention.md`
+  - Content updated
+
 ## 2026-10-05
 
 ### Modified
