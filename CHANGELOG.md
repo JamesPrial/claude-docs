@@ -2,6 +2,208 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-10-08
+
+### Modified
+- `admin-setup.md`
+  - Content updated
+- `advisor.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `modifying-system-prompts.md`
+  - Content updated
+- `python.md`
+  - Content updated
+- `structured-outputs.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `agent-teams.md`
+  - Content updated
+- `agent-view.md`
+  - Content updated
+- `agents.md`
+  - Content updated
+- `amazon-bedrock.md`
+  - Content updated
+- `authentication.md`
+  - Content updated
+- `auto-mode-config.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `chrome.md`
+  - Content updated
+- `claude-apps-gateway-config.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `claude-directory.md`
+  - Content updated
+- `claude-platform-on-aws.md`
+  - Content updated
+- `claude-projects.md`
+  - Content updated
+- `claude-tag.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `cloud-environments.md`
+  - Content updated
+- `code-review.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `common-workflows.md`
+  - Content updated
+- `context-window.md`
+  - Content updated
+- `corporate-launcher.md`
+  - Content updated
+- `costs.md`
+  - Content updated
+- `deep-links.md`
+  - New section: "Open a Claude Desktop session on an SSH connection"
+- `desktop.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `fast-mode.md`
+  - Content updated
+- `feature-availability.md`
+  - Content updated
+- `github-actions.md`
+  - Content updated
+- `glossary.md`
+  - Content updated
+- `google-vertex-ai.md`
+  - Content updated
+- `headless.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `how-claude-code-works.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `keybindings.md`
+  - Content updated
+- `llm-gateway-connect.md`
+  - Content updated
+- `llm-gateway-protocol.md`
+  - Content updated
+- `managed-mcp.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `memory.md`
+  - Content updated
+- `microsoft-foundry.md`
+  - Content updated
+- `mobile.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `network-config.md`
+  - Content updated
+- `output-styles.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `plugin-evals.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `components.md`
+  - Content updated
+- `marketplace-reference.md`
+  - Content updated
+- `admin.md`
+  - Content updated
+- `api.md`
+  - Content updated
+- `create.md`
+  - Content updated
+- `gallery.md`
+  - Content updated
+- `interface.md`
+  - Content updated
+- `reference.md`
+  - Content updated
+- `test.md`
+  - Content updated
+- `troubleshoot.md`
+  - Content updated
+- `org.md`
+  - Content updated
+- `security.md`
+  - Content updated
+- `prompt-caching.md`
+  - Content updated
+- `prompt-library.md`
+  - Content updated
+- `quickstart.md`
+  - New section: "Step 2: Start your first session"
+  - New section: "Step 3: Ask your first question"
+  - New section: "Step 4: Make your first code change"
+  - New section: "Step 5: Use Git with Claude Code"
+  - New section: "Step 6: Fix a bug or add a feature"
+  - New section: "Step 7: Test out other common workflows"
+  - Removed section: "Step 2: Log in to your account"
+  - Removed section: "Step 3: Start your first session"
+  - Removed section: "Step 4: Ask your first question"
+  - Removed section: "Step 5: Make your first code change"
+  - Removed section: "Step 6: Use Git with Claude Code"
+  - Removed section: "Step 7: Fix a bug or add a feature"
+  - Removed section: "Step 8: Test out other common workflows"
+- `remote-control.md`
+  - Content updated
+- `routines.md`
+  - Content updated
+- `sandbox-environments.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `self-hosted-environments-testing.md`
+  - Content updated
+- `server-managed-settings.md`
+  - Content updated
+- `sessions.md`
+  - Content updated
+- `settings-reference.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `setup.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `statusline.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+- `web-quickstart.md`
+  - Content updated
+- `workflows.md`
+  - Content updated
+- `worktrees.md`
+  - Content updated
+
 ## 2026-10-07
 
 ### Modified
