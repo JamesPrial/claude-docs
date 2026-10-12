@@ -2,6 +2,44 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-10-12
+
+### Modified
+- `typescript.md`
+  - Content updated
+- `authentication.md`
+  - Content updated
+- `claude-tag.md`
+  - Content updated
+- `debug-your-config.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `marketplace-reference.md`
+  - Content updated
+- `reference.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `scheduled-tasks.md`
+  - Content updated
+- `settings-reference.md`
+  - Content updated
+- `workflows.md`
+  - Content updated
+- `worktrees.md`
+  - Content updated
+
 ## 2026-10-11
 
 ### Added
