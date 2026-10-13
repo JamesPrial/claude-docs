@@ -2,6 +2,36 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-10-13
+
+### Modified
+- `python.md`
+  - Content updated
+- `todo-tracking.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `claude-tag.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `feature-availability.md`
+  - Content updated
+- `google-vertex-ai.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `llm-gateway-connect.md`
+  - Content updated
+- `llm-gateway-protocol.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `prompt-caching.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+
 ## 2026-10-12
 
 ### Modified
