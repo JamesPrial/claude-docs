@@ -2,6 +2,120 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-10-14
+
+### Modified
+- `mcp.md`
+  - Content updated
+- `subagents.md`
+  - Content updated
+- `tool-search.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `agent-teams.md`
+  - Content updated
+- `amazon-bedrock.md`
+  - Content updated
+- `artifacts.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `claude-apps-gateway-config.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `claude-platform-on-aws.md`
+  - Content updated
+- `claude-tag.md`
+  - Content updated
+- `cloud-environments.md`
+  - Content updated
+- `code-review.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `context-window.md`
+  - Content updated
+- `corporate-launcher.md`
+  - Content updated
+- `debug-your-config.md`
+  - Content updated
+- `desktop-quickstart.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `feature-availability.md`
+  - Content updated
+- `features-overview.md`
+  - Content updated
+- `google-vertex-ai.md`
+  - Content updated
+- `headless.md`
+  - Content updated
+- `hipaa-setup.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `interactive-mode.md`
+  - New section: "You should know suggestions"
+- `large-codebases.md`
+  - Content updated
+- `llm-gateway-connect.md`
+  - Content updated
+- `llm-gateway-protocol.md`
+  - Content updated
+- `mcp.md`
+  - New section: "Tools with names longer than 128 characters"
+- `memory.md`
+  - Content updated
+- `microsoft-foundry.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `plugin-evals.md`
+  - Content updated
+- `dependencies.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `troubleshooting.md`
+  - Content updated
+- `prompt-caching.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `routines.md`
+  - Content updated
+- `settings-reference.md`
+  - Content updated
+- `setup.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `statusline.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `ultrareview.md`
+  - Content updated
+- `workflows.md`
+  - Content updated
+
 ## 2026-10-13
 
 ### Modified
