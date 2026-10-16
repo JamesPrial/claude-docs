@@ -2,6 +2,100 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-10-16
+
+### Added
+- `code-review-costs.md` - Code Review costs and usage
+- `code-review-customize.md` - Customize Code Review
+- `code-review-local.md` - Review locally with /code-review
+- `code-review-pull-requests.md` - Read and request reviews on a pull request
+- `code-review-setup.md` - Set up Code Review
+- `code-review-troubleshooting.md` - Troubleshoot Code Review
+
+### Modified
+- `file-checkpointing.md`
+  - Content updated
+- `analytics.md`
+  - Content updated
+- `artifacts.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `checkpointing.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `claude-tag.md`
+  - Content updated
+- `cloud-environments.md`
+  - Content updated
+- `code-review.md`
+  - New section: "Availability"
+  - New section: "Set up and use Code Review"
+  - New section: "Compare ways to get a review"
+  - Removed section: "Set up Code Review"
+  - Removed section: "Manually trigger reviews"
+  - Removed section: "Customize reviews"
+  - Removed section: "What Important means here"
+  - Removed section: "Cap the nits"
+  - Removed section: "Do not report"
+  - Removed section: "Always check"
+  - Removed section: "View usage"
+  - Removed section: "Pricing"
+  - Removed section: "Troubleshooting"
+  - Removed section: "Review a diff locally"
+  - Updated section: "How reviews work"
+- `commands.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `github-enterprise-server.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `mcp-quickstart.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `memory.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `admin.md`
+  - Content updated
+- `api.md`
+  - Content updated
+- `gallery.md`
+  - Content updated
+- `interface.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `reference.md`
+  - Content updated
+- `troubleshoot.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `ultrareview.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+- `web-quickstart.md`
+  - Content updated
+- `2026-w30.md`
+  - Content updated
+- `2026-w32.md`
+  - Content updated
+- `2026-w33.md`
+  - Content updated
+
 ## 2026-10-15
 
 ### Modified
