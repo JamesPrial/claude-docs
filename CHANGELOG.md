@@ -2,6 +2,109 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-10-17
+
+### Modified
+- `custom-tools.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `python.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `agent-teams.md`
+  - Content updated
+- `agent-view.md`
+  - Content updated
+- `auto-mode-classifier-billing.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `channels.md`
+  - Content updated
+- `claude-directory.md`
+  - Content updated
+- `claude-security.md`
+  - Content updated
+- `claude-tag.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `code-review-local.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `costs.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `features-overview.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `large-codebases.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `network-config.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `create.md`
+  - Content updated
+- `events.md`
+  - Content updated
+- `gallery.md`
+  - Content updated
+- `interface.md`
+  - Content updated
+- `reference.md`
+  - Content updated
+- `troubleshoot.md`
+  - Content updated
+- `prompt-caching.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `security-guidance.md`
+  - Content updated
+- `security.md`
+  - Content updated
+- `sessions.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `terminal-config.md`
+  - Content updated
+- `vs-code.md`
+  - New section: "Run work in the background"
+  - New section: "Connect to external tools with MCP"
+  - New section: "The built-in IDE MCP server"
+  - Removed section: "Security and privacy"
+  - Updated section: "Work with git"
+  - Updated section: "Use third-party providers"
+- `zero-data-retention.md`
+  - Content updated
+
 ## 2026-10-16
 
 ### Added
