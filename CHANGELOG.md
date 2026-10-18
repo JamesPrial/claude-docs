@@ -2,6 +2,16 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-10-18
+
+### Modified
+- `python.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `claude-tag.md`
+  - Content updated
+
 ## 2026-10-17
 
 ### Modified
