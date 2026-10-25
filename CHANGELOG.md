@@ -2,6 +2,108 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-10-25
+
+### Modified
+- `artifacts.md`
+  - Content updated
+- `channels-reference.md`
+  - Content updated
+- `checkpointing.md`
+  - Content updated
+- `claude-apps-gateway.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `claude-tag.md`
+  - Content updated
+- `cloud-environments.md`
+  - Content updated
+- `code-review-customize.md`
+  - Content updated
+- `code-review-pull-requests.md`
+  - Content updated
+- `code-review-troubleshooting.md`
+  - Content updated
+- `code-review.md`
+  - Content updated
+- `desktop-scheduled-tasks.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `fast-mode.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `keybindings.md`
+  - Content updated
+- `large-codebases.md`
+  - Content updated
+- `llm-gateway-connect.md`
+  - Content updated
+- `llm-gateway-protocol.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `network-config.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `components.md`
+  - Content updated
+- `host-marketplace.md`
+  - Content updated
+- `install.md`
+  - Content updated
+- `manifest-reference.md`
+  - Content updated
+- `gallery.md`
+  - Content updated
+- `troubleshoot.md`
+  - Content updated
+- `troubleshooting.md`
+  - Content updated
+- `prompt-caching.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `routines.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `self-hosted-environments-configuration.md`
+  - Content updated
+- `self-hosted-environments-deploy.md`
+  - Content updated
+- `self-hosted-environments-quickstart.md`
+  - Content updated
+- `self-hosted-environments-reference.md`
+  - Content updated
+- `self-hosted-environments.md`
+  - Content updated
+- `settings-reference.md`
+  - Content updated
+- `terminal-config.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `ultrareview.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+- `web-quickstart.md`
+  - Content updated
+
 ## 2026-10-24
 
 ### Modified
