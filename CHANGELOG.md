@@ -2,6 +2,78 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-10-26
+
+### Modified
+- `hooks.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `claude-apps-gateway-spend-limits.md`
+  - Content updated
+- `claude-projects.md`
+  - Content updated
+- `claude-tag.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `fast-mode.md`
+  - Content updated
+- `features-overview.md`
+  - Content updated
+- `glossary.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `how-claude-code-works.md`
+  - Content updated
+- `llm-gateway-protocol.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `components.md`
+  - Content updated
+- `create-marketplace.md`
+  - Content updated
+- `loading.md`
+  - Content updated
+- `manifest-reference.md`
+  - Content updated
+- `marketplace-reference.md`
+  - Content updated
+- `api.md`
+  - Content updated
+- `create.md`
+  - Content updated
+- `events.md`
+  - Content updated
+- `interface.md`
+  - Content updated
+- `reference.md`
+  - Content updated
+- `troubleshoot.md`
+  - Content updated
+- `troubleshooting.md`
+  - Content updated
+- `prompt-caching.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `self-hosted-environments-configuration.md`
+  - Content updated
+- `self-hosted-environments-deploy.md`
+  - Content updated
+- `self-hosted-environments-quickstart.md`
+  - Content updated
+- `self-hosted-environments-reference.md`
+  - Content updated
+- `settings-reference.md`
+  - Content updated
+- `statusline.md`
+  - Content updated
+
 ## 2026-10-25
 
 ### Modified
