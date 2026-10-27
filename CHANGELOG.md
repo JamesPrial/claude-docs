@@ -2,6 +2,134 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-10-27
+
+### Modified
+- `admin-setup.md`
+  - Content updated
+- `agent-loop.md`
+  - Content updated
+- `custom-tools.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `plugins.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `agent-teams.md`
+  - Content updated
+- `agent-view.md`
+  - Content updated
+- `best-practices.md`
+  - New section: "Deterministic and non-deterministic instructions"
+  - New section: "Tell Claude what it can't see"
+  - New section: "Give Claude a check to run"
+  - New section: "Enforce the rules that can't have exceptions"
+  - New section: "Change a default"
+  - New section: "Steer the session"
+  - New section: "Let Claude run without you"
+  - New section: "What you can stop doing"
+  - Removed section: "Give Claude a way to verify its work"
+  - Removed section: "Explore first, then plan, then code"
+  - Removed section: "Provide specific context in your prompts"
+  - Removed section: "Configure your environment"
+  - Removed section: "Communicate effectively"
+  - Removed section: "Manage your session"
+  - Removed section: "Automate and scale"
+  - Removed section: "Avoid common failure patterns"
+  - Removed section: "Develop your intuition"
+- `changelog.md`
+  - Content updated
+- `claude-apps-gateway-config.md`
+  - Content updated
+- `claude-apps-gateway-deploy.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `claude-directory.md`
+  - Content updated
+- `claude-security.md`
+  - Content updated
+- `claude-tag.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `context-window.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `glossary.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `how-claude-code-works.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `large-codebases.md`
+  - Content updated
+- `managed-settings.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `anthropic-marketplaces.md`
+  - Content updated
+- `host-marketplace.md`
+  - Content updated
+- `admin.md`
+  - Content updated
+- `events.md`
+  - Content updated
+- `gallery.md`
+  - Content updated
+- `interface.md`
+  - Content updated
+- `reference.md`
+  - Content updated
+- `test.md`
+  - Content updated
+- `troubleshoot.md`
+  - Content updated
+- `org.md`
+  - Content updated
+- `relevance.md`
+  - Content updated
+- `self-hosted-environments-configuration.md`
+  - Content updated
+- `self-hosted-environments-deploy.md`
+  - Content updated
+- `self-hosted-environments-reference.md`
+  - Content updated
+- `server-managed-settings.md`
+  - Content updated
+- `sessions.md`
+  - Content updated
+- `settings-reference.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `terminal-config.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+- `web-quickstart.md`
+  - Content updated
+- `workflows.md`
+  - Content updated
+
 ## 2026-10-26
 
 ### Modified
