@@ -2,6 +2,134 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-10-28
+
+### Modified
+- `accessibility.md`
+  - Content updated
+- `admin-setup.md`
+  - Content updated
+- `agent-loop.md`
+  - Content updated
+- `configuration.md`
+  - Content updated
+- `hosting.md`
+  - Content updated
+- `modifying-system-prompts.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `python.md`
+  - Content updated
+- `quickstart.md`
+  - Content updated
+- `streaming-output.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `agent-view.md`
+  - Content updated
+- `agents.md`
+  - Content updated
+- `amazon-bedrock.md`
+  - Content updated
+- `artifacts.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `chrome.md`
+  - Content updated
+- `claude-apps-gateway-config.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `claude-platform-on-aws.md`
+  - Content updated
+- `claude-projects.md`
+  - Content updated
+- `claude-tag.md`
+  - Content updated
+- `code-review-local.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `computer-use.md`
+  - Content updated
+- `cross-session-messaging.md`
+  - Content updated
+- `desktop-scheduled-tasks.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `fast-mode.md`
+  - Content updated
+- `google-vertex-ai.md`
+  - Content updated
+- `headless.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `large-codebases.md`
+  - Content updated
+- `llm-gateway-connect.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `memory.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `output-styles.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `events.md`
+  - Content updated
+- `gallery.md`
+  - Content updated
+- `interface.md`
+  - Content updated
+- `reference.md`
+  - Content updated
+- `troubleshoot.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `routines.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `server-managed-settings.md`
+  - Content updated
+- `sessions.md`
+  - Content updated
+- `settings-reference.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `ultrareview.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+- `web-quickstart.md`
+  - Content updated
+- `workflows.md`
+  - Content updated
+- `worktrees.md`
+  - Content updated
+
 ## 2026-10-27
 
 ### Modified
