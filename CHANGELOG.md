@@ -2,6 +2,102 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-10-29
+
+### Modified
+- `agent-loop.md`
+  - Content updated
+- `python.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `authentication.md`
+  - Content updated
+- `claude-apps-gateway-config.md`
+  - Content updated
+- `claude-apps-gateway.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `claude-directory.md`
+  - Content updated
+- `claude-tag.md`
+  - Content updated
+- `cloud-environments.md`
+  - Content updated
+- `corporate-launcher.md`
+  - Content updated
+- `deep-links.md`
+  - Content updated
+- `desktop-quickstart.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `devcontainer.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `fast-mode.md`
+  - Content updated
+- `feature-availability.md`
+  - Content updated
+- `github-actions.md`
+  - Content updated
+- `github-enterprise-server.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `managed-settings.md`
+  - Content updated
+- `mcp-quickstart.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `anthropic-marketplaces.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `create-marketplace.md`
+  - Content updated
+- `create.md`
+  - Content updated
+- `install.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `publish.md`
+  - Content updated
+- `security.md`
+  - Content updated
+- `self-hosted-environments-configuration.md`
+  - Content updated
+- `self-hosted-environments-deploy.md`
+  - Content updated
+- `self-hosted-environments-quickstart.md`
+  - Content updated
+- `self-hosted-environments-reference.md`
+  - Content updated
+- `server-managed-settings.md`
+  - Content updated
+- `settings-reference.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `troubleshoot-install.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+- `worktrees.md`
+  - Content updated
+
 ## 2026-10-28
 
 ### Modified
