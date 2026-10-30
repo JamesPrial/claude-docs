@@ -2,6 +2,92 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-10-30
+
+### Modified
+- `claude-code-features.md`
+  - Content updated
+- `python.md`
+  - Content updated
+- `session-storage.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `artifacts.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `chrome.md`
+  - Content updated
+- `claude-apps-gateway.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `claude-projects.md`
+  - Content updated
+- `claude-tag.md`
+  - Content updated
+- `cloud-environments.md`
+  - Content updated
+- `code-review-costs.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `costs.md`
+  - Content updated
+- `deep-links.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `goal.md`
+  - Content updated
+- `hipaa-setup.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `api.md`
+  - Content updated
+- `prompt-caching.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `self-hosted-environments-configuration.md`
+  - Content updated
+- `self-hosted-environments-deploy.md`
+  - Content updated
+- `self-hosted-environments-identity.md`
+  - Content updated
+- `self-hosted-environments-reference.md`
+  - Content updated
+- `self-hosted-environments.md`
+  - Content updated
+- `settings-reference.md`
+  - Content updated
+- `setup.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `slack.md`
+  - Content updated
+- `statusline.md`
+  - Content updated
+- `terminal-config.md`
+  - Content updated
+- `troubleshoot-install.md`
+  - Content updated
+- `ultrareview.md`
+  - Content updated
+
 ## 2026-10-29
 
 ### Modified
