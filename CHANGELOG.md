@@ -2,6 +2,194 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-10-31
+
+### Modified
+- `agent-loop.md`
+  - Content updated
+- `custom-tools.md`
+  - Content updated
+- `file-checkpointing.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `quickstart.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `structured-outputs.md`
+  - Content updated
+- `user-input.md`
+  - Content updated
+- `agents.md`
+  - Content updated
+- `artifacts.md`
+  - Content updated
+- `authentication.md`
+  - Content updated
+- `auto-mode-classifier-billing.md`
+  - Content updated
+- `auto-mode-config.md`
+  - Content updated
+- `best-practices.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `channels.md`
+  - Content updated
+- `chrome.md`
+  - Content updated
+- `claude-apps-gateway-on-aws.md`
+  - Content updated
+- `claude-apps-gateway-on-gcp.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `claude-projects.md`
+  - Content updated
+- `claude-tag.md`
+  - Content updated
+- `cloud-environments.md`
+  - Content updated
+- `code-review.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `common-workflows.md`
+  - Content updated
+- `communications-kit.md`
+  - Content updated
+- `computer-use.md`
+  - Content updated
+- `costs.md`
+  - Content updated
+- `data-usage.md`
+  - Content updated
+- `debug-your-config.md`
+  - Content updated
+- `deep-links.md`
+  - Content updated
+- `desktop-ios-simulator.md`
+  - Content updated
+- `desktop-quickstart.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `devcontainer.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `fast-mode.md`
+  - Content updated
+- `feature-availability.md`
+  - Content updated
+- `features-overview.md`
+  - Content updated
+- `github-actions-cloud-providers.md`
+  - Content updated
+- `github-actions.md`
+  - Content updated
+- `gitlab-ci-cd.md`
+  - Content updated
+- `glossary.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `how-claude-code-works.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `jetbrains.md`
+  - Content updated
+- `legal-and-compliance.md`
+  - Content updated
+- `llm-gateway-connect.md`
+  - Content updated
+- `llm-gateway-rollout.md`
+  - Content updated
+- `managed-mcp.md`
+  - Content updated
+- `mcp-quickstart.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `mobile.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `platforms.md`
+  - Content updated
+- `install.md`
+  - Content updated
+- `measure.md`
+  - Content updated
+- `create.md`
+  - Content updated
+- `interface.md`
+  - Content updated
+- `publish.md`
+  - Content updated
+- `troubleshooting.md`
+  - Content updated
+- `quickstart.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `routines.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `security.md`
+  - Content updated
+- `self-hosted-environments-configuration.md`
+  - Content updated
+- `self-hosted-environments-identity.md`
+  - Content updated
+- `self-hosted-environments.md`
+  - Content updated
+- `sessions.md`
+  - Content updated
+- `settings-example.md`
+  - Content updated
+- `settings-reference.md`
+  - Content updated
+- `setup.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `slack.md`
+  - Content updated
+- `statusline.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `terminal-config.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `troubleshoot-install.md`
+  - Content updated
+- `troubleshooting.md`
+  - Content updated
+- `ultrareview.md`
+  - Content updated
+- `voice-dictation.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+- `web-quickstart.md`
+  - Content updated
+
 ## 2026-10-30
 
 ### Modified
