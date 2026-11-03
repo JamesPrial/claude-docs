@@ -2,6 +2,106 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-11-03
+
+### Modified
+- `admin-setup.md`
+  - Content updated
+- `cost-tracking.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `amazon-bedrock.md`
+  - Content updated
+- `analytics.md`
+  - Content updated
+- `authentication.md`
+  - Content updated
+- `auto-mode-config.md`
+  - Content updated
+- `best-practices.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `claude-apps-gateway-config.md`
+  - Content updated
+- `claude-apps-gateway-deploy.md`
+  - Content updated
+- `claude-apps-gateway-on-aws.md`
+  - Content updated
+- `claude-apps-gateway.md`
+  - Content updated
+- `claude-tag.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `cloud-environments.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `costs.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `fast-mode.md`
+  - Content updated
+- `google-vertex-ai.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `llm-gateway-protocol.md`
+  - Content updated
+- `llm-gateway-rollout.md`
+  - Content updated
+- `managed-settings.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `memory.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `network-config.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `api.md`
+  - Content updated
+- `interface.md`
+  - Content updated
+- `org.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `routines.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `server-managed-settings.md`
+  - Content updated
+- `settings-reference.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `slack.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `tools-reference.md`
+  - New section: "EnterWorktree tool behavior"
+- `worktrees.md`
+  - Content updated
+
 ## 2026-11-02
 
 ### Modified
