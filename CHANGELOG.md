@@ -2,6 +2,82 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-11-06
+
+### Modified
+- `agent-loop.md`
+  - Content updated
+- `cost-tracking.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `plugins.md`
+  - Content updated
+- `python.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `agent-teams.md`
+  - Content updated
+- `artifacts.md`
+  - Content updated
+- `channels.md`
+  - Content updated
+- `claude-apps-gateway-config.md`
+  - Content updated
+- `claude-apps-gateway-deploy.md`
+  - Content updated
+- `claude-apps-gateway-on-aws.md`
+  - Content updated
+- `claude-apps-gateway-on-gcp.md`
+  - Content updated
+- `claude-apps-gateway.md`
+  - Content updated
+- `claude-projects.md`
+  - Content updated
+- `claude-tag.md`
+  - Content updated
+- `cloud-environments.md`
+  - Content updated
+- `code-review-customize.md`
+  - Content updated
+- `deep-links.md`
+  - Content updated
+- `desktop-ios-simulator.md`
+  - Content updated
+- `desktop-scheduled-tasks.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `fast-mode.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `prompt-caching.md`
+  - Content updated
+- `self-hosted-environments-configuration.md`
+  - Content updated
+- `settings-reference.md`
+  - Content updated
+- `slack.md`
+  - Content updated
+- `terminal-config.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+- `web-quickstart.md`
+  - Content updated
+
 ## 2026-11-05
 
 ### Modified
