@@ -2,6 +2,62 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-11-07
+
+### Modified
+- `python.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `auto-mode-classifier-billing.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `claude-tag.md`
+  - Content updated
+- `desktop-ios-simulator.md`
+  - Content updated
+- `desktop-linux.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `mobile.md`
+  - Content updated
+- `network-config.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `marketplace-reference.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `sandbox-environments.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `self-hosted-environments-configuration.md`
+  - Content updated
+- `server-managed-settings.md`
+  - Content updated
+- `settings-reference.md`
+  - Content updated
+- `setup.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `web-quickstart.md`
+  - Content updated
+
 ## 2026-11-06
 
 ### Modified
