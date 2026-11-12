@@ -2,6 +2,60 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-11-12
+
+### Modified
+- `agent-loop.md`
+  - Content updated
+- `python.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `chrome.md`
+  - Content updated
+- `claude-directory.md`
+  - Content updated
+- `claude-tag.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `common-workflows.md`
+  - Content updated
+- `context-window.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `glossary.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `test.md`
+  - Content updated
+- `scheduled-tasks.md`
+  - Content updated
+- `self-hosted-environments-configuration.md`
+  - Content updated
+- `self-hosted-environments-deploy.md`
+  - Content updated
+- `self-hosted-environments-reference.md`
+  - Content updated
+- `settings-reference.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+
 ## 2026-11-11
 
 ### Modified
