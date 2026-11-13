@@ -2,6 +2,108 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-11-13
+
+### Modified
+- `agent-loop.md`
+  - Content updated
+- `session-storage.md`
+  - Content updated
+- `amazon-bedrock.md`
+  - Content updated
+- `best-practices.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `claude-apps-gateway-config.md`
+  - Content updated
+- `claude-apps-gateway-deploy.md`
+  - Content updated
+- `claude-apps-gateway.md`
+  - Content updated
+- `claude-projects.md`
+  - Content updated
+- `claude-tag.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `desktop-linux.md`
+  - Content updated
+- `desktop-scheduled-tasks.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `fast-mode.md`
+  - Content updated
+- `gateways.md`
+  - Content updated
+- `github-actions-cloud-providers.md`
+  - Content updated
+- `google-vertex-ai.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `keybindings.md`
+  - Content updated
+- `llm-gateway-connect.md`
+  - Content updated
+- `llm-gateway-rollout.md`
+  - Content updated
+- `microsoft-foundry.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `components.md`
+  - Content updated
+- `create.md`
+  - Content updated
+- `manifest-reference.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `test.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `publish.md`
+  - Content updated
+- `prompt-caching.md`
+  - Content updated
+- `quickstart.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `routines.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `settings-reference.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `setup.md`
+  - Content updated
+- `statusline.md`
+  - Removed section: "Subagent status lines"
+- `terminal-config.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `troubleshoot-install.md`
+  - Content updated
+- `troubleshooting.md`
+  - Content updated
+- `workflows.md`
+  - Content updated
+
 ## 2026-11-12
 
 ### Modified
