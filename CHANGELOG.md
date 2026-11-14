@@ -2,6 +2,157 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-11-14
+
+### Added
+- `code-mode.md` - Run tool calls from code with Code Mode
+
+### Modified
+- `custom-tools.md`
+  - Content updated
+- `file-checkpointing.md`
+  - Content updated
+- `modifying-system-prompts.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `python.md`
+  - Content updated
+- `quickstart.md`
+  - Content updated
+- `secure-deployment.md`
+  - Content updated
+- `subagents.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `agent-teams.md`
+  - Content updated
+- `agent-view.md`
+  - Content updated
+- `artifacts.md`
+  - Content updated
+- `auto-mode-config.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `checkpointing.md`
+  - Content updated
+- `claude-apps-gateway-config.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `claude-directory.md`
+  - Content updated
+- `claude-projects.md`
+  - Content updated
+- `claude-tag.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `desktop-scheduled-tasks.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `feature-availability.md`
+  - Content updated
+- `features-overview.md`
+  - Content updated
+- `github-actions.md`
+  - Content updated
+- `glossary.md`
+  - Content updated
+- `headless.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `keybindings.md`
+  - Content updated
+- `llm-gateway-protocol.md`
+  - Content updated
+- `llm-gateway.md`
+  - Content updated
+- `managed-mcp.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `network-config.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `loading.md`
+  - Content updated
+- `manifest-reference.md`
+  - Content updated
+- `marketplace-reference.md`
+  - Content updated
+- `admin.md`
+  - Content updated
+- `create.md`
+  - Content updated
+- `events.md`
+  - Content updated
+- `gallery.md`
+  - Content updated
+- `interface.md`
+  - Content updated
+- `reference.md`
+  - Content updated
+- `test.md`
+  - Content updated
+- `troubleshoot.md`
+  - Content updated
+- `security.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `sandbox-environments.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `security.md`
+  - Content updated
+- `self-hosted-environments-deploy.md`
+  - Content updated
+- `server-managed-settings.md`
+  - Content updated
+- `settings-reference.md`
+  - Content updated
+- `setup.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `third-party-integrations.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `troubleshoot-install.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+- `workflows.md`
+  - Content updated
+- `worktrees.md`
+  - Content updated
+
 ## 2026-11-13
 
 ### Modified
