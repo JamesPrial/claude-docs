@@ -2,6 +2,108 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-11-15
+
+### Added
+- `claude-models-on-google-cloud-anthropic-managed.md` - Claude Code with Claude Models on Google Cloud (Anthropic managed)
+
+### Modified
+- `advisor.md`
+  - Content updated
+- `python.md`
+  - Content updated
+- `troubleshooting.md`
+  - New section: "Large tool calls and results"
+- `typescript.md`
+  - Content updated
+- `agent-view.md`
+  - Content updated
+- `artifacts.md`
+  - Content updated
+- `auto-mode-config.md`
+  - New section: "Suspend shell allow rules"
+  - Removed section: "Route all shell commands through the classifier"
+- `best-practices.md`
+  - Content updated
+- `chrome.md`
+  - Content updated
+- `claude-apps-gateway-config.md`
+  - Content updated
+- `claude-tag.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `debug-your-config.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `fast-mode.md`
+  - Content updated
+- `feature-availability.md`
+  - Content updated
+- `google-vertex-ai.md`
+  - Content updated
+- `headless.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `llm-gateway-protocol.md`
+  - Content updated
+- `managed-settings.md`
+  - Content updated
+- `mcp-quickstart.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `microsoft-foundry.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `create.md`
+  - Content updated
+- `troubleshoot.md`
+  - Content updated
+- `troubleshooting.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `server-managed-settings.md`
+  - Content updated
+- `sessions.md`
+  - Content updated
+- `settings-example.md`
+  - Content updated
+- `settings-reference.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `statusline.md`
+  - Content updated
+- `terminal-config.md`
+  - Content updated
+- `third-party-integrations.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `vs-code.md`
+  - New section: "Work with Jupyter notebooks"
+- `zero-data-retention.md`
+  - Content updated
+
 ## 2026-11-14
 
 ### Added
