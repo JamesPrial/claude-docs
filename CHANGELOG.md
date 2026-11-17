@@ -2,6 +2,178 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-11-17
+
+### Modified
+- `admin-setup.md`
+  - Content updated
+- `agent-loop.md`
+  - Content updated
+- `configuration.md`
+  - Content updated
+- `cost-tracking.md`
+  - Content updated
+- `modifying-system-prompts.md`
+  - Content updated
+- `python.md`
+  - Content updated
+- `quickstart.md`
+  - Content updated
+- `secure-deployment.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `streaming-output.md`
+  - Content updated
+- `streaming-vs-single-mode.md`
+  - New section: "Choose single-shot or streaming input"
+  - New section: "Send more than one message to a session"
+  - New section: "Read each response"
+  - New section: "Interrupt Claude's response"
+  - New section: "Next steps"
+  - Removed section: "Overview"
+  - Removed section: "Streaming Input Mode (Recommended)"
+  - Removed section: "Single Message Input"
+- `subagents.md`
+  - Content updated
+- `todo-tracking.md`
+  - Content updated
+- `troubleshooting.md`
+  - New section: "Streaming input"
+- `typescript.md`
+  - Content updated
+- `agent-view.md`
+  - Content updated
+- `amazon-bedrock.md`
+  - Content updated
+- `analytics.md`
+  - Content updated
+- `artifacts.md`
+  - New section: "Start an artifact from a template"
+  - Removed section: "Start from a Slides, Design, or Docs template"
+- `authentication.md`
+  - Content updated
+- `auto-mode-config.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `claude-apps-gateway-config.md`
+  - Content updated
+- `claude-apps-gateway-deploy.md`
+  - Content updated
+- `claude-apps-gateway.md`
+  - Content updated
+- `claude-directory.md`
+  - Content updated
+- `claude-projects.md`
+  - Content updated
+- `claude-tag.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `cloud-environments.md`
+  - Content updated
+- `code-mode.md`
+  - Content updated
+- `code-review-costs.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `context-window.md`
+  - Content updated
+- `costs.md`
+  - Content updated
+- `desktop-ios-simulator.md`
+  - New section: "Test your app on an iPhone Duo"
+- `desktop-scheduled-tasks.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `fullscreen.md`
+  - Content updated
+- `github-enterprise-server.md`
+  - Content updated
+- `glossary.md`
+  - Content updated
+- `headless.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `how-claude-code-works.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `keybindings.md`
+  - Content updated
+- `llm-gateway-protocol.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `microsoft-foundry.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `plugin-evals.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `install.md`
+  - Content updated
+- `marketplace-reference.md`
+  - Content updated
+- `admin.md`
+  - Content updated
+- `events.md`
+  - Content updated
+- `test.md`
+  - Content updated
+- `org.md`
+  - Content updated
+- `prompt-caching.md`
+  - Content updated
+- `scheduled-tasks.md`
+  - Content updated
+- `self-hosted-environments-deploy.md`
+  - Content updated
+- `self-hosted-environments-quickstart.md`
+  - Content updated
+- `self-hosted-environments-testing.md`
+  - Content updated
+- `sessions.md`
+  - Content updated
+- `settings-reference.md`
+  - Content updated
+- `setup.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `statusline.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `terminal-config.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `troubleshoot-install.md`
+  - Content updated
+- `troubleshooting.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+- `worktrees.md`
+  - Content updated
+
 ## 2026-11-16
 
 ### Modified
