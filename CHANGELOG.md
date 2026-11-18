@@ -2,6 +2,92 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-11-18
+
+### Modified
+- `admin-setup.md`
+  - Content updated
+- `python.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `agent-teams.md`
+  - Content updated
+- `authentication.md`
+  - Content updated
+- `auto-mode-config.md`
+  - Content updated
+- `best-practices.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `channels.md`
+  - Content updated
+- `claude-tag.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `common-workflows.md`
+  - Content updated
+- `data-usage.md`
+  - Content updated
+- `desktop-scheduled-tasks.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `glossary.md`
+  - Content updated
+- `headless.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `keybindings.md`
+  - Content updated
+- `managed-mcp.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `memory.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `host-marketplace.md`
+  - Content updated
+- `manifest-reference.md`
+  - Content updated
+- `marketplace-reference.md`
+  - Content updated
+- `api.md`
+  - Content updated
+- `troubleshoot.md`
+  - Content updated
+- `org.md`
+  - Content updated
+- `publish.md`
+  - Content updated
+- `troubleshooting.md`
+  - Content updated
+- `settings-reference.md`
+  - Content updated
+- `setup.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `troubleshooting.md`
+  - Content updated
+
 ## 2026-11-17
 
 ### Modified
