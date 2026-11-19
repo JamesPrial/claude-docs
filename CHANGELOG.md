@@ -2,6 +2,116 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-11-19
+
+### Modified
+- `hooks.md`
+  - Content updated
+- `subagents.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `artifacts.md`
+  - Content updated
+- `authentication.md`
+  - Content updated
+- `auto-mode-config.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `chrome.md`
+  - Content updated
+- `claude-apps-gateway.md`
+  - Content updated
+- `claude-directory.md`
+  - Content updated
+- `claude-tag.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `code-review-pull-requests.md`
+  - Content updated
+- `code-review-troubleshooting.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `cross-session-messaging.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `fullscreen.md`
+  - Content updated
+- `github-actions-cloud-providers.md`
+  - Content updated
+- `github-actions.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `mcp-quickstart.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `network-config.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `plugin-evals.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `host-marketplace.md`
+  - Content updated
+- `install.md`
+  - Content updated
+- `loading.md`
+  - Content updated
+- `measure.md`
+  - Content updated
+- `admin.md`
+  - Content updated
+- `api.md`
+  - Content updated
+- `reference.md`
+  - Content updated
+- `troubleshoot.md`
+  - Content updated
+- `org.md`
+  - Content updated
+- `troubleshooting.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `security-guidance.md`
+  - Content updated
+- `settings-reference.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `terminal-config.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `voice-dictation.md`
+  - Content updated
+- `vs-code.md`
+  - New section: "Sign in to a Claude apps gateway"
+- `web-quickstart.md`
+  - Content updated
+- `worktrees.md`
+  - Content updated
+
 ## 2026-11-18
 
 ### Modified
