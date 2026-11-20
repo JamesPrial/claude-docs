@@ -2,6 +2,204 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-11-20
+
+### Modified
+- `agent-loop.md`
+  - Content updated
+- `claude-code-features.md`
+  - Content updated
+- `configuration.md`
+  - Content updated
+- `custom-tools.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `hosting.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `python.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `subagents.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `user-input.md`
+  - Content updated
+- `agent-view.md`
+  - Content updated
+- `artifacts.md`
+  - Content updated
+- `authentication.md`
+  - Content updated
+- `best-practices.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `channels-reference.md`
+  - Content updated
+- `channels.md`
+  - Content updated
+- `checkpointing.md`
+  - Content updated
+- `chrome.md`
+  - Content updated
+- `claude-apps-gateway-deploy.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `claude-directory.md`
+  - Content updated
+- `claude-tag.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `cloud-environments.md`
+  - Content updated
+- `code-mode.md`
+  - Content updated
+- `code-review-setup.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `common-workflows.md`
+  - Content updated
+- `computer-use.md`
+  - Content updated
+- `costs.md`
+  - Content updated
+- `cross-session-messaging.md`
+  - Content updated
+- `desktop-ios-simulator.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `devcontainer.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `feature-availability.md`
+  - Content updated
+- `github-actions.md`
+  - Content updated
+- `glossary.md`
+  - Content updated
+- `goal.md`
+  - Content updated
+- `headless.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `keybindings.md`
+  - Content updated
+- `large-codebases.md`
+  - Content updated
+- `llm-gateway-rollout.md`
+  - Content updated
+- `managed-mcp.md`
+  - Content updated
+- `managed-settings.md`
+  - Content updated
+- `mcp-quickstart.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `network-config.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `code-intelligence.md`
+  - Content updated
+- `create-marketplace.md`
+  - Content updated
+- `create.md`
+  - Content updated
+- `dependencies.md`
+  - Content updated
+- `install.md`
+  - Content updated
+- `loading.md`
+  - Content updated
+- `manifest-reference.md`
+  - Content updated
+- `admin.md`
+  - Content updated
+- `events.md`
+  - Content updated
+- `interface.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `org.md`
+  - Content updated
+- `relevance.md`
+  - Content updated
+- `troubleshooting.md`
+  - Content updated
+- `prompt-caching.md`
+  - Content updated
+- `quickstart.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `routines.md`
+  - Content updated
+- `sandbox-environments.md`
+  - Content updated
+- `sandboxing.md`
+  - Content updated
+- `scheduled-tasks.md`
+  - Content updated
+- `security.md`
+  - Content updated
+- `self-hosted-environments-configuration.md`
+  - Content updated
+- `self-hosted-environments-deploy.md`
+  - Content updated
+- `self-hosted-environments-reference.md`
+  - Content updated
+- `self-hosted-environments-testing.md`
+  - Content updated
+- `server-managed-settings.md`
+  - Content updated
+- `sessions.md`
+  - Content updated
+- `settings-reference.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `terminal-config.md`
+  - Content updated
+- `third-party-integrations.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `troubleshoot-install.md`
+  - Content updated
+- `voice-dictation.md`
+  - Content updated
+- `web-quickstart.md`
+  - Content updated
+
 ## 2026-11-19
 
 ### Modified
