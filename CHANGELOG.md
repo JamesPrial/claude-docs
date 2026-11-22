@@ -2,6 +2,28 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-11-22
+
+### Modified
+- `hooks.md`
+  - Content updated
+- `python.md`
+  - Content updated
+- `claude-tag.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+
 ## 2026-11-21
 
 ### Modified
