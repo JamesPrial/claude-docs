@@ -2,6 +2,194 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-11-24
+
+### Added
+- `approvals-classifiers.md` - Claude Approvals classifiers
+- `approvals-github-rules.md` - Claude Approvals and your GitHub rules
+- `approvals-policy.md` - Claude Approvals policy file reference
+- `approvals-pull-requests.md` - Work with Claude Approvals on a pull request
+- `approvals-setup.md` - Set up Claude Approvals
+- `approvals-troubleshooting.md` - Troubleshoot Claude Approvals
+- `approvals.md` - Claude Approvals
+- `claude-ship.md` - Claude Ship
+- `pr-steward-pull-requests.md` - Work with PR Steward on a pull request
+- `pr-steward-security.md` - What PR Steward can access
+- `pr-steward-setup.md` - Set up PR Steward
+- `pr-steward-troubleshooting.md` - Troubleshoot PR Steward
+- `pr-steward.md` - PR Steward
+- `share-sessions.md` - Share a cloud or Remote Control session
+- `ship-command-troubleshooting.md` - Troubleshoot /ship and /steward
+- `ship-command.md` - Get a pull request ready with /ship and /steward
+
+### Modified
+- `python.md`
+  - Content updated
+- `user-input.md`
+  - Content updated
+- `agent-teams.md`
+  - Content updated
+- `agent-view.md`
+  - Content updated
+- `analytics.md`
+  - Content updated
+- `artifacts.md`
+  - Content updated
+- `auto-mode-config.md`
+  - Content updated
+- `champion-kit.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `channels-reference.md`
+  - Content updated
+- `chrome.md`
+  - Content updated
+- `claude-apps-gateway-deploy.md`
+  - Content updated
+- `claude-apps-gateway.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `claude-directory.md`
+  - Content updated
+- `claude-projects.md`
+  - Content updated
+- `claude-tag.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `cloud-environments.md`
+  - Content updated
+- `code-mode.md`
+  - Content updated
+- `code-review-costs.md`
+  - Content updated
+- `code-review-pull-requests.md`
+  - Content updated
+- `code-review-setup.md`
+  - Content updated
+- `code-review-troubleshooting.md`
+  - Content updated
+- `code-review.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `communications-kit.md`
+  - Content updated
+- `costs.md`
+  - Content updated
+- `deep-links.md`
+  - Content updated
+- `desktop-linux.md`
+  - Content updated
+- `desktop-quickstart.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `feature-availability.md`
+  - Content updated
+- `features-overview.md`
+  - Content updated
+- `fullscreen.md`
+  - Content updated
+- `github-enterprise-server.md`
+  - Content updated
+- `glossary.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `how-claude-code-works.md`
+  - Content updated
+- `interactive-mode.md`
+  - Content updated
+- `large-codebases.md`
+  - Content updated
+- `llm-gateway-protocol.md`
+  - Content updated
+- `managed-mcp.md`
+  - Content updated
+- `mcp.md`
+  - Content updated
+- `memory.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `output-styles.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `install.md`
+  - Content updated
+- `loading.md`
+  - Content updated
+- `manifest-reference.md`
+  - Content updated
+- `marketplace-reference.md`
+  - Content updated
+- `admin.md`
+  - Content updated
+- `events.md`
+  - Content updated
+- `gallery.md`
+  - Content updated
+- `reference.md`
+  - Content updated
+- `troubleshoot.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `troubleshooting.md`
+  - Content updated
+- `prompt-caching.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `routines.md`
+  - Content updated
+- `security-guidance.md`
+  - Content updated
+- `self-hosted-environments-configuration.md`
+  - Content updated
+- `self-hosted-environments-quickstart.md`
+  - Content updated
+- `self-hosted-environments-reference.md`
+  - Content updated
+- `server-managed-settings.md`
+  - Content updated
+- `settings-reference.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `setup.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `statusline.md`
+  - Content updated
+- `sub-agents.md`
+  - Content updated
+- `terminal-config.md`
+  - Content updated
+- `third-party-integrations.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `troubleshooting.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+- `workflows.md`
+  - Content updated
+- `worktrees.md`
+  - Content updated
+
 ## 2026-11-23
 
 ### Modified
