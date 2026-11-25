@@ -2,6 +2,243 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-11-25
+
+### Modified
+- `admin-setup.md`
+  - Content updated
+- `advisor.md`
+  - Content updated
+- `configuration.md`
+  - Content updated
+- `observability.md`
+  - Content updated
+- `python.md`
+  - Content updated
+- `typescript.md`
+  - Content updated
+- `agent-teams.md`
+  - Content updated
+- `agent-view.md`
+  - Content updated
+- `amazon-bedrock.md`
+  - Content updated
+- `approvals-policy.md`
+  - New section: "Rules for the whole file"
+  - Updated section: "Top-level keys"
+- `approvals-pull-requests.md`
+  - Content updated
+- `approvals-setup.md`
+  - Content updated
+- `approvals-troubleshooting.md`
+  - Content updated
+- `approvals.md`
+  - Content updated
+- `artifacts.md`
+  - Content updated
+- `authentication.md`
+  - Content updated
+- `best-practices.md`
+  - Content updated
+- `champion-kit.md`
+  - Content updated
+- `changelog.md`
+  - Content updated
+- `channels.md`
+  - Content updated
+- `checkpointing.md`
+  - Content updated
+- `claude-apps-gateway-config.md`
+  - Content updated
+- `claude-apps-gateway-deploy.md`
+  - Content updated
+- `claude-code-on-the-web.md`
+  - Content updated
+- `claude-directory.md`
+  - Content updated
+- `claude-platform-on-aws.md`
+  - Content updated
+- `claude-projects.md`
+  - Content updated
+- `claude-security.md`
+  - New section: "Triage findings you already have"
+  - New section: "Create a threat model"
+  - New section: "Analyze your attack surface"
+  - New section: "Scan from your shell"
+  - New section: "Scan pull requests in GitHub Actions"
+- `claude-tag.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `cloud-environments.md`
+  - Content updated
+- `code-mode.md`
+  - Content updated
+- `code-review-local.md`
+  - Content updated
+- `code-review-setup.md`
+  - Content updated
+- `code-review.md`
+  - Content updated
+- `commands.md`
+  - Content updated
+- `costs.md`
+  - Content updated
+- `debug-your-config.md`
+  - Content updated
+- `desktop-ios-simulator.md`
+  - Content updated
+- `desktop-quickstart.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `env-vars.md`
+  - Content updated
+- `errors.md`
+  - Content updated
+- `fast-mode.md`
+  - Content updated
+- `feature-availability.md`
+  - Content updated
+- `features-overview.md`
+  - Content updated
+- `google-vertex-ai.md`
+  - Content updated
+- `headless.md`
+  - Content updated
+- `hooks-guide.md`
+  - Content updated
+- `hooks.md`
+  - Content updated
+- `how-claude-code-works.md`
+  - Content updated
+- `large-codebases.md`
+  - Content updated
+- `llm-gateway-connect.md`
+  - Content updated
+- `managed-settings.md`
+  - Content updated
+- `mcp.md`
+  - New section: "Use skills from MCP servers"
+- `memory.md`
+  - Content updated
+- `microsoft-foundry.md`
+  - Content updated
+- `mobile.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `monitoring-usage.md`
+  - Content updated
+- `network-config.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `permission-modes.md`
+  - Content updated
+- `permissions.md`
+  - Content updated
+- `platforms.md`
+  - Content updated
+- `plugin-evals.md`
+  - Content updated
+- `cli-reference.md`
+  - Content updated
+- `create.md`
+  - Content updated
+- `host-marketplace.md`
+  - Content updated
+- `loading.md`
+  - Content updated
+- `admin.md`
+  - Content updated
+- `create.md`
+  - Content updated
+- `events.md`
+  - Content updated
+- `interface.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `reference.md`
+  - Content updated
+- `test.md`
+  - Content updated
+- `troubleshoot.md`
+  - Content updated
+- `overview.md`
+  - Content updated
+- `publish.md`
+  - Content updated
+- `troubleshooting.md`
+  - Content updated
+- `pr-steward-pull-requests.md`
+  - Content updated
+- `pr-steward-setup.md`
+  - Content updated
+- `pr-steward-troubleshooting.md`
+  - Content updated
+- `pr-steward.md`
+  - Content updated
+- `prompt-caching.md`
+  - Content updated
+- `quickstart.md`
+  - Content updated
+- `remote-control.md`
+  - Content updated
+- `routines.md`
+  - Content updated
+- `scheduled-tasks.md`
+  - Content updated
+- `self-hosted-environments-configuration.md`
+  - Content updated
+- `server-managed-settings.md`
+  - Content updated
+- `settings-example.md`
+  - Content updated
+- `settings-reference.md`
+  - Content updated
+- `settings.md`
+  - Content updated
+- `setup.md`
+  - Content updated
+- `share-sessions.md`
+  - Content updated
+- `ship-command-troubleshooting.md`
+  - Content updated
+- `ship-command.md`
+  - Content updated
+- `skills.md`
+  - Content updated
+- `slack.md`
+  - Removed section: "Use cases"
+  - Removed section: "Prerequisites"
+  - Removed section: "Setting up Claude Code in Slack"
+  - Removed section: "How it works"
+  - Removed section: "User interface elements"
+  - Removed section: "Access and permissions"
+  - Removed section: "What's accessible where"
+  - Removed section: "Best practices"
+  - Removed section: "Troubleshooting"
+  - Removed section: "Current limitations"
+  - Removed section: "Related resources"
+- `sub-agents.md`
+  - Content updated
+- `tools-reference.md`
+  - Content updated
+- `troubleshoot-install.md`
+  - Content updated
+- `voice-dictation.md`
+  - Content updated
+- `vs-code.md`
+  - Content updated
+- `web-quickstart.md`
+  - Content updated
+- `workflows.md`
+  - Content updated
+- `worktrees.md`
+  - Content updated
+
 ## 2026-11-24
 
 ### Added
