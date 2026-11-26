@@ -2,6 +2,16 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-11-26
+
+### Modified
+- `claude-security.md`
+  - Content updated
+- `claude-tag.md`
+  - Content updated
+- `managed-settings.md`
+  - Content updated
+
 ## 2026-11-25
 
 ### Modified
