@@ -2,6 +2,12 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-11-27
+
+### Modified
+- `claude-tag.md`
+  - Content updated
+
 ## 2026-11-26
 
 ### Modified
