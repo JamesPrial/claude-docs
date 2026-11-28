@@ -2,6 +2,18 @@
 
 Documentation updates from [Claude Code docs](https://code.claude.com).
 
+## 2026-11-28
+
+### Modified
+- `claude-tag.md`
+  - Content updated
+- `desktop.md`
+  - Content updated
+- `model-config.md`
+  - Content updated
+- `settings-reference.md`
+  - Content updated
+
 ## 2026-11-27
 
 ### Modified
